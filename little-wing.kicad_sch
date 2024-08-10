@@ -1442,6 +1442,260 @@
 				)
 			)
 		)
+		(symbol "LED_SK6812MINI_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "LED_SK6812MINI"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_SK6812MINI_1_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "LED_SK6812MINI_1_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_SK6812MINI_1_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ScottoKeebs:LED_SK6812MINI"
 			(pin_names
 				(offset 0.254)
@@ -1625,7 +1879,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "DOUT"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1643,7 +1897,7 @@
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VSS"
+					(name "DOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1661,7 +1915,7 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "DIN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1679,7 +1933,7 @@
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
-					(name "VDD"
+					(name "DIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6682,7 +6936,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 247.65 152.4 90)
+		(at 247.65 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6690,7 +6944,7 @@
 		(dnp no)
 		(uuid "06640fbb-dfd3-48e5-a41d-b2969408e18c")
 		(property "Reference" "D32"
-			(at 255.27 146.9038 90)
+			(at 242.1538 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6952,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 261.62 149.4438 90)
+			(at 244.6938 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6961,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 255.27 151.13 0)
+			(at 246.38 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +6971,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 257.175 149.86 0)
+			(at 245.11 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7308,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 227.33 152.4 90)
+		(at 227.33 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7062,7 +7316,7 @@
 		(dnp no)
 		(uuid "12ca381d-b353-43e7-9af5-75eed6036cd3")
 		(property "Reference" "D29"
-			(at 236.22 146.9038 90)
+			(at 221.8338 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7324,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 241.3 149.4438 90)
+			(at 224.3738 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +7333,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 234.95 151.13 0)
+			(at 226.06 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +7343,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 236.855 149.86 0)
+			(at 224.79 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7609,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 166.37 152.4 90)
+		(at 166.37 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7363,7 +7617,7 @@
 		(dnp no)
 		(uuid "21be1627-79f4-4b29-b1be-0bc48f3bd88b")
 		(property "Reference" "D20"
-			(at 174.498 146.812 90)
+			(at 160.782 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7625,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 180.34 149.4438 90)
+			(at 163.4138 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7634,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 173.99 151.13 0)
+			(at 165.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,7 +7644,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 175.895 149.86 0)
+			(at 163.83 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8520,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 207.01 121.92 90)
+		(at 207.01 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8274,7 +8528,7 @@
 		(dnp no)
 		(uuid "3be388f0-ac9b-47d8-8b94-4bc55bf1487d")
 		(property "Reference" "D24"
-			(at 217.17 116.4238 90)
+			(at 201.5138 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +8536,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 220.98 118.9638 90)
+			(at 204.0538 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8291,7 +8545,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 214.63 120.65 0)
+			(at 205.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,7 +8555,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 216.535 119.38 0)
+			(at 204.47 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,7 +9016,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 186.69 152.4 90)
+		(at 186.69 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8770,7 +9024,7 @@
 		(dnp no)
 		(uuid "4d02ac3e-ca21-4d4e-8bae-b15c77efe455")
 		(property "Reference" "D23"
-			(at 198.12 146.9038 90)
+			(at 181.1938 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +9032,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 200.66 149.4438 90)
+			(at 183.7338 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +9041,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 194.31 151.13 0)
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,7 +9051,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 196.215 149.86 0)
+			(at 184.15 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,7 +9092,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 207.01 137.16 90)
+		(at 207.01 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8846,7 +9100,7 @@
 		(dnp no)
 		(uuid "518fdc0b-7e54-4c6b-9696-1949613c51a7")
 		(property "Reference" "D25"
-			(at 217.17 131.6638 90)
+			(at 201.5138 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8854,7 +9108,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 220.98 134.2038 90)
+			(at 204.0538 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8863,7 +9117,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 214.63 135.89 0)
+			(at 205.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +9127,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 216.535 134.62 0)
+			(at 204.47 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9403,7 +9657,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 186.69 137.16 90)
+		(at 186.69 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9411,7 +9665,7 @@
 		(dnp no)
 		(uuid "608efec5-8309-4fe9-86ae-5691b9bfb853")
 		(property "Reference" "D22"
-			(at 198.12 131.6638 90)
+			(at 181.1938 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +9673,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 200.66 134.2038 90)
+			(at 183.7338 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +9682,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 194.31 135.89 0)
+			(at 185.42 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +9692,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 196.215 134.62 0)
+			(at 184.15 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9479,7 +9733,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 247.65 121.92 90)
+		(at 247.65 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9487,7 +9741,7 @@
 		(dnp no)
 		(uuid "6553a57e-2bb1-47e7-aaa6-e77eac3e8a7f")
 		(property "Reference" "D30"
-			(at 255.27 116.4238 90)
+			(at 242.1538 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +9749,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 261.62 118.9638 90)
+			(at 244.6938 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +9758,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 255.27 120.65 0)
+			(at 246.38 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9768,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 257.175 119.38 0)
+			(at 245.11 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9555,7 +9809,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 247.65 137.16 90)
+		(at 247.65 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9563,7 +9817,7 @@
 		(dnp no)
 		(uuid "66e1dc9b-d9f7-4fc8-b475-e643facef3fb")
 		(property "Reference" "D31"
-			(at 255.27 131.6638 90)
+			(at 242.1538 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9825,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 261.62 134.2038 90)
+			(at 244.6938 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9834,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 255.27 135.89 0)
+			(at 246.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9590,7 +9844,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 257.175 134.62 0)
+			(at 245.11 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,8 +10193,9 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_SK6812MINI_1")
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 166.37 121.92 90)
+		(at 166.37 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9948,7 +10203,7 @@
 		(dnp no)
 		(uuid "716401c6-776b-4696-beba-80c7dd012ba2")
 		(property "Reference" "D18"
-			(at 174.752 117.602 90)
+			(at 162.052 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9956,7 +10211,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 180.34 118.9638 90)
+			(at 163.4138 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9965,7 +10220,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 173.99 120.65 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +10230,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 175.895 119.38 0)
+			(at 163.83 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +10337,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 227.33 137.16 90)
+		(at 227.33 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10090,7 +10345,7 @@
 		(dnp no)
 		(uuid "73802246-5b6b-4fa6-95d4-50bfedbe2682")
 		(property "Reference" "D28"
-			(at 236.22 131.6638 90)
+			(at 221.8338 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,7 +10353,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 241.3 134.2038 90)
+			(at 224.3738 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10107,7 +10362,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 234.95 135.89 0)
+			(at 226.06 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10117,7 +10372,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 236.855 134.62 0)
+			(at 224.79 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10315,7 +10570,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 227.33 121.92 90)
+		(at 227.33 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10323,7 +10578,7 @@
 		(dnp no)
 		(uuid "85946f84-f57b-4b4a-9b0e-2785928d9629")
 		(property "Reference" "D27"
-			(at 236.22 116.4238 90)
+			(at 221.8338 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +10586,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 241.3 118.9638 90)
+			(at 224.3738 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,7 +10595,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 234.95 120.65 0)
+			(at 226.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10350,7 +10605,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 236.855 119.38 0)
+			(at 224.79 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,7 +10871,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 267.97 121.92 90)
+		(at 267.97 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10624,7 +10879,7 @@
 		(dnp no)
 		(uuid "943ecc90-9d7a-439c-b39a-6d2929ad7fcb")
 		(property "Reference" "D33"
-			(at 277.622 116.84 90)
+			(at 262.89 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,7 +10887,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 281.94 118.9638 90)
+			(at 265.0138 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +10896,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 275.59 120.65 0)
+			(at 266.7 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10651,7 +10906,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 277.495 119.38 0)
+			(at 265.43 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +11944,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 267.97 137.16 90)
+		(at 267.97 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11697,7 +11952,7 @@
 		(dnp no)
 		(uuid "b5f3d915-976d-49df-b4e6-76a4e8158fd6")
 		(property "Reference" "D34"
-			(at 279.4 131.826 90)
+			(at 262.636 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11705,7 +11960,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 281.94 134.2038 90)
+			(at 265.0138 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11714,7 +11969,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 275.59 135.89 0)
+			(at 266.7 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11724,7 +11979,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 277.495 134.62 0)
+			(at 265.43 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +12020,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 166.37 137.16 90)
+		(at 166.37 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11773,7 +12028,7 @@
 		(dnp no)
 		(uuid "b8082cc1-2378-4e49-8517-aac51b9cc103")
 		(property "Reference" "D19"
-			(at 174.752 132.08 90)
+			(at 161.29 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11781,7 +12036,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 180.34 134.2038 90)
+			(at 163.4138 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,7 +12045,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 173.99 135.89 0)
+			(at 165.1 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,7 +12055,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 175.895 134.62 0)
+			(at 163.83 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,7 +12358,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 207.01 152.4 90)
+		(at 207.01 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12111,7 +12366,7 @@
 		(dnp no)
 		(uuid "c6d686f5-e97f-4f14-84be-56bd4b6fdf28")
 		(property "Reference" "D26"
-			(at 217.17 146.9038 90)
+			(at 201.5138 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12119,7 +12374,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 220.98 149.4438 90)
+			(at 204.0538 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12128,7 +12383,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 214.63 151.13 0)
+			(at 205.74 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12138,7 +12393,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 216.535 149.86 0)
+			(at 204.47 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12902,7 +13157,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 186.69 121.92 90)
+		(at 186.69 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12910,7 +13165,7 @@
 		(dnp no)
 		(uuid "e97bf231-ba17-485a-b6c1-acba363c5000")
 		(property "Reference" "D21"
-			(at 198.12 116.4238 90)
+			(at 181.1938 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12918,7 +13173,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 200.66 118.9638 90)
+			(at 183.7338 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,7 +13182,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
-			(at 194.31 120.65 0)
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12937,7 +13192,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 196.215 119.38 0)
+			(at 184.15 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
