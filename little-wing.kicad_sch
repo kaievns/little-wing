@@ -5410,7 +5410,7 @@
 			)
 		)
 	)
-	(global_label "Col 1"
+	(global_label "Col 3"
 		(shape input)
 		(at 212.09 27.94 90)
 		(fields_autoplaced yes)
@@ -5806,7 +5806,7 @@
 			)
 		)
 	)
-	(global_label "Col 4"
+	(global_label "Col 0"
 		(shape input)
 		(at 254 27.94 90)
 		(fields_autoplaced yes)
@@ -5938,7 +5938,7 @@
 			)
 		)
 	)
-	(global_label "Col 0"
+	(global_label "Col 4"
 		(shape input)
 		(at 198.12 27.94 90)
 		(fields_autoplaced yes)
@@ -6400,7 +6400,7 @@
 			)
 		)
 	)
-	(global_label "Col 3"
+	(global_label "Col 1"
 		(shape input)
 		(at 240.03 27.94 90)
 		(fields_autoplaced yes)
