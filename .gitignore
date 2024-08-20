@@ -38,3 +38,6 @@ flex/flex-backups/*
 # Project specific files
 little-wing-backups
 little-wing-backups/*
+production
+pcbway_production
+fabrication-toolkit-options.json
