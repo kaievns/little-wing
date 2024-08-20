@@ -6785,8 +6785,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03ff0dac-74cf-48ba-a3d2-1a4f27dd2a3c")
-		(property "Reference" "S17"
-			(at 270.51 53.34 0)
+		(property "Reference" "S16"
+			(at 270.51 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6838,7 @@
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
-					(reference "S17")
+					(reference "S16")
 					(unit 1)
 				)
 			)
@@ -8281,8 +8281,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a13ad86-a455-4c5b-a588-10f0e377aa08")
-		(property "Reference" "D16"
-			(at 275.59 46.9899 90)
+		(property "Reference" "D17"
+			(at 275.59 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8354,7 +8354,7 @@
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
-					(reference "D16")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -9176,8 +9176,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54817dbe-3ce6-408b-b109-1448b8a7b1b0")
-		(property "Reference" "S16"
-			(at 270.51 34.29 0)
+		(property "Reference" "S17"
+			(at 270.51 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +9229,7 @@
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
-					(reference "S16")
+					(reference "S17")
 					(unit 1)
 				)
 			)
@@ -12903,8 +12903,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7cd8c34-6a70-4ca3-b899-f4283d48bdd7")
-		(property "Reference" "D17"
-			(at 275.59 66.0399 90)
+		(property "Reference" "D16"
+			(at 275.59 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12976,7 +12976,7 @@
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
-					(reference "D17")
+					(reference "D16")
 					(unit 1)
 				)
 			)
