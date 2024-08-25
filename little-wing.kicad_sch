@@ -3705,12 +3705,6 @@
 		(uuid "8b721f66-2594-4205-95d4-c6349261eaa1")
 	)
 	(junction
-		(at 215.9 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c40a765-a1e1-4a3d-890f-0e8b74521b96")
-	)
-	(junction
 		(at 316.23 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3903,12 +3897,6 @@
 		(uuid "d3d5c69c-2302-4ddc-8a40-b767eae0047b")
 	)
 	(junction
-		(at 207.01 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d62b6533-3277-464c-ab6d-33c7d6a87798")
-	)
-	(junction
 		(at 283.21 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4054,16 +4042,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 119.38) (xy 215.9 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05d81bb2-5f18-44d3-aa6f-6009cb7c6100")
-	)
-	(wire
-		(pts
 			(xy 339.09 80.01) (xy 328.93 80.01)
 		)
 		(stroke
@@ -4191,16 +4169,6 @@
 			(type default)
 		)
 		(uuid "184305f1-8a91-48e3-ad23-5cdefa1ced55")
-	)
-	(wire
-		(pts
-			(xy 207.01 147.32) (xy 220.98 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18767cc0-90b1-4e5a-a205-2e886b58a10c")
 	)
 	(wire
 		(pts
@@ -8146,7 +8114,7 @@
 			)
 		)
 	)
-	(global_label "RGB"
+	(global_label "RGB R"
 		(shape input)
 		(at 351.79 152.4 270)
 		(fields_autoplaced yes)
@@ -8158,7 +8126,7 @@
 		)
 		(uuid "b402d6b2-023f-4786-b83c-829e9375af18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 351.79 159.1952 90)
+			(at 351.79 161.4328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +8737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -8855,7 +8823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 309.88 146.05 0)
 			(effects
 				(font
@@ -8931,7 +8899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 215.9 55.88 0)
 			(effects
 				(font
@@ -8999,7 +8967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 248.92 146.05 0)
 			(effects
 				(font
@@ -9165,7 +9133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 327.66 64.77 0)
 			(effects
 				(font
@@ -9242,7 +9210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 176.53 151.13 0)
 			(effects
 				(font
@@ -9313,7 +9281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 193.04 143.51 0)
 			(effects
 				(font
@@ -9483,7 +9451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 146.05 55.88 0)
 			(effects
 				(font
@@ -9551,7 +9519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 204.47 121.92 0)
 			(effects
 				(font
@@ -9687,7 +9655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 218.44 121.92 0)
 			(effects
 				(font
@@ -9755,7 +9723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard_reversible:ProMicro"
+		(property "Footprint" "ScottoKeebs_MCU:Nice_Nano_V2_Flipped"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -9898,7 +9866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 307.34 64.77 0)
 			(effects
 				(font
@@ -9977,7 +9945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 193.04 157.48 0)
 			(effects
 				(font
@@ -10063,7 +10031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 187.96 55.88 0)
 			(effects
 				(font
@@ -10210,7 +10178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 176.53 121.92 0)
 			(effects
 				(font
@@ -10281,7 +10249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 204.47 62.23 0)
 			(effects
 				(font
@@ -10434,7 +10402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12_Reversible"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 102.87 127 0)
 			(effects
 				(font
@@ -10505,7 +10473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 151.13 157.48 0)
 			(effects
 				(font
@@ -10591,7 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 330.2 130.81 0)
 			(effects
 				(font
@@ -10667,7 +10635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 246.38 64.77 0)
 			(effects
 				(font
@@ -10743,7 +10711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P_Reversible"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 97.79 22.86 0)
 			(effects
 				(font
@@ -10812,7 +10780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 146.05 69.85 0)
 			(effects
 				(font
@@ -10883,7 +10851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 220.98 128.27 0)
 			(effects
 				(font
@@ -10969,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 146.05 40.64 0)
 			(effects
 				(font
@@ -11119,7 +11087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 330.2 146.05 0)
 			(effects
 				(font
@@ -11198,7 +11166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 162.56 76.2 0)
 			(effects
 				(font
@@ -11287,7 +11255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 204.47 46.99 0)
 			(effects
 				(font
@@ -11376,7 +11344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 165.1 143.51 0)
 			(effects
 				(font
@@ -11462,7 +11430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 309.88 130.81 0)
 			(effects
 				(font
@@ -11539,7 +11507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 201.93 69.85 0)
 			(effects
 				(font
@@ -11600,7 +11568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND L"
 			(at 92.71 33.02 0)
 			(effects
 				(font
@@ -11674,7 +11642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 248.92 115.57 0)
 			(effects
 				(font
@@ -11750,7 +11718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 173.99 55.88 0)
 			(effects
 				(font
@@ -11821,7 +11789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 218.44 46.99 0)
 			(effects
 				(font
@@ -11910,7 +11878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -11996,7 +11964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 160.02 40.64 0)
 			(effects
 				(font
@@ -12130,7 +12098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 287.02 34.29 0)
 			(effects
 				(font
@@ -12207,7 +12175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal_Reversible"
+		(property "Footprint" "Connector_JST:JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal"
 			(at 95.25 41.91 0)
 			(effects
 				(font
@@ -12276,7 +12244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 160.02 69.85 0)
 			(effects
 				(font
@@ -12344,7 +12312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 148.59 121.92 0)
 			(effects
 				(font
@@ -12545,7 +12513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard_reversible:ProMicro"
+		(property "Footprint" "ScottoKeebs_MCU:Nice_Nano_V2_Flipped"
 			(at 50.8 146.05 0)
 			(effects
 				(font
@@ -12691,7 +12659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 165.1 157.48 0)
 			(effects
 				(font
@@ -12864,7 +12832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 179.07 128.27 0)
 			(effects
 				(font
@@ -12950,7 +12918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 190.5 121.92 0)
 			(effects
 				(font
@@ -13011,7 +12979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND L"
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -13150,7 +13118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 266.7 64.77 0)
 			(effects
 				(font
@@ -13229,7 +13197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -13315,7 +13283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 287.02 49.53 0)
 			(effects
 				(font
@@ -13392,7 +13360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 215.9 40.64 0)
 			(effects
 				(font
@@ -13460,7 +13428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 269.24 130.81 0)
 			(effects
 				(font
@@ -13605,7 +13573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -13691,7 +13659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 201.93 55.88 0)
 			(effects
 				(font
@@ -13839,7 +13807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 190.5 151.13 0)
 			(effects
 				(font
@@ -14090,7 +14058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 266.7 49.53 0)
 			(effects
 				(font
@@ -14166,7 +14134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 327.66 34.29 0)
 			(effects
 				(font
@@ -14242,7 +14210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 327.66 49.53 0)
 			(effects
 				(font
@@ -14321,7 +14289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -14410,7 +14378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 193.04 128.27 0)
 			(effects
 				(font
@@ -14644,7 +14612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 246.38 34.29 0)
 			(effects
 				(font
@@ -14786,7 +14754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 204.47 137.16 0)
 			(effects
 				(font
@@ -14857,7 +14825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 207.01 143.51 0)
 			(effects
 				(font
@@ -14943,7 +14911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 307.34 49.53 0)
 			(effects
 				(font
@@ -15022,7 +14990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 148.59 76.2 0)
 			(effects
 				(font
@@ -15108,7 +15076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12_Reversible"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 102.87 41.91 0)
 			(effects
 				(font
@@ -15176,7 +15144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 307.34 34.29 0)
 			(effects
 				(font
@@ -15252,7 +15220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 309.88 115.57 0)
 			(effects
 				(font
@@ -15461,7 +15429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 289.56 146.05 0)
 			(effects
 				(font
@@ -15537,7 +15505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 187.96 40.64 0)
 			(effects
 				(font
@@ -15608,7 +15576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 190.5 62.23 0)
 			(effects
 				(font
@@ -15694,7 +15662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 347.98 34.29 0)
 			(effects
 				(font
@@ -15926,7 +15894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 330.2 115.57 0)
 			(effects
 				(font
@@ -16005,7 +15973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 151.13 143.51 0)
 			(effects
 				(font
@@ -16312,7 +16280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -16380,7 +16348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P_Reversible"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 97.79 107.95 0)
 			(effects
 				(font
@@ -16448,7 +16416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 201.93 40.64 0)
 			(effects
 				(font
@@ -16519,7 +16487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 148.59 46.99 0)
 			(effects
 				(font
@@ -16738,7 +16706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 350.52 115.57 0)
 			(effects
 				(font
@@ -16900,7 +16868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal_Reversible"
+		(property "Footprint" "Connector_JST:JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal"
 			(at 95.25 127 0)
 			(effects
 				(font
@@ -16969,7 +16937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 187.96 69.85 0)
 			(effects
 				(font
@@ -17037,7 +17005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 173.99 40.64 0)
 			(effects
 				(font
@@ -17278,7 +17246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 179.07 157.48 0)
 			(effects
 				(font
@@ -17364,7 +17332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 347.98 49.53 0)
 			(effects
 				(font
@@ -17440,7 +17408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 246.38 49.53 0)
 			(effects
 				(font
@@ -17519,7 +17487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -17692,7 +17660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 190.5 46.99 0)
 			(effects
 				(font
@@ -17844,7 +17812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 269.24 146.05 0)
 			(effects
 				(font
@@ -17920,7 +17888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 289.56 130.81 0)
 			(effects
 				(font
@@ -17999,7 +17967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 151.13 128.27 0)
 			(effects
 				(font
@@ -18085,7 +18053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 269.24 115.57 0)
 			(effects
 				(font
@@ -18161,7 +18129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 148.59 137.16 0)
 			(effects
 				(font
@@ -18232,7 +18200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 179.07 143.51 0)
 			(effects
 				(font
@@ -18318,7 +18286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 287.02 64.77 0)
 			(effects
 				(font
@@ -18528,7 +18496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 162.56 137.16 0)
 			(effects
 				(font
@@ -18597,7 +18565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -18665,7 +18633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 248.92 130.81 0)
 			(effects
 				(font
@@ -18801,7 +18769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND R"
 			(at 92.71 118.11 0)
 			(effects
 				(font
@@ -18874,7 +18842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 289.56 115.57 0)
 			(effects
 				(font
@@ -18950,7 +18918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 190.5 137.16 0)
 			(effects
 				(font
@@ -19011,7 +18979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND R"
 			(at 95.25 137.16 0)
 			(effects
 				(font
@@ -19084,7 +19052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 350.52 130.81 0)
 			(effects
 				(font
@@ -19163,7 +19131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -19249,7 +19217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 162.56 121.92 0)
 			(effects
 				(font
@@ -19384,7 +19352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 204.47 151.13 0)
 			(effects
 				(font
@@ -19455,7 +19423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 207.01 157.48 0)
 			(effects
 				(font
@@ -19713,7 +19681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 218.44 62.23 0)
 			(effects
 				(font
@@ -19802,7 +19770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -19973,7 +19941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 148.59 151.13 0)
 			(effects
 				(font
@@ -20041,7 +20009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 266.7 34.29 0)
 			(effects
 				(font
@@ -20086,74 +20054,6 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
 					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 218.44 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eadd7bbf-4b8b-4edd-bfec-9d484a15495f")
-		(property "Reference" "S34"
-			(at 218.44 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 218.44 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
-			(at 218.44 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 218.44 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c2f62a3-1a69-49d5-9a60-9325dd7a5865")
-		)
-		(pin "2"
-			(uuid "cd97ee7b-9310-4e64-8432-20b317d6380d")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
-					(reference "S34")
 					(unit 1)
 				)
 			)
@@ -20275,7 +20175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 176.53 137.16 0)
 			(effects
 				(font
@@ -20319,95 +20219,6 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 220.98 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f090ec1e-4dc9-41da-ba2c-acdf4689483f")
-		(property "Reference" "D51"
-			(at 223.52 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 223.52 144.7799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
-			(at 220.98 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 220.98 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 220.98 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64b8f9af-ae2e-4f22-90d1-0bf6334ee658")
-		)
-		(pin "1"
-			(uuid "375e7c69-1920-477e-9dd8-c85cf1720610")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
-					(reference "D51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 207.01 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20435,7 +20246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 207.01 128.27 0)
 			(effects
 				(font
@@ -20590,7 +20401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123_Reversible"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 176.53 46.99 0)
 			(effects
 				(font
@@ -20767,7 +20578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible_better"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350"
 			(at 162.56 151.13 0)
 			(effects
 				(font
