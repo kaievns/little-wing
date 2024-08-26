@@ -3567,12 +3567,6 @@
 		(uuid "5e127c72-8eaa-4d96-9bcf-07d776618c62")
 	)
 	(junction
-		(at 359.41 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "604d5051-c2fe-4f75-9d6e-47024c5932a6")
-	)
-	(junction
 		(at 176.53 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3811,12 +3805,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd4c4838-698c-4b16-b6d2-89c247107e50")
-	)
-	(junction
-		(at 344.17 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bed1a9c7-023c-42b2-932c-b30214c20cbb")
 	)
 	(junction
 		(at 90.17 191.77)
@@ -4139,16 +4127,6 @@
 			(type default)
 		)
 		(uuid "11394378-c4fa-47d5-902e-2581a5cd3915")
-	)
-	(wire
-		(pts
-			(xy 359.41 146.05) (xy 359.41 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "167f0cab-3872-4ca5-a3e0-8b799be2be46")
 	)
 	(wire
 		(pts
@@ -4609,16 +4587,6 @@
 			(type default)
 		)
 		(uuid "52197046-843f-430a-84f6-cdf3c4b53589")
-	)
-	(wire
-		(pts
-			(xy 344.17 123.19) (xy 344.17 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5362398b-a478-4e69-851f-302f1e3dae0f")
 	)
 	(wire
 		(pts
@@ -5502,7 +5470,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 152.4) (xy 351.79 146.05)
+			(xy 351.79 137.16) (xy 351.79 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6002,7 +5970,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 123.19) (xy 359.41 138.43)
+			(xy 359.41 123.19) (xy 359.41 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8116,7 +8084,7 @@
 	)
 	(global_label "RGB R"
 		(shape input)
-		(at 351.79 152.4 270)
+		(at 351.79 137.16 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8126,7 +8094,7 @@
 		)
 		(uuid "b402d6b2-023f-4786-b83c-829e9375af18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 351.79 161.4328 90)
+			(at 351.79 146.1928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19021,82 +18989,6 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 351.79 138.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7a7f29a-9417-4d65-a96a-5cc055856697")
-		(property "Reference" "D68"
-			(at 346.456 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_SK6812MINI"
-			(at 348.8338 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 350.52 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 349.25 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 351.79 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b6ce954-979b-4260-a934-5bd363789d35")
-		)
-		(pin "4"
-			(uuid "ec0cd3b4-0eba-4eee-ac85-72049930af01")
-		)
-		(pin "3"
-			(uuid "95821809-aec9-4bd2-bb6b-efd6b1b99e2f")
-		)
-		(pin "1"
-			(uuid "b1a78efc-cc38-40eb-a30a-59af18169c64")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
-					(reference "D68")
 					(unit 1)
 				)
 			)
