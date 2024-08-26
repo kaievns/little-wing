@@ -1823,7 +1823,7 @@
 	(footprint "Connector_Wuerth:Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0f039c44-3e91-4b17-bc1c-57ed12b27231")
-		(at 220.598 151.634 90)
+		(at 201.294 151.126 90)
 		(descr "Wuerth WR-WTB series connector, 64800611622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator")
 		(tags "connector Wuerth WR-WTB vertical")
 		(property "Reference" "J4"
@@ -12160,7 +12160,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "46bd67dc-5500-477a-a616-b350e58fe432")
-		(at 209.268 134.444 90)
+		(at 189.964 133.936 90)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J1"
@@ -18350,7 +18350,7 @@
 	(footprint "Connector_JST:JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5ae43085-e63c-4450-82b9-e45b5055612e")
-		(at 207.908 150.394 90)
+		(at 188.604 149.886 90)
 		(descr "JST ZH series connector, S2B-ZR-SM4A-TF (http://www.jst-mfg.com/product/pdf/eng/eZH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST ZH horizontal")
 		(property "Reference" "J2"
@@ -21143,7 +21143,7 @@
 	(footprint "Button_Switch_SMD:SW_SPDT_PCM12"
 		(layer "F.Cu")
 		(uuid "61f6e3c6-d57b-480e-a3d6-db432bd55b1a")
-		(at 206.193 142.034 -90)
+		(at 186.889 141.526 -90)
 		(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
 		(property "Reference" "SW1"
 			(at 0 -3.2 90)
@@ -45436,7 +45436,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_B3U-1000P"
 		(layer "F.Cu")
 		(uuid "c3f5a577-b940-44e6-be56-69a734953fd2")
-		(at 214.138 138.244)
+		(at 194.834 137.736)
 		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
 		(tags "Tactile Switch")
 		(property "Reference" "SW2"
@@ -50881,7 +50881,7 @@
 	(footprint "ScottoKeebs_MCU:Nice_Nano_V2_Flipped"
 		(layer "F.Cu")
 		(uuid "df45bec9-f42b-4699-a0e7-d87514d867b1")
-		(at 213.868 114.554)
+		(at 194.564 114.046)
 		(property "Reference" "U1"
 			(at 0 1.625 0)
 			(layer "B.SilkS")
@@ -69985,9 +69985,9 @@
 		(uuid "2735b69a-2c25-4b8c-ae5f-e6f00068a0bd")
 	)
 	(gr_arc
-		(start 206.299973 154.308964)
-		(mid 204.87526 153.72885)
-		(end 204.283782 152.308847)
+		(start 186.995973 153.800964)
+		(mid 185.57126 153.22085)
+		(end 184.979782 151.800847)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -70283,9 +70283,9 @@
 		(uuid "42812b05-80f0-4463-bdc5-1840738e0c01")
 	)
 	(gr_arc
-		(start 204.284113 98.308944)
-		(mid 204.869907 96.894762)
-		(end 206.284077 96.308967)
+		(start 184.980113 97.800944)
+		(mid 185.565907 96.386762)
+		(end 186.980077 95.800967)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -70517,8 +70517,8 @@
 		(uuid "5827da9b-42bb-46ba-b07e-5e509264bd36")
 	)
 	(gr_line
-		(start 204.284113 98.308944)
-		(end 204.283782 152.308847)
+		(start 184.980113 97.800944)
+		(end 184.979782 151.800847)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -70599,8 +70599,8 @@
 		(uuid "5bd6d212-f1e0-4959-a82f-abc7372ba688")
 	)
 	(gr_circle
-		(center 213.783771 144.309007)
-		(end 215.033772 144.309007)
+		(center 194.479771 143.801007)
+		(end 195.729772 143.801007)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -70957,8 +70957,8 @@
 		(uuid "714ace06-3c50-40a7-b4e4-97e0bc292459")
 	)
 	(gr_line
-		(start 221.283648 154.30905)
-		(end 206.299973 154.308964)
+		(start 201.979648 153.80105)
+		(end 186.995973 153.800964)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -71737,9 +71737,9 @@
 		(uuid "a0962c36-b622-4d26-bf7b-c849eee7acfc")
 	)
 	(gr_arc
-		(start 223.283786 152.325214)
-		(mid 222.692231 153.729)
-		(end 221.283648 154.30905)
+		(start 203.979786 151.817214)
+		(mid 203.388231 153.221)
+		(end 201.979648 153.80105)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -71748,8 +71748,8 @@
 		(uuid "a28f2f5a-fd01-493c-b56d-2affcdb4b315")
 	)
 	(gr_line
-		(start 206.284077 96.308967)
-		(end 221.284113 96.30905)
+		(start 186.980077 95.800967)
+		(end 201.980113 95.80105)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -72022,9 +72022,9 @@
 		(uuid "b2a2a07c-ca7c-42e7-8983-1df8844cbc0c")
 	)
 	(gr_arc
-		(start 221.284113 96.30905)
-		(mid 222.698408 96.894776)
-		(end 223.284102 98.309064)
+		(start 201.980113 95.80105)
+		(mid 203.394408 96.386776)
+		(end 203.980102 97.801064)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -72384,8 +72384,8 @@
 		(uuid "cc4c9ec3-aad5-4f29-8c98-99162fed1cd8")
 	)
 	(gr_line
-		(start 223.283786 152.325214)
-		(end 223.284102 98.309064)
+		(start 203.979786 151.817214)
+		(end 203.980102 97.801064)
 		(stroke
 			(width 0.02)
 			(type default)
