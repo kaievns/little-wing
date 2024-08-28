@@ -1829,7 +1829,7 @@
 	(footprint "Connector_Wuerth:Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0f039c44-3e91-4b17-bc1c-57ed12b27231")
-		(at 205.45 138.81 90)
+		(at 205.45 131.445 -90)
 		(descr "Wuerth WR-WTB series connector, 64800611622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator")
 		(tags "connector Wuerth WR-WTB vertical")
 		(property "Reference" "J4"
@@ -1846,7 +1846,7 @@
 			)
 		)
 		(property "Value" "rotary"
-			(at 3.68 -1.76 90)
+			(at 3.7084 2.0828 90)
 			(layer "F.Fab")
 			(uuid "c795c8f2-9958-4283-9962-c75f107ac097")
 			(effects
@@ -1857,7 +1857,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wuerth:Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1870,7 +1870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1883,7 +1883,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1901,7 +1901,7 @@
 		(sheetfile "little-wing.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole roundrect
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -1913,7 +1913,7 @@
 			(uuid "9034e376-3f10-4513-babd-a95a27172755")
 		)
 		(pad "2" thru_hole oval
-			(at 1.5 0 90)
+			(at 1.5 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -1924,7 +1924,7 @@
 			(uuid "487c2840-1ec0-486a-a1f0-7ca96356341c")
 		)
 		(pad "3" thru_hole oval
-			(at 3 0 90)
+			(at 3 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -1935,7 +1935,7 @@
 			(uuid "871293e3-117e-4222-97e9-a3e0dbca5426")
 		)
 		(pad "4" thru_hole oval
-			(at 4.5 0 90)
+			(at 4.5 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -1946,7 +1946,7 @@
 			(uuid "f46d9049-495e-4eca-b59d-d6763b03a4f5")
 		)
 		(pad "5" thru_hole oval
-			(at 6 0 90)
+			(at 6 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -1957,7 +1957,7 @@
 			(uuid "939fb80a-06e6-40a4-9c06-dbe584f831a1")
 		)
 		(pad "6" thru_hole oval
-			(at 7.5 0 90)
+			(at 7.5 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -5477,7 +5477,7 @@
 	(footprint "ScottoKeebs_MCU:Nice_Nano_V2_Flipped"
 		(layer "F.Cu")
 		(uuid "1ed5736e-882f-4aff-a1c8-39262fe758da")
-		(at 253 113.78)
+		(at 221.361 113.4364)
 		(property "Reference" "U3"
 			(at 0 1.625 0)
 			(layer "B.SilkS")
@@ -5949,7 +5949,7 @@
 	(footprint "Connector_Wuerth:Wuerth_WR-WTB_64800711622_1x07_P1.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1f5f3511-4821-46f1-b9bb-b4d8fb3afd18")
-		(at 205.45 107.92 -90)
+		(at 205.45 110.6114 -90)
 		(descr "Wuerth WR-WTB series connector, 64800711622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator")
 		(tags "connector Wuerth WR-WTB vertical")
 		(property "Reference" "J12"
@@ -6186,7 +6186,7 @@
 	(footprint "Connector_Wuerth:Wuerth_WR-WTB_64800411622_1x04_P1.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "20c269b6-1d6a-419e-90bd-eedce63748fb")
-		(at 205.45 122.1 -90)
+		(at 205.45 122.5296 -90)
 		(descr "Wuerth WR-WTB series connector, 64800411622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator")
 		(tags "connector Wuerth WR-WTB vertical")
 		(property "Reference" "J9"
@@ -7854,6 +7854,259 @@
 			)
 		)
 	)
+	(footprint "Button_Switch_SMD:SW_SPST_B3U-1000P"
+		(layer "F.Cu")
+		(uuid "28989744-ada2-468f-a619-e93aa38099af")
+		(at 221.361 137.7696)
+		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
+		(tags "Tactile Switch")
+		(property "Reference" "SW3"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "240c1fcb-1811-4e81-9f21-2954395153dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Reset"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "62432e57-5a46-49b3-bbba-840a51838fc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3758312c-e0d3-4e79-ba08-4e0be0143b02")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dabfdc30-c8fd-41b6-ba63-0dc0b1aba35f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "296af97a-6a51-45f9-8956-83622ee9c876")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9ff73823-bb85-41e1-90a0-73e879a7867e")
+		(sheetname "Root")
+		(sheetfile "little-wing.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.65 -1.4)
+			(end 1.65 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e12850e5-50bc-4469-9da2-27270211f47d")
+		)
+		(fp_line
+			(start -1.65 -1.1)
+			(end -1.65 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5fb6cf83-ea76-4e31-b81c-58fccb085077")
+		)
+		(fp_line
+			(start -1.65 1.1)
+			(end -1.65 1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c8319f8-810f-46f2-b180-d460bf573165")
+		)
+		(fp_line
+			(start -1.65 1.4)
+			(end 1.65 1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bab0b4d7-8bf2-4988-aff3-09a194415dfe")
+		)
+		(fp_line
+			(start 1.65 -1.4)
+			(end 1.65 -1.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "87861f69-36fb-4481-b044-a7b45c3340a5")
+		)
+		(fp_line
+			(start 1.65 1.4)
+			(end 1.65 1.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "41a74493-abf9-4e4c-adc5-ae8fa24954e0")
+		)
+		(fp_line
+			(start -2.4 -1.65)
+			(end -2.4 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "473be105-3fbd-440c-9d5d-4b08a818cfe2")
+		)
+		(fp_line
+			(start -2.4 1.65)
+			(end 2.4 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "20a93d0b-e8d2-4b2f-ba86-153db82f23d4")
+		)
+		(fp_line
+			(start 2.4 -1.65)
+			(end -2.4 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f17eb610-3740-43a8-b18f-fd744188aff1")
+		)
+		(fp_line
+			(start 2.4 1.65)
+			(end 2.4 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7a4695eb-ba5d-4fbf-be98-11fb7bc225bf")
+		)
+		(fp_line
+			(start -1.5 -1.25)
+			(end 1.5 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "716ff028-b865-4f6b-962e-827cc39cd444")
+		)
+		(fp_line
+			(start -1.5 1.25)
+			(end -1.5 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4f85aa79-4b65-4d1f-a8dc-c7c76b9823fc")
+		)
+		(fp_line
+			(start 1.5 -1.25)
+			(end 1.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dedf8416-4525-4f0b-80b9-994bbbf3bb5b")
+		)
+		(fp_line
+			(start 1.5 1.25)
+			(end -1.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "18525d4e-2013-4bbb-b48b-08a817393ead")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "4d9875a4-9ae3-4e39-ba1f-80fb940d7de4")
+		)
+		(pad "1" smd rect
+			(at -1.7 0)
+			(size 0.9 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 30 "GND R")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "0330194f-30ca-4757-aaad-136ed5d5720f")
+		)
+		(pad "2" smd rect
+			(at 1.7 0)
+			(size 0.9 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 58 "RST R")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "6ef7865f-c198-495b-bbaf-3b126dceefc9")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "289f655a-e824-46d2-a37d-3a5695b93856")
@@ -9185,7 +9438,7 @@
 	(footprint "Connector_JST:JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2d163f7f-0a33-40e0-9e88-1f9add9140d1")
-		(at 259.33 151.16 -90)
+		(at 215.2152 150.5338 -90)
 		(descr "JST ZH series connector, S2B-ZR-SM4A-TF (http://www.jst-mfg.com/product/pdf/eng/eZH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST ZH horizontal")
 		(property "Reference" "J7"
@@ -9201,7 +9454,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 0 5.2 90)
+			(at -0.0134 -4.2916 90)
 			(layer "F.Fab")
 			(uuid "1f6d408a-e1f2-4280-93ba-bad6e7b05e8d")
 			(effects
@@ -9466,15 +9719,15 @@
 			(roundrect_rratio 0.227273)
 			(uuid "03fb816e-96ed-4c93-819d-d77109cfaf7a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal.wrl"
+		(model "/Users/kai/Downloads/S2B-ZR-SM4A-TF CAD/S2B-ZR-SM4A-TF.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.75 -0.75 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -11598,7 +11851,7 @@
 	(footprint "Connector_Wuerth:Wuerth_WR-WTB_64800711622_1x07_P1.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3f142f39-bd3f-4850-9151-1a2f4c0112f1")
-		(at 241.96 108.07 -90)
+		(at 210.4898 110.6114 -90)
 		(descr "Wuerth WR-WTB series connector, 64800711622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator")
 		(tags "connector Wuerth WR-WTB vertical")
 		(property "Reference" "J13"
@@ -12566,7 +12819,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "46bd67dc-5500-477a-a616-b350e58fe432")
-		(at 188.715 132.57 90)
+		(at 188.6762 133.8072 90)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J1"
@@ -15484,7 +15737,7 @@
 	(footprint "Connector_Wuerth:Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "517ea2ef-bf47-4d24-aa5f-1b79ba98dedd")
-		(at 205.45 100.56 -90)
+		(at 205.45 102.7684 -90)
 		(descr "Wuerth WR-WTB series connector, 64800311622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator")
 		(tags "connector Wuerth WR-WTB vertical")
 		(property "Reference" "J8"
@@ -17638,7 +17891,7 @@
 	(footprint "Connector_JST:JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5ae43085-e63c-4450-82b9-e45b5055612e")
-		(at 188.22 150.77 90)
+		(at 200.3796 150.6608 90)
 		(descr "JST ZH series connector, S2B-ZR-SM4A-TF (http://www.jst-mfg.com/product/pdf/eng/eZH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST ZH horizontal")
 		(property "Reference" "J2"
@@ -17654,7 +17907,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 0 5.2 90)
+			(at 0.1346 -4.5286 90)
 			(layer "F.Fab")
 			(uuid "6450f238-d851-4d34-84ae-cd7cc579c016")
 			(effects
@@ -17919,15 +18172,15 @@
 			(roundrect_rratio 0.227273)
 			(uuid "40af2a2a-d676-419b-b022-e202f8e8e121")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal.wrl"
+		(model "/Users/kai/Downloads/S2B-ZR-SM4A-TF CAD/S2B-ZR-SM4A-TF.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.75 -0.75 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -19188,7 +19441,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5dd868bc-0185-4304-aa69-bb93b1c191c3")
-		(at 248.58 134.09 90)
+		(at 216.941 133.8326 90)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J6"
@@ -20432,7 +20685,7 @@
 	(footprint "Button_Switch_SMD:SW_SPDT_PCM12"
 		(layer "F.Cu")
 		(uuid "61f6e3c6-d57b-480e-a3d6-db432bd55b1a")
-		(at 186.71 138.95 -90)
+		(at 186.7482 140.0886 -90)
 		(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
 		(property "Reference" "SW1"
 			(at 0 -3.2 90)
@@ -23637,7 +23890,7 @@
 	(footprint "Connector_Wuerth:Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6c493de0-775c-40f3-894e-7e89a88d0215")
-		(at 241.96 139.09 90)
+		(at 210.4898 131.445 -90)
 		(descr "Wuerth WR-WTB series connector, 64800611622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator")
 		(tags "connector Wuerth WR-WTB vertical")
 		(property "Reference" "J5"
@@ -23653,7 +23906,7 @@
 			)
 		)
 		(property "Value" "trackball"
-			(at 3.85 1.67 90)
+			(at 3.683 -2.0066 90)
 			(layer "F.Fab")
 			(uuid "378dbb86-c307-4a1c-8669-c317bffae84f")
 			(effects
@@ -23664,7 +23917,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wuerth:Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23677,7 +23930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23690,7 +23943,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23708,7 +23961,7 @@
 		(sheetfile "little-wing.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole roundrect
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -23720,7 +23973,7 @@
 			(uuid "eae64bd7-07a2-4668-b5f6-e1492365314c")
 		)
 		(pad "2" thru_hole oval
-			(at 1.5 0 90)
+			(at 1.5 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -23731,7 +23984,7 @@
 			(uuid "23d16be7-9b13-409d-8f84-26909de0134a")
 		)
 		(pad "3" thru_hole oval
-			(at 3 0 90)
+			(at 3 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -23742,7 +23995,7 @@
 			(uuid "1586ce3e-2061-4334-9ccd-feef04178e9a")
 		)
 		(pad "4" thru_hole oval
-			(at 4.5 0 90)
+			(at 4.5 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -23753,7 +24006,7 @@
 			(uuid "c34f14fd-2816-48ec-8eae-94d606b94047")
 		)
 		(pad "5" thru_hole oval
-			(at 6 0 90)
+			(at 6 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -23764,7 +24017,7 @@
 			(uuid "e9cefe2a-ae3a-4b8a-9725-72142ff3686e")
 		)
 		(pad "6" thru_hole oval
-			(at 7.5 0 90)
+			(at 7.5 0 270)
 			(size 1.17 1.87)
 			(drill 0.87)
 			(layers "*.Cu" "*.Mask")
@@ -32638,7 +32891,7 @@
 	(footprint "Button_Switch_SMD:SW_SPDT_PCM12"
 		(layer "F.Cu")
 		(uuid "88220bc3-b9cf-4ec6-9600-1fb364c2a491")
-		(at 260.75 140.4 90)
+		(at 229.111 140.0886 90)
 		(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
 		(property "Reference" "SW4"
 			(at 0 -3.2 90)
@@ -32653,7 +32906,7 @@
 			)
 		)
 		(property "Value" "Power"
-			(at 0 4.25 90)
+			(at 0.0584 -3.2796 90)
 			(layer "F.Fab")
 			(uuid "760c1b55-987a-479f-8140-7e9d071a3516")
 			(effects
@@ -34886,7 +35139,7 @@
 	(footprint "Connector_Wuerth:Wuerth_WR-WTB_64800411622_1x04_P1.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "900142f8-05b2-4010-a551-8610b9eb52bc")
-		(at 241.96 121.05 -90)
+		(at 210.4898 122.5296 -90)
 		(descr "Wuerth WR-WTB series connector, 64800411622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator")
 		(tags "connector Wuerth WR-WTB vertical")
 		(property "Reference" "J11"
@@ -44635,6 +44888,259 @@
 			(uuid "ce849990-b9fd-4950-9b73-8a7d1c743cfa")
 		)
 	)
+	(footprint "Button_Switch_SMD:SW_SPST_B3U-1000P"
+		(layer "F.Cu")
+		(uuid "c3f5a577-b940-44e6-be56-69a734953fd2")
+		(at 194.4878 137.7696 180)
+		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
+		(tags "Tactile Switch")
+		(property "Reference" "SW2"
+			(at 0 -2.5 360)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "470e6004-c87e-4280-ad63-616c08d1ce48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Reset"
+			(at 0.127 -2.4384 360)
+			(layer "F.Fab")
+			(uuid "da688d0d-951e-4bbd-afff-5eef7bf8bceb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45946ee1-7f31-497f-b0ab-48b75a49fb19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29e5af6c-3e20-4e6e-925e-fd327812d50d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04c7fed1-c7ad-4779-a783-d672fa6415e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/224ab071-d6c8-4026-bd48-de3b94ebe40e")
+		(sheetname "Root")
+		(sheetfile "little-wing.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 1.65 1.4)
+			(end 1.65 1.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dd4b7b3d-cad7-4b51-8071-00ce583b9c13")
+		)
+		(fp_line
+			(start 1.65 -1.4)
+			(end 1.65 -1.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b384d24d-925a-456c-a301-6759f8d4761d")
+		)
+		(fp_line
+			(start -1.65 1.4)
+			(end 1.65 1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a470761d-f5ec-4636-a770-ed6b7c786aa6")
+		)
+		(fp_line
+			(start -1.65 1.1)
+			(end -1.65 1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "11732f47-7b1f-4ea8-bd63-ad04a3163710")
+		)
+		(fp_line
+			(start -1.65 -1.1)
+			(end -1.65 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8966065c-d027-48b8-982e-06fe7286af7b")
+		)
+		(fp_line
+			(start -1.65 -1.4)
+			(end 1.65 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b540343d-502d-4c4d-903f-e93e0939cfd4")
+		)
+		(fp_line
+			(start 2.4 1.65)
+			(end 2.4 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "78af6fea-7c94-4308-b8ba-248ddb105992")
+		)
+		(fp_line
+			(start 2.4 -1.65)
+			(end -2.4 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f85d460d-0009-4d99-bcdc-fee805407ab5")
+		)
+		(fp_line
+			(start -2.4 1.65)
+			(end 2.4 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e4197617-a0b2-4c57-a3bb-8ab2c27d42b7")
+		)
+		(fp_line
+			(start -2.4 -1.65)
+			(end -2.4 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e4df54a4-13b2-4e86-9113-d8981b21ab24")
+		)
+		(fp_line
+			(start 1.5 1.25)
+			(end -1.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d9beec61-3b1a-4198-8ea1-511b16730599")
+		)
+		(fp_line
+			(start 1.5 -1.25)
+			(end 1.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "45631892-78d2-4e74-9572-81129d2f8e66")
+		)
+		(fp_line
+			(start -1.5 1.25)
+			(end -1.5 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "35e77a4f-a57a-4d4a-936c-81d6739ae51e")
+		)
+		(fp_line
+			(start -1.5 -1.25)
+			(end 1.5 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "03a79fe8-086e-455a-b193-b8d82b8450ad")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "20045919-f400-4a13-988a-4eeb35d3012d")
+		)
+		(pad "1" smd rect
+			(at -1.7 0 180)
+			(size 0.9 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 15 "GND L")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "4ecab88f-b708-46f5-b9d6-6f31fd35da26")
+		)
+		(pad "2" smd rect
+			(at 1.7 0 180)
+			(size 0.9 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 57 "RST L")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "48b3d15e-bb09-4413-b901-8fe845a884ba")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "c4bf4512-2503-4137-954d-d870f149b31f")
@@ -44934,7 +45440,7 @@
 	(footprint "Connector_Wuerth:Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c6c07bcf-bfcc-4027-a14c-5b0b5f1c6c86")
-		(at 241.96 100.71 -90)
+		(at 210.4898 102.7684 -90)
 		(descr "Wuerth WR-WTB series connector, 64800311622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator")
 		(tags "connector Wuerth WR-WTB vertical")
 		(property "Reference" "J10"
@@ -57624,264 +58130,6 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:SW_SPST_B3U-1000P"
-		(layer "B.Cu")
-		(uuid "28989744-ada2-468f-a619-e93aa38099af")
-		(at 253.27 137.63 180)
-		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
-		(tags "Tactile Switch")
-		(property "Reference" "SW3"
-			(at 0 2.5 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "240c1fcb-1811-4e81-9f21-2954395153dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "Reset"
-			(at 0 -2.5 0)
-			(layer "B.Fab")
-			(uuid "62432e57-5a46-49b3-bbba-840a51838fc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3758312c-e0d3-4e79-ba08-4e0be0143b02")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "dabfdc30-c8fd-41b6-ba63-0dc0b1aba35f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "296af97a-6a51-45f9-8956-83622ee9c876")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/9ff73823-bb85-41e1-90a0-73e879a7867e")
-		(sheetname "Root")
-		(sheetfile "little-wing.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 1.65 1.4)
-			(end -1.65 1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e12850e5-50bc-4469-9da2-27270211f47d")
-		)
-		(fp_line
-			(start 1.65 1.1)
-			(end 1.65 1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "87861f69-36fb-4481-b044-a7b45c3340a5")
-		)
-		(fp_line
-			(start 1.65 -1.1)
-			(end 1.65 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "41a74493-abf9-4e4c-adc5-ae8fa24954e0")
-		)
-		(fp_line
-			(start 1.65 -1.4)
-			(end -1.65 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bab0b4d7-8bf2-4988-aff3-09a194415dfe")
-		)
-		(fp_line
-			(start -1.65 1.4)
-			(end -1.65 1.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5fb6cf83-ea76-4e31-b81c-58fccb085077")
-		)
-		(fp_line
-			(start -1.65 -1.4)
-			(end -1.65 -1.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5c8319f8-810f-46f2-b180-d460bf573165")
-		)
-		(fp_line
-			(start 2.4 1.65)
-			(end 2.4 -1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "7a4695eb-ba5d-4fbf-be98-11fb7bc225bf")
-		)
-		(fp_line
-			(start 2.4 -1.65)
-			(end -2.4 -1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "20a93d0b-e8d2-4b2f-ba86-153db82f23d4")
-		)
-		(fp_line
-			(start -2.4 1.65)
-			(end 2.4 1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "f17eb610-3740-43a8-b18f-fd744188aff1")
-		)
-		(fp_line
-			(start -2.4 -1.65)
-			(end -2.4 1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "473be105-3fbd-440c-9d5d-4b08a818cfe2")
-		)
-		(fp_line
-			(start 1.5 1.25)
-			(end -1.5 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "716ff028-b865-4f6b-962e-827cc39cd444")
-		)
-		(fp_line
-			(start 1.5 -1.25)
-			(end 1.5 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "dedf8416-4525-4f0b-80b9-994bbbf3bb5b")
-		)
-		(fp_line
-			(start -1.5 1.25)
-			(end -1.5 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "4f85aa79-4b65-4d1f-a8dc-c7c76b9823fc")
-		)
-		(fp_line
-			(start -1.5 -1.25)
-			(end 1.5 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "18525d4e-2013-4bbb-b48b-08a817393ead")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Fab")
-			(uuid "4d9875a4-9ae3-4e39-ba1f-80fb940d7de4")
-		)
-		(pad "1" smd rect
-			(at -1.7 0 180)
-			(size 0.9 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 30 "GND R")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0330194f-30ca-4757-aaad-136ed5d5720f")
-		)
-		(pad "2" smd rect
-			(at 1.7 0 180)
-			(size 0.9 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 58 "RST R")
-			(pinfunction "2")
-			(pintype "passive")
-			(uuid "6ef7865f-c198-495b-bbaf-3b126dceefc9")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "ScottoKeebs_Components:Diode_SOD-123"
 		(layer "B.Cu")
 		(uuid "2fa535ef-4787-4821-bd8e-c9876009e256")
@@ -65421,264 +65669,6 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:SW_SPST_B3U-1000P"
-		(layer "B.Cu")
-		(uuid "c3f5a577-b940-44e6-be56-69a734953fd2")
-		(at 194.59 136.11 180)
-		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
-		(tags "Tactile Switch")
-		(property "Reference" "SW2"
-			(at 0 2.5 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "470e6004-c87e-4280-ad63-616c08d1ce48")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "Reset"
-			(at 0 -2.5 0)
-			(layer "B.Fab")
-			(uuid "da688d0d-951e-4bbd-afff-5eef7bf8bceb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "45946ee1-7f31-497f-b0ab-48b75a49fb19")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "29e5af6c-3e20-4e6e-925e-fd327812d50d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "04c7fed1-c7ad-4779-a783-d672fa6415e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/224ab071-d6c8-4026-bd48-de3b94ebe40e")
-		(sheetname "Root")
-		(sheetfile "little-wing.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 1.65 1.4)
-			(end -1.65 1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b540343d-502d-4c4d-903f-e93e0939cfd4")
-		)
-		(fp_line
-			(start 1.65 1.1)
-			(end 1.65 1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b384d24d-925a-456c-a301-6759f8d4761d")
-		)
-		(fp_line
-			(start 1.65 -1.1)
-			(end 1.65 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "dd4b7b3d-cad7-4b51-8071-00ce583b9c13")
-		)
-		(fp_line
-			(start 1.65 -1.4)
-			(end -1.65 -1.4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a470761d-f5ec-4636-a770-ed6b7c786aa6")
-		)
-		(fp_line
-			(start -1.65 1.4)
-			(end -1.65 1.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8966065c-d027-48b8-982e-06fe7286af7b")
-		)
-		(fp_line
-			(start -1.65 -1.4)
-			(end -1.65 -1.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "11732f47-7b1f-4ea8-bd63-ad04a3163710")
-		)
-		(fp_line
-			(start 2.4 1.65)
-			(end 2.4 -1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "78af6fea-7c94-4308-b8ba-248ddb105992")
-		)
-		(fp_line
-			(start 2.4 -1.65)
-			(end -2.4 -1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "e4197617-a0b2-4c57-a3bb-8ab2c27d42b7")
-		)
-		(fp_line
-			(start -2.4 1.65)
-			(end 2.4 1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "f85d460d-0009-4d99-bcdc-fee805407ab5")
-		)
-		(fp_line
-			(start -2.4 -1.65)
-			(end -2.4 1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "e4df54a4-13b2-4e86-9113-d8981b21ab24")
-		)
-		(fp_line
-			(start 1.5 1.25)
-			(end -1.5 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "03a79fe8-086e-455a-b193-b8d82b8450ad")
-		)
-		(fp_line
-			(start 1.5 -1.25)
-			(end 1.5 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "45631892-78d2-4e74-9572-81129d2f8e66")
-		)
-		(fp_line
-			(start -1.5 1.25)
-			(end -1.5 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "35e77a4f-a57a-4d4a-936c-81d6739ae51e")
-		)
-		(fp_line
-			(start -1.5 -1.25)
-			(end 1.5 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "d9beec61-3b1a-4198-8ea1-511b16730599")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Fab")
-			(uuid "20045919-f400-4a13-988a-4eeb35d3012d")
-		)
-		(pad "1" smd rect
-			(at -1.7 0 180)
-			(size 0.9 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 15 "GND L")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4ecab88f-b708-46f5-b9d6-6f31fd35da26")
-		)
-		(pad "2" smd rect
-			(at 1.7 0 180)
-			(size 0.9 1.7)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 57 "RST L")
-			(pinfunction "2")
-			(pintype "passive")
-			(uuid "48b3d15e-bb09-4413-b901-8fe845a884ba")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "ScottoKeebs_Components:Diode_SOD-123"
 		(layer "B.Cu")
 		(uuid "ca73247e-62a0-447d-9a9d-12cbbecc7718")
@@ -68708,9 +68698,9 @@
 		(uuid "0c0ab870-027b-40d6-bcef-79b323171943")
 	)
 	(gr_arc
-		(start 243.521993 98.900055)
-		(mid 244.107695 97.485763)
-		(end 245.521982 96.900041)
+		(start 208.859764 98.560787)
+		(mid 209.445466 97.146495)
+		(end 210.859753 96.560773)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -68846,8 +68836,8 @@
 		(uuid "167d6684-8272-44ca-ac2d-72ce9cb55342")
 	)
 	(gr_line
-		(start 262.521982 98.899935)
-		(end 262.522313 152.899838)
+		(start 230.882982 98.556335)
+		(end 230.883313 152.556238)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -69045,9 +69035,9 @@
 		(uuid "314f256d-562d-46ee-9c57-ac95b4b934ce")
 	)
 	(gr_arc
-		(start 260.522018 96.899958)
-		(mid 261.936192 97.485757)
-		(end 262.521982 98.899935)
+		(start 228.883018 96.556358)
+		(mid 230.297192 97.142157)
+		(end 230.882982 98.556335)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -69173,9 +69163,9 @@
 		(uuid "3d1a7f40-7f20-40c5-9997-ac4dcbc3bfc6")
 	)
 	(gr_arc
-		(start 245.522447 154.900041)
-		(mid 244.113864 154.319993)
-		(end 243.522309 152.916205)
+		(start 210.860218 154.560773)
+		(mid 209.451635 153.980725)
+		(end 208.86008 152.576937)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -69299,8 +69289,8 @@
 		(uuid "46cd70ea-9ef2-4c68-8a9d-180247561de3")
 	)
 	(gr_circle
-		(center 253.022324 144.899998)
-		(end 251.772323 144.899998)
+		(center 221.383324 144.556398)
+		(end 220.133323 144.556398)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -69721,8 +69711,8 @@
 		(uuid "65055da7-5d87-4ea7-9fe6-1057fb85da5b")
 	)
 	(gr_line
-		(start 260.522018 96.899958)
-		(end 245.521982 96.900041)
+		(start 228.883018 96.556358)
+		(end 210.859753 96.560773)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -69931,7 +69921,7 @@
 		(uuid "714ace06-3c50-40a7-b4e4-97e0bc292459")
 	)
 	(gr_line
-		(start 201.979648 154.520041)
+		(start 205.009704 154.520041)
 		(end 186.995973 154.519955)
 		(stroke
 			(width 0.02)
@@ -70447,9 +70437,9 @@
 		(uuid "93c475c1-8cc9-46cc-8533-161f7dd3a8a2")
 	)
 	(gr_arc
-		(start 262.522313 152.899838)
-		(mid 261.930824 154.31985)
-		(end 260.506122 154.899955)
+		(start 230.883313 152.556238)
+		(mid 230.291824 153.97625)
+		(end 228.867122 154.556355)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -70711,9 +70701,9 @@
 		(uuid "a0962c36-b622-4d26-bf7b-c849eee7acfc")
 	)
 	(gr_arc
-		(start 203.979786 152.536205)
-		(mid 203.388231 153.939991)
-		(end 201.979648 154.520041)
+		(start 207.009842 152.536205)
+		(mid 206.418287 153.939991)
+		(end 205.009704 154.520041)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -70723,7 +70713,7 @@
 	)
 	(gr_line
 		(start 186.980077 96.519958)
-		(end 201.980113 96.520041)
+		(end 205.010169 96.520041)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -70996,9 +70986,9 @@
 		(uuid "b2a2a07c-ca7c-42e7-8983-1df8844cbc0c")
 	)
 	(gr_arc
-		(start 201.980113 96.520041)
-		(mid 203.394408 97.105767)
-		(end 203.980102 98.520055)
+		(start 205.010169 96.520041)
+		(mid 206.424464 97.105767)
+		(end 207.010158 98.520055)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -71358,8 +71348,8 @@
 		(uuid "cc4c9ec3-aad5-4f29-8c98-99162fed1cd8")
 	)
 	(gr_line
-		(start 203.979786 152.536205)
-		(end 203.980102 98.520055)
+		(start 207.009842 152.536205)
+		(end 207.010158 98.520055)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -71675,8 +71665,8 @@
 		(uuid "de6220f2-43cf-44df-a112-db1bb3e79f4b")
 	)
 	(gr_line
-		(start 245.522447 154.900041)
-		(end 260.506122 154.899955)
+		(start 210.860218 154.560773)
+		(end 228.867122 154.556355)
 		(stroke
 			(width 0.02)
 			(type default)
@@ -71738,8 +71728,8 @@
 		(uuid "e51d9c08-b2ff-49ea-840e-75e52a04488b")
 	)
 	(gr_line
-		(start 243.522309 152.916205)
-		(end 243.521993 98.900055)
+		(start 208.86008 152.576937)
+		(end 208.859764 98.560787)
 		(stroke
 			(width 0.02)
 			(type default)
