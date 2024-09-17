@@ -495,9 +495,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "little-wing.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "little-wing.wrl"
     },
     "page_layout_descr_file": ""
   },
