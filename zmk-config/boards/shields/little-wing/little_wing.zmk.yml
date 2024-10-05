@@ -1,0 +1,13 @@
+file_format: "1"
+id: little_wing
+name: Little Wing
+type: shield
+url: https://github.com/kaievns/little-wing/
+requires: [pro_micro]
+# exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - little_wing_left
+  - little_wing_right

@@ -19,8 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: little_wing_left
+    shield: little_wing_left nice_view_adapter nice_view
   - board: nice_nano_v2
-    shield: little_wing_right
+    shield: little_wing_right nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: settings_reset
