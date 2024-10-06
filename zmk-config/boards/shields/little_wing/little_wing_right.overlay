@@ -3,3 +3,8 @@
 &default_transform {
 	col-offset = <6>;
 };
+
+&led_strip {
+	// one is missing due to trackball
+    chain-length = <16>;
+};
