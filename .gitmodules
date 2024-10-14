@@ -1,0 +1,3 @@
+[submodule "zmk-config/drivers/pmw3610"]
+	path = zmk-config/drivers/pmw3610
+	url = https://github.com/inorichi/zmk-pmw3610-driver.git
