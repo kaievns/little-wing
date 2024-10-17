@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# pushd /workspaces/zmk/app
+pushd /workspaces/pete-zmk/app
 
 # west build -d build/left -p -b nice_nano_v2 -- -DSHIELD="little_wing_left" -DZMK_CONFIG="/workspaces/zmk-config/config" -DZMK_EXTRA_MODULES="/workspaces/zmk-config" 
 # cp build/left/zephyr/zmk.uf2 /workspaces/zmk-config/build/left.uf2
