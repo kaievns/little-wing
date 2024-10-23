@@ -1,4 +1,5 @@
 #include <dt-bindings/led/led.h>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 
 &pinctrl {
     // nice!view display
@@ -78,11 +79,10 @@ trackball_spi: &spi1 {
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-
-        /*   optional features   */
-        // snipe-layers = <1>;
-        // scroll-layers = <2 3>;
-        // automouse-layer = <4>;
+        cpi = <2400>;
+        evt-type = <INPUT_EV_REL>;
+        x-input-code = <INPUT_REL_X>;
+        y-input-code = <INPUT_REL_Y>;
     };
 };
 
