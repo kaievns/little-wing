@@ -115,9 +115,4 @@ trackball_spi: &spi1 {
     // chosen {
     //     zmk,underglow = &led_strip;
     // };
-
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-    };
 };
