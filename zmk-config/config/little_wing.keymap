@@ -10,6 +10,19 @@
 #define MOUSE 1
 #define SCROLL 2
 
+#ifndef MOVE_Y
+#define MOVE_Y(n) (0)
+#endif
+#ifndef MOVE_X
+#define MOVE_X(n) (0)
+#endif
+
+#define U_MOUSE_MOVE_MAX 1700
+#define MM_U MOVE_Y(-U_MOUSE_MOVE_MAX)
+#define MM_D MOVE_Y(U_MOUSE_MOVE_MAX)
+#define MM_L MOVE_X(-U_MOUSE_MOVE_MAX)
+#define MM_R MOVE_X(U_MOUSE_MOVE_MAX)
+
 / {
     to_wheel: to_wheel {
         compatible = "zmk,input-processor-code-mapper";
@@ -22,11 +35,37 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_xy_scaler 1 3>, <&zip_temp_layer MOUSE 1000>;
+        input-processors = <&zip_xy_scaler 1 7>, <&zip_temp_layer MOUSE 1200>;
 
         scroll {
             layers = <SCROLL>;
-            input-processors = <&zip_xy_scaler 1 15>, <&to_wheel>;
+            input-processors = <&zip_xy_scaler 1 18>, <&to_wheel>, <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
+        };
+    };
+
+    behaviors {
+        // keys to a fake mouse input device
+        mm: mouse_move {
+            compatible = "zmk,behavior-input-two-axis";
+            #binding-cells = <1>;
+            trigger-period-ms = <12>;
+            x-input-code = <INPUT_REL_X>;
+            y-input-code = <INPUT_REL_Y>;
+            time-to-max-speed-ms = <10>;
+            acceleration-exponent = <1>;
+        };
+    };
+
+    // mapping the fake keys to mouse device tack to the layers
+    mmv_input_listener {
+        compatible = "zmk,input-listener";
+        device = <&mm>;
+        input-processors = <&zip_xy_scaler 1 1>, <&zip_temp_layer MOUSE 1200>;
+
+        scroll {
+            inherit;
+            layers = <MOUSE>;
+            input-processors = <&zip_xy_scaler 1 7>, <&to_wheel>;
         };
     };
 
@@ -37,23 +76,23 @@
             bindings = <
                 &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
                 &kp A      &kp S      &kp D      &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &lt SCROLL SEMI
-                &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
+                &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &lt SCROLL DOT    &kp FSLH
                                                  &kp BSPC   &kp SPACE      &kp ENTER
             >;
         };
         mouse_layer {
             bindings = <
-                &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
-                &none      &none      &none      &none      &none          &none      &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo SCROLL
-                &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
+                &none      &none      &none      &none      &none          &none      &none      &mm MM_U   &none      &none
+                &none      &none      &none      &none      &none          &none      &mkp LCLK  &mm MM_D   &mkp RCLK  &mo SCROLL
+                &none      &none      &none      &none      &none          &none      &none      &mkp MCLK  &none      &none
                                                  &none      &none          &none
             >;
         };
         scroll_layer {
             bindings = <
                 &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
-                &none      &none      &none      &none      &none          &none      &mkp LCLK  &mkp MCLK  &mkp RCLK  &none
-                &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
+                &none      &none      &none      &none      &none          &none      &mkp LCLK  &none      &mkp RCLK  &none
+                &none      &none      &none      &none      &none          &none      &none      &mkp MCLK  &none      &none
                                                  &none      &none          &none
             >;
         };
