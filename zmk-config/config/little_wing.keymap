@@ -1,14 +1,136 @@
 #include <behaviors.dtsi>
 #include <input/processors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
-#define QWERTY 0
-#define MOUSE 1
-#define SCROLL 2
+&lt {
+	flavor = "hold-preferred";
+};
+
+&caps_word {
+	continue-list = <UNDER MINUS BSPC RSHFT LSHFT>;
+};
+
+#define HALMAK 0
+#define QWERTY 1
+#define GAMPAD 2
+#define NAVI   3
+#define EDIT   4
+#define NUMS   5
+#define SETTS  6
+#define ALTAB  7
+#define MOUSE  8
+#define SCROLL 9
+
+#define QWERTY_MOD_MACRO(name, mod)            \
+name: name##_macro {                           \
+	compatible = "zmk,behavior-macro";         \
+	#binding-cells = <0>;                      \
+	wait-ms = <0>;                             \
+    bindings                                   \
+        = <&macro_press &mo QWERTY &kp mod>    \
+        , <&macro_pause_for_release>           \
+        , <&macro_release &mo QWERTY &kp mod>; \
+};
+
+/ {
+    macros {
+        QWERTY_MOD_MACRO(qalt, LALT)
+        QWERTY_MOD_MACRO(qgui, LGUI)
+        QWERTY_MOD_MACRO(qctl, LCTRL)
+
+        // the edit layer altab
+        edit_altab_halmak: edit_altab_layer_tap_halmak {
+            compatible = "zmk,behavior-macro";
+	        #binding-cells = <0>;
+	        wait-ms = <0>;
+            tap-ms = <0>;
+            bindings
+                = <&macro_press &to EDIT>
+                , <&macro_pause_for_release>
+                , <&macro_release &kp LCTRL>
+                , <&macro_tap &to HALMAK>;
+        };
+
+        edit_altab_qwerty: edit_altab_layer_tap_qwerty {
+            compatible = "zmk,behavior-macro";
+	        #binding-cells = <0>;
+	        wait-ms = <0>;
+            tap-ms = <0>;
+            bindings
+                = <&macro_press &to EDIT>
+                , <&macro_pause_for_release>
+                , <&macro_release &kp LCTRL>
+                , <&macro_tap &to QWERTY>;
+        };
+
+        altab: alt_tab_enter {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <20>;
+            bindings =
+                <&macro_press &kp LCTRL>,
+                <&macro_tap &kp TAB &to ALTAB>;
+        };
+        altab_x: alt_tab_leave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <20>;
+            bindings =
+                <&macro_release &kp LCTRL>,
+                <&macro_tap &to 0>;
+        };
+    };
+};
+
+#define HOME_ROW_MOD_TAP(name, macro)      \
+name: name##_mod_tap {                     \
+    compatible = "zmk,behavior-hold-tap";  \
+    #binding-cells = <2>;                  \
+    flavor = "balanced";                   \
+    tapping-term-ms = <200>;               \
+    quick-tap-ms = <150>;                  \
+    bindings = <macro>, <&kp>;             \
+};
+
+/ {
+    behaviors {
+        HOME_ROW_MOD_TAP(ht_alt, &qalt)
+        HOME_ROW_MOD_TAP(ht_gui, &qgui)
+        HOME_ROW_MOD_TAP(ht_ctl, &qctl)
+        sht: quick_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <170>;
+            quick-tap-ms = <130>;
+            bindings = <&kp>, <&kp>;
+        };
+        eth: edit_layer_tap_halmak {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            #binding-cells = <2>;
+            bindings = <&edit_altab_halmak>, <&kp>;
+        };
+        etq: edit_layer_tap_qwerty {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            #binding-cells = <2>;
+            bindings = <&edit_altab_qwerty>, <&kp>;
+        };
+    };
+};
+
+#define HRML(k1,k2,k3,k4) &ht_gui 0 k1  &ht_alt 0 k2  &sht LSHFT k3  &ht_ctl 0 k4
+#define HRMR(k1,k2,k3,k4) &ht_ctl 0 k1  &sht RSHFT k2  &ht_alt 0 k3  &ht_gui 0 k4
 
 #ifndef MOVE_Y
 #define MOVE_Y(n) (0)
@@ -72,12 +194,68 @@
     keymap {
         compatible = "zmk,keymap";
 
+        halmak_layer {
+            bindings = <
+                &kp W      &kp L      &kp R      &kp B      &kp Z          &kp SEMI   &kp Q      &kp U      &kp D      &kp J
+                HRML(S,        H,         N,         T)     &kp COMMA      &kp DOT   HRMR(A,         E,         O,         I)
+                &kp F      &kp M      &kp V      &kp C      &kp FSLH       &kp G    &lt SCROLL P &kp X      &kp K      &kp Y
+                                            &lt NUMS BSPC  &eth EDIT SPACE &lt NAVI ENTER
+            >;
+        };
         qwerty_layer {
             bindings = <
                 &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
-                &kp A      &kp S      &kp D      &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &lt SCROLL SEMI
-                &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &lt SCROLL DOT    &kp FSLH
-                                                 &kp BSPC   &kp SPACE      &kp ENTER
+                HRML(A,        S,         D,         F)     &kp G          &kp H     HRMR(J,         K,         L,         SEMI)
+                &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N    &lt SCROLL M &kp COMMA  &kp DOT    &kp FSLH
+                                            &lt NUMS BSPC  &eth EDIT SPACE &lt NAVI ENTER
+            >;
+        };
+        gamepad_layer {
+            bindings = <
+                &kp TAB    &kp Q      &kp W      &kp E      &kp G          &none      &kp N4     &kp N5     &kp N9     &kp STAR
+                &kp LSHFT  &kp A      &kp S      &kp D      &kp F          &none      &kp N1     &kp N2     &kp N3     &kp PLUS
+                &kp LCTRL  &kp Z      &kp X      &kp C      &kp V          &kp N   &lt SCROLL N8 &kp N6     &kp N7     &kp MINUS
+                                                 &kp R      &kp SPACE      &lt NAVI ENTER
+            >;
+        };
+        navigation_layer {
+            bindings = <
+                &kp CARET  &kp LBRC   &kp ASTRK  &kp RBRC   &none          &none      &kp HOME   &kp UP     &kp END    &kp PG_UP
+                HRML(EXCL,     LPAR,      HASH,      RPAR)  &none          &none      &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
+                &kp QMARK  &kp AT     &kp PRCNT  &kp DLLR   &none          &none      &none      &none      &none      &none
+                                                 &kp DEL    &kp UNDER      &none
+            >;
+        };
+        edit_layer {
+            bindings = <
+                &kp ESC    &altab     &kp LC(TILDE) &none   &none          &none      &kp LBKT   &kp MINUS  &kp RBKT   &kp GRAVE
+              HRML(LC(Z),  LC(X),     LC(C),     LC(V))     &kp LC(LS(Z))  &kp TILDE  &kp LT     &kp EQUAL  &kp GT     &kp SQT
+                &none      &none      &none      &none      &none          &none      &kp FSLH   &kp PIPE   &kp BSLH   &kp DQT
+                                                 &none      &none          &kp AMPS
+            >;
+        };
+        nums_layer {
+            bindings = <
+                &none      &none      &none      &none      &none          &kp FSLH   &kp N4     &kp N5     &kp N9     &kp STAR
+                &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &none          &kp DOT    &kp N1     &kp N2     &kp N3     &kp MINUS
+                &none      &none      &kp PRCNT  &kp DLLR   &none          &kp COMMA  &kp N8     &kp N6     &kp N7     &kp PLUS
+                                                 &none      &none          &kp 0
+            >;
+        };
+        settings_layer {
+            bindings = <
+                &to QWERTY &none      &none    &out OUT_TOG &bt BT_SEL 0   &none      &kp F4     &kp F5     &kp F9     &kp F10
+                &to HALMAK &none      &kp LSHFT  &none      &bt BT_SEL 1   &none      &kp F1     &kp F2     &kp F3     &kp F11
+                &to GAMPAD &none      &none      &none      &bt BT_SEL 2   &none      &kp F8     &kp F6     &kp F7     &kp F12
+                                                 &none      &none          &none
+            >;
+        };
+        altab_layer {
+            bindings = <
+                &altab_x   &kp TAB    &altab_x   &altab_x   &altab_x       &altab_x   &altab_x   &altab_x   &altab_x   &altab_x
+                &altab_x   &altab_x   &altab_x   &altab_x   &altab_x       &altab_x   &altab_x   &altab_x   &altab_x   &altab_x
+                &altab_x   &altab_x   &altab_x   &altab_x   &altab_x       &altab_x   &altab_x   &altab_x   &altab_x   &altab_x
+                                                 &altab_x   &altab_x       &altab_x
             >;
         };
         mouse_layer {
@@ -90,17 +268,9 @@
         };
         scroll_layer {
             bindings = <
-                &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
-                &none      &none      &none      &none      &none          &none      &mkp LCLK  &none      &mkp RCLK  &none
+                &none      &none      &none      &none      &none          &none      &none      &mm MM_U   &none      &none
+                &none      &none      &none      &none      &none          &none      &mkp LCLK  &mm MM_D   &mkp RCLK  &none
                 &none      &none      &none      &none      &none          &none      &none      &mkp MCLK  &none      &none
-                                                 &none      &none          &none
-            >;
-        };
-        empty_layer {
-            bindings = <
-                &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
-                &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
-                &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
                                                  &none      &none          &none
             >;
         };
