@@ -3,22 +3,23 @@
 
 &pinctrl {
     // nice!view display
-    // spi0_default: spi0_default {
-    //     group1 {
-    //         psels = <NRF_PSEL(SPIM_SCK, 0, 8)>,
-    //             <NRF_PSEL(SPIM_MOSI, 0, 9)>,
-    //             <NRF_PSEL(SPIM_MISO, 0, 9)>;
-    //     };
-    // };
-    // spi0_sleep: spi0_sleep {
-    //     group1 {
-    //         psels = <NRF_PSEL(SPIM_SCK, 0, 8)>,
-    //             <NRF_PSEL(SPIM_MOSI, 0, 9)>,
-    //             <NRF_PSEL(SPIM_MISO, 0, 9)>;
-    //         low-power-enable;
-    //     };
-    // };
-
+    spi0_default: spi0_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 8)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 22)>,
+                <NRF_PSEL(SPIM_MISO, 0, 22)>;
+        };
+    };
+    spi0_sleep: spi0_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 8)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 22)>,
+                <NRF_PSEL(SPIM_MISO, 0, 22)>;
+            low-power-enable;
+        };
+    };
+    
+    // pmw3610 trackball
     spi1_default: spi1_default {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 0, 8)>,
@@ -52,18 +53,18 @@
 };
 
 
-// nice_view_spi: &spi0 {
-//     status = "disabled";
-//     compatible = "nordic,nrf-spim";
-//     pinctrl-0 = <&spi0_default>;
-//     pinctrl-1 = <&spi0_sleep>;
-//     pinctrl-names = "default", "sleep";
-//     cs-gpios = <&pro_micro 4 GPIO_ACTIVE_HIGH>;
-// };
+nice_view_spi: &spi0 {
+    status = "okay";
+    compatible = "nordic,nrf-spim";
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
+    pinctrl-names = "default", "sleep";
+    cs-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>;
+};
 
-// &pro_micro_i2c {
-//     status = "disabled";
-// };
+&pro_micro_i2c {
+    status = "disabled";
+};
 
 trackball_spi: &spi1 {
     status = "okay";

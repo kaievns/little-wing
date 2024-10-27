@@ -65,7 +65,7 @@
         scroll {
             inherit;
             layers = <MOUSE>;
-            input-processors = <&zip_xy_scaler 1 7>, <&to_wheel>;
+            input-processors = <&zip_xy_scaler 1 7>, <&to_wheel>, <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
         };
     };
 
