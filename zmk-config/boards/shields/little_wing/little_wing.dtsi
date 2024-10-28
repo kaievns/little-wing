@@ -3,7 +3,7 @@
 / {
     chosen {
         zmk,physical-layout = &default_layout;
-        // Other chosen items
+        zmk,underglow = &led_strip;
     };
 
     default_layout: default_layout {
@@ -47,4 +47,14 @@
             , <&pro_micro 16 GPIO_ACTIVE_HIGH> // not used
         ;
     };
+
+    // split_inputs {
+	// 	#address-cells = <1>;
+	// 	#size-cells = <0>;
+
+	// 	trackball_split: trackball_split@0 {
+	// 		compatible = "zmk,input-split";
+	// 		reg = <0>;
+	// 	};
+	// };
 };
