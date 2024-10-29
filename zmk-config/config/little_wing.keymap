@@ -149,7 +149,7 @@ name: name##_mod_tap {                     \
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball_split>;
-        input-processors = <&zip_temp_layer MOUSE 1200>;
+        input-processors = <&zip_temp_layer MOUSE 1000>;
 
         scroll {
             layers = <SCROLL>;
@@ -174,7 +174,7 @@ name: name##_mod_tap {                     \
     mmv_input_listener {
         compatible = "zmk,input-listener";
         device = <&mm>;
-        input-processors = <&zip_xy_scaler 1 1>, <&zip_temp_layer MOUSE 1200>;
+        input-processors = <&zip_xy_scaler 1 1>, <&zip_temp_layer MOUSE 1000>;
 
         scroll {
             inherit;
@@ -252,18 +252,17 @@ name: name##_mod_tap {                     \
         };
         mouse_layer {
             bindings = <
-                &none      &none      &none      &none      &none          &none      &none      &mm MM_U   &none      &none
-                &none      &none      &none      &none      &none          &none      &mkp LCLK  &mm MM_D   &mkp RCLK  &none
-                &none      &none      &none      &none      &none          &none      &none      &mkp MCLK  &mo SCROLL &none
-                                                 &none      &none          &none
-            >;
+                &trans     &trans     &trans     &trans     &trans         &trans     &none      &mm MM_U   &none      &none
+                &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &mm MM_D   &mkp RCLK  &none
+                &trans     &trans     &trans     &trans     &trans         &trans     &none      &mkp MCLK  &mo SCROLL &none
+                                                 &trans     &trans         &trans            >;
         };
         scroll_layer {
             bindings = <
-                &none      &none      &none      &none      &none          &none      &none      &mm MM_U   &none      &none
-                &none      &none      &none      &none      &none          &none      &mkp LCLK  &mm MM_D   &mkp RCLK  &none
-                &none      &none      &none      &none      &none          &none      &none      &mkp MCLK  &none      &none
-                                                 &none      &none          &none
+                &trans     &trans     &trans     &trans     &trans         &trans     &none      &mm MM_U   &none      &none
+                &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &mm MM_D   &mkp RCLK  &none
+                &trans     &trans     &trans     &trans     &trans         &trans     &none      &mkp MCLK  &none      &none
+                                                 &trans     &trans         &trans
             >;
         };
     };
