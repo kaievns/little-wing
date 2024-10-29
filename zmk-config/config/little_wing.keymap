@@ -156,8 +156,8 @@ name: name##_mod_tap {                     \
 
     trackball_listener {
         compatible = "zmk,input-listener";
-        device = <&trackball>;
-        input-processors = <&zip_xy_scaler 1 7>, <&zip_temp_layer MOUSE 1200>;
+        device = <&trackball_split>;
+        input-processors = <&zip_temp_layer MOUSE 1200>;
 
         scroll {
             layers = <SCROLL>;

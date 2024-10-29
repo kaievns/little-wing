@@ -1,4 +1,4 @@
-if SHIELD_LITTLE_WING_RIGHT
+if SHIELD_LITTLE_WING_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
