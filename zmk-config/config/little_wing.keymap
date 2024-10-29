@@ -146,14 +146,6 @@ name: name##_mod_tap {                     \
 #define MM_R MOVE_X(U_MOUSE_MOVE_MAX)
 
 / {
-    to_wheel: to_wheel {
-        compatible = "zmk,input-processor-code-mapper";
-        #input-processor-cells = <0>;
-        type = <INPUT_EV_REL>;
-        map = <INPUT_REL_X INPUT_REL_HWHEEL>
-            , <INPUT_REL_Y INPUT_REL_WHEEL>;
-    };
-
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball_split>;
@@ -161,7 +153,7 @@ name: name##_mod_tap {                     \
 
         scroll {
             layers = <SCROLL>;
-            input-processors = <&zip_xy_scaler 1 18>, <&to_wheel>, <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
+            input-processors = <&zip_xy_scaler 1 30>, <&zip_xy_to_scroll_mapper>, <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
         };
     };
 
@@ -173,7 +165,7 @@ name: name##_mod_tap {                     \
             trigger-period-ms = <12>;
             x-input-code = <INPUT_REL_X>;
             y-input-code = <INPUT_REL_Y>;
-            time-to-max-speed-ms = <10>;
+            time-to-max-speed-ms = <300>;
             acceleration-exponent = <1>;
         };
     };
@@ -187,7 +179,7 @@ name: name##_mod_tap {                     \
         scroll {
             inherit;
             layers = <MOUSE>;
-            input-processors = <&zip_xy_scaler 1 7>, <&to_wheel>, <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
+            input-processors = <&zip_xy_scaler 1 50>, <&zip_xy_to_scroll_mapper>, <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
         };
     };
 
@@ -198,7 +190,7 @@ name: name##_mod_tap {                     \
             bindings = <
                 &kp W      &kp L      &kp R      &kp B      &kp Z          &kp SEMI   &kp Q      &kp U      &kp D      &kp J
                 HRML(S,        H,         N,         T)     &kp COMMA      &kp DOT   HRMR(A,         E,         O,         I)
-                &kp F      &kp M      &kp V      &kp C      &kp FSLH       &kp G    &lt SCROLL P &kp X      &kp K      &kp Y
+                &kp F      &kp M      &kp V      &kp C      &kp FSLH       &kp G      &kp P      &kp X   &lt SCROLL K  &kp Y
                                             &lt NUMS BSPC  &eth EDIT SPACE &lt NAVI ENTER
             >;
         };
@@ -206,7 +198,7 @@ name: name##_mod_tap {                     \
             bindings = <
                 &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
                 HRML(A,        S,         D,         F)     &kp G          &kp H     HRMR(J,         K,         L,         SEMI)
-                &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N    &lt SCROLL M &kp COMMA  &kp DOT    &kp FSLH
+                &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA &lt SCROLL DOT &kp FSLH
                                             &lt NUMS BSPC  &eth EDIT SPACE &lt NAVI ENTER
             >;
         };
@@ -214,7 +206,7 @@ name: name##_mod_tap {                     \
             bindings = <
                 &kp TAB    &kp Q      &kp W      &kp E      &kp G          &none      &kp N4     &kp N5     &kp N9     &kp STAR
                 &kp LSHFT  &kp A      &kp S      &kp D      &kp F          &none      &kp N1     &kp N2     &kp N3     &kp PLUS
-                &kp LCTRL  &kp Z      &kp X      &kp C      &kp V          &kp N   &lt SCROLL N8 &kp N6     &kp N7     &kp MINUS
+                &kp LCTRL  &kp Z      &kp X      &kp C      &kp V          &kp N      &kp N8     &kp N6  &lt SCROLL N7 &kp MINUS
                                                  &kp R      &kp SPACE      &lt NAVI ENTER
             >;
         };
@@ -228,8 +220,8 @@ name: name##_mod_tap {                     \
         };
         edit_layer {
             bindings = <
-                &kp ESC    &altab     &kp LC(TILDE) &none   &none          &none      &kp LBKT   &kp MINUS  &kp RBKT   &kp GRAVE
-              HRML(LC(Z),  LC(X),     LC(C),     LC(V))     &kp LC(LS(Z))  &kp TILDE  &kp LT     &kp EQUAL  &kp GT     &kp SQT
+                &kp ESC    &altab     &kp LC(TILDE) &kp TAB &none          &none      &kp LBKT   &kp MINUS  &kp RBKT   &kp GRAVE
+              HRML(LC(Z),  LC(X),     LC(C),     LC(V))     &kp LC(LS(Z))  &kp TILDE HRMR(LT,        EQUAL,     GT,        SQT)
                 &none      &none      &none      &none      &none          &none      &kp FSLH   &kp PIPE   &kp BSLH   &kp DQT
                                                  &none      &none          &kp AMPS
             >;
@@ -239,7 +231,7 @@ name: name##_mod_tap {                     \
                 &none      &none      &none      &none      &none          &kp FSLH   &kp N4     &kp N5     &kp N9     &kp STAR
                 &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &none          &kp DOT    &kp N1     &kp N2     &kp N3     &kp MINUS
                 &none      &none      &kp PRCNT  &kp DLLR   &none          &kp COMMA  &kp N8     &kp N6     &kp N7     &kp PLUS
-                                                 &none      &none          &kp 0
+                                                 &none      &none          &kp N0
             >;
         };
         settings_layer {
@@ -261,8 +253,8 @@ name: name##_mod_tap {                     \
         mouse_layer {
             bindings = <
                 &none      &none      &none      &none      &none          &none      &none      &mm MM_U   &none      &none
-                &none      &none      &none      &none      &none          &none      &mkp LCLK  &mm MM_D   &mkp RCLK  &mo SCROLL
-                &none      &none      &none      &none      &none          &none      &none      &mkp MCLK  &none      &none
+                &none      &none      &none      &none      &none          &none      &mkp LCLK  &mm MM_D   &mkp RCLK  &none
+                &none      &none      &none      &none      &none          &none      &none      &mkp MCLK  &mo SCROLL &none
                                                  &none      &none          &none
             >;
         };
