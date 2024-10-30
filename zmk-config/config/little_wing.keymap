@@ -220,7 +220,7 @@ name: name##_mod_tap {                     \
         };
         edit_layer {
             bindings = <
-                &kp ESC    &altab     &kp LC(TILDE) &kp TAB &none          &none      &kp LBKT   &kp MINUS  &kp RBKT   &kp GRAVE
+                &kp TAB    &altab  &kp LC(TILDE) &kp ESC    &none          &none      &kp LBKT   &kp MINUS  &kp RBKT   &kp GRAVE
               HRML(LC(Z),  LC(X),     LC(C),     LC(V))     &kp LC(LS(Z))  &kp TILDE HRMR(LT,        EQUAL,     GT,        SQT)
                 &none      &none      &none      &none      &none          &none      &kp FSLH   &kp PIPE   &kp BSLH   &kp DQT
                                                  &none      &none          &kp AMPS
