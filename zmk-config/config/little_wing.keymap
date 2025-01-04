@@ -177,7 +177,6 @@ name: name##_mod_tap {                     \
         input-processors = <&zip_xy_scaler 1 1>, <&zip_temp_layer MOUSE 1000>;
 
         scroll {
-            inherit;
             layers = <MOUSE>;
             input-processors = <&zip_xy_scaler 1 70>, <&zip_xy_to_scroll_mapper>;//, <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
         };

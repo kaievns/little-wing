@@ -8,11 +8,11 @@
 };
 
 
-trackball_spi: &spi1 {
+trackball_spi: &spi0 {
     status = "okay";
     compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&spi1_default>;
-    pinctrl-1 = <&spi1_sleep>;
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
     pinctrl-names = "default", "sleep";
     cs-gpios = <&gpio0 24 GPIO_ACTIVE_LOW>;
 
@@ -31,7 +31,7 @@ trackball_spi: &spi1 {
 
 &trackball_split {
     device = <&trackball>;
-    input-processors = <&zip_xy_scaler 1 2>;
+    input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, <&zip_xy_scaler 1 2>;
 };
 
 / {

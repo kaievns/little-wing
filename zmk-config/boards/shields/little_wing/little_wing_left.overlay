@@ -1,4 +1,8 @@
 #include "little_wing.dtsi"
 
+// &trackball_listener {
+//     status = "okay";
+// };
+
 / {
 };
