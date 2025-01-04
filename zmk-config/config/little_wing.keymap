@@ -153,7 +153,7 @@ name: name##_mod_tap {                     \
 
         scroll {
             layers = <SCROLL>;
-            input-processors = <&zip_xy_scaler 1 30>, <&zip_xy_to_scroll_mapper>;//, <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
+            input-processors = <&zip_xy_scaler 1 40>, <&zip_xy_to_scroll_mapper>;//, <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
         };
     };
 
@@ -188,7 +188,7 @@ name: name##_mod_tap {                     \
 
         halmak_layer {
             bindings = <
-                &kp W      &kp L      &kp R      &kp B      &kp Z          &kp SEMI   &kp Q      &kp U   &lt SCROLL D  &kp J
+                &kp W      &kp L      &kp R      &kp B      &kp Z          &kp SEMI   &kp Q      &kp U   &lt SCROLL D  &lt SETTS J
                 HRML(S,        H,         N,         T)     &kp COMMA      &kp DOT   HRMR(A,         E,         O,         I)
                 &kp F      &kp M      &kp V      &kp C      &kp FSLH       &kp G      &kp P      &kp X      &kp K      &kp Y
                                             &lt NUMS BSPC  &eth EDIT SPACE &lt NAVI ENTER
@@ -196,7 +196,7 @@ name: name##_mod_tap {                     \
         };
         qwerty_layer {
             bindings = <
-                &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I   &lt SCROLL O  &kp P
+                &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I   &lt SCROLL O  &lt SETTS P
                 HRML(A,        S,         D,         F)     &kp G          &kp H     HRMR(J,         K,         L,         SEMI)
                 &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
                                             &lt NUMS BSPC  &eth EDIT SPACE &lt NAVI ENTER
@@ -204,7 +204,7 @@ name: name##_mod_tap {                     \
         };
         gamepad_layer {
             bindings = <
-                &kp TAB    &kp Q      &kp W      &kp E      &kp G          &none      &kp N4     &kp N5 &lt SCROLL N9  &kp STAR
+                &kp TAB    &kp Q      &kp W      &kp E      &kp G          &none      &kp N4     &kp N5 &lt SCROLL N9  &lt SETTS STAR
                 &kp LSHFT  &kp A      &kp S      &kp D      &kp F          &none      &kp N1     &kp N2     &kp N3     &kp PLUS
                 &kp LCTRL  &kp Z      &kp X      &kp C      &kp V          &kp N      &kp N8     &kp N6     &kp N7     &kp MINUS
                                                  &kp R      &kp SPACE      &lt NAVI ENTER
