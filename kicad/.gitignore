@@ -42,3 +42,5 @@ production
 pcbway_production
 fabrication-toolkit-options.json
 little-wing.step
+_autosave-*
+\#auto_saved_*
