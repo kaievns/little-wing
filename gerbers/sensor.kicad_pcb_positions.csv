@@ -1,0 +1,14 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+136.406509,-93.410492,180.0,top,C1,,,C_0603_1608Metric,10n,smt
+125.817418,-97.147113,-90.0,top,C10,,,C_0603_1608Metric,1uF,smt
+125.837418,-100.527113,90.0,top,C11,,,C_0603_1608Metric,1uF,smt
+128.916509,-92.590492,90.0,top,C2,,,C_0603_1608Metric,100n,smt
+130.426509,-92.590492,90.0,top,C3,,,C_0603_1608Metric,3.3u/16V,smt
+133.366509,-93.410492,-5.689893001e-15,top,C6,,,C_0603_1608Metric,100n (X7R),smt
+125.84,-103.875,-90.0,top,C7,,,C_0603_1608Metric,100n,smt
+151.459999,-100.485,-90.0,top,C8,,,C_0603_1608Metric,10u (X7R),smt
+152.949999,-100.485,-90.0,top,C9,,,C_0603_1608Metric,10n (X7R),smt
+145.666509,-105.860492,0.0,top,J3,,,Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical,trackball,tht
+152.219999,-103.135,180.0,top,R1,,,R_0603_1608Metric,2M,smt
+125.367418,-92.129613,90.0,top,U1,,,SOT-23,MCP1700x-180xxTT,smt
+133.829882,-100.833873,90.0,top,U2,,,PMW3610,PMW3610,tht

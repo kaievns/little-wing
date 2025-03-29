@@ -1,0 +1,5 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Sim.Device,Sim.Pins
+", , , , , , , , , , , ",12,,,,,,tht,,,
+D1,1,Diode,Diode_SOD-123,,,,smt,1N4148 (DO-35) or 1N4148W (SOD-123),D,1=K 2=A
+D2,1,LED_SK6812MINI,LED_SK6812MINI,,,,tht,RGB LED with integrated controller,,
+S1,1,Keyswitch,Kailh_socket_PG1350,,,,smt,"Push button switch, normally open, two pins, 45° tilted",,

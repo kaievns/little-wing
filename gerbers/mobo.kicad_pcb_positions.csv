@@ -1,0 +1,9 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+202.508604,-46.0992,-90.0,top,J12,,,Wuerth_WR-WTB_64800711622_1x07_P1.50mm_Vertical,columns,tht
+197.62,-85.509966,0.0,top,J2,,,JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal,Battery,smt
+202.482528,-73.682898,-90.0,top,J4,,,Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical,sensor,tht
+202.508604,-38.2562,-90.0,top,J8,,,Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical,rgb,tht
+202.508604,-58.0174,-90.0,top,J9,,,Wuerth_WR-WTB_64800411622_1x04_P1.50mm_Vertical,rows,tht
+183.875204,-80.829766,-90.0,top,SW1,,,SW_SPDT_PCM12,Power,smt
+184.2,-73.56,90.0,top,SW2,,,SW_SPST_B3U-3000P-B,Reset,smt
+191.528604,-48.9278,-90.0,top,U1,,,ProMicro_independent_flipped,nice!nano v2,tht

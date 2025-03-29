@@ -1,0 +1,10 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+J1,1,nice!view,OLED-128x32-double-sided,,,,tht,"Generic connector, single row, 01x05, script generated"
+J12,1,columns,Wuerth_WR-WTB_64800711622_1x07_P1.50mm_Vertical,,,,tht,"Generic connector, single row, 01x07, script generated"
+J2,1,Battery,JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal,,,,smt,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J4,1,sensor,Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical,,,,tht,"Generic connector, single row, 01x06, script generated"
+J8,1,rgb,Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical,,,,tht,"Generic connector, single row, 01x03, script generated"
+J9,1,rows,Wuerth_WR-WTB_64800411622_1x04_P1.50mm_Vertical,,,,tht,"Generic connector, single row, 01x04, script generated"
+SW1,1,Power,SW_SPDT_PCM12,,,,smt,"Push button switch, generic, two pins"
+SW2,1,Reset,SW_SPST_B3U-3000P-B,,,,smt,"Push button switch, generic, two pins"
+U1,1,nice!nano v2,ProMicro_independent_flipped,,,,tht,
