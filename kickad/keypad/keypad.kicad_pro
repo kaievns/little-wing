@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.8,
-          "width": 1.0
+          "drill": 0.87,
+          "height": 1.87,
+          "width": 1.17
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -444,7 +444,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "little-wing.kicad_pro",
+    "filename": "keypad.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -484,6 +484,14 @@
       {
         "netclass": "Default",
         "pattern": "SDIO"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DOUT"
       }
     ]
   },

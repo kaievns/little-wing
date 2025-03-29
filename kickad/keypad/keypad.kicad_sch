@@ -693,22 +693,6 @@
 		(color 0 0 0 0)
 		(uuid "6a081d81-5943-4a91-ac13-c0ee3e562178")
 	)
-	(junction
-		(at 356.87 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7beb7645-c76f-4abe-bfb0-48dec5e42735")
-	)
-	(wire
-		(pts
-			(xy 356.87 41.91) (xy 356.87 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e09479f-a1cb-4fbe-9822-7828b219eba4")
-	)
 	(wire
 		(pts
 			(xy 146.05 50.8) (xy 158.75 50.8)
@@ -759,17 +743,7 @@
 		)
 		(uuid "e288c033-42f7-4923-aeb9-a7e8b5b5ba9b")
 	)
-	(wire
-		(pts
-			(xy 341.63 41.91) (xy 341.63 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7ee7c4d-b03c-4443-98a5-0498fc635351")
-	)
-	(global_label "Col 5 L"
+	(global_label "COL"
 		(shape input)
 		(at 153.67 33.02 90)
 		(fields_autoplaced yes)
@@ -781,7 +755,7 @@
 		)
 		(uuid "0ed70740-5079-46a2-9586-d45c65216360")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 22.7778 90)
+			(at 153.67 26.4062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,7 +765,29 @@
 			)
 		)
 	)
-	(global_label "RGB L"
+	(global_label "VSS"
+		(shape input)
+		(at 341.63 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15cca96b-f198-4a0e-84ab-38a5d23ac31d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.1372 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN"
 		(shape input)
 		(at 349.25 71.12 270)
 		(fields_autoplaced yes)
@@ -803,7 +799,7 @@
 		)
 		(uuid "4f4e05e4-7a0c-4597-a725-c00f7565f865")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.25 79.9109 90)
+			(at 349.25 76.0405 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,7 +809,7 @@
 			)
 		)
 	)
-	(global_label "Row 0 L"
+	(global_label "ROW"
 		(shape input)
 		(at 146.05 50.8 180)
 		(fields_autoplaced yes)
@@ -825,12 +821,34 @@
 		)
 		(uuid "78698851-3e8a-4bd7-8e36-ffe2f5821cac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.1425 50.8 0)
+			(at 139.0129 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT"
+		(shape input)
+		(at 349.25 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee0f01b6-53b7-4a72-9fac-98da746550d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.25 42.9162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -922,12 +940,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND L"
-			(at 356.87 69.85 0)
+		(property "Value" "GND"
+			(at 359.41 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1068,7 +1087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5f3d915-976d-49df-b4e6-76a4e8158fd6")
-		(property "Reference" "D34"
+		(property "Reference" "D2"
 			(at 343.916 45.72 90)
 			(effects
 				(font
@@ -1130,7 +1149,7 @@
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
-					(reference "D34")
+					(reference "D2")
 					(unit 1)
 				)
 			)
