@@ -2042,7 +2042,7 @@
 		(uuid "f8125203-1213-498f-9318-dd29904b84e9")
 	)
 	(gr_text "in"
-		(at 82.453337 134.938492 90)
+		(at 94.96 135.43 90)
 		(layer "B.SilkS")
 		(uuid "07b0771f-c5b6-4f89-b403-33fa77c45e46")
 		(effects
@@ -2066,7 +2066,7 @@
 		)
 	)
 	(gr_text "out"
-		(at 94.193337 134.878492 90)
+		(at 93.39 134.99 90)
 		(layer "B.SilkS")
 		(uuid "306a162e-7c4a-4781-97d3-ac86937ede0e")
 		(effects
@@ -2090,7 +2090,7 @@
 		)
 	)
 	(gr_text "vcc"
-		(at 95.573337 134.798492 90)
+		(at 96.73 134.9 90)
 		(layer "B.SilkS")
 		(uuid "a8bda950-8389-4d80-b4ef-95192c2065de")
 		(effects
@@ -2114,7 +2114,7 @@
 		)
 	)
 	(gr_text "gnd"
-		(at 83.973337 134.898492 90)
+		(at 82.49 134.95 90)
 		(layer "B.SilkS")
 		(uuid "e1470d4e-cddd-4b51-b408-76f3b5aade11")
 		(effects
