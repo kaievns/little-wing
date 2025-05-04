@@ -25,7 +25,7 @@
 
 &trackball_split {
     device = <&trackball>;
-     input-processors = <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>;
+    input-processors = <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>;
 };
 
 / {
