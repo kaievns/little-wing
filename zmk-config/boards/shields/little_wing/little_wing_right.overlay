@@ -18,12 +18,14 @@
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
+
+        force-awake;
     };
 };
 
 &trackball_split {
     device = <&trackball>;
-    input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>; //, <&zip_xy_scaler 1 1>;
+     input-processors = <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>;
 };
 
 / {
