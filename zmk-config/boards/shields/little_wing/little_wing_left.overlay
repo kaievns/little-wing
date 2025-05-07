@@ -1,8 +1,8 @@
 #include "little_wing.dtsi"
 
-// &trackball_listener {
-//     status = "okay";
-// };
+&spi0 {
+    cs-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
+};
 
 / {
 };
