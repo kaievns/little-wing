@@ -3,21 +3,6 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
 
-
-#ifndef MOVE_Y
-#define MOVE_Y(n) (0)
-#endif
-#ifndef MOVE_X
-#define MOVE_X(n) (0)
-#endif
-
-#define U_MOUSE_MOVE_MAX 1700
-#define MM_U MOVE_Y(-U_MOUSE_MOVE_MAX)
-#define MM_D MOVE_Y(U_MOUSE_MOVE_MAX)
-#define MM_L MOVE_X(-U_MOUSE_MOVE_MAX)
-#define MM_R MOVE_X(U_MOUSE_MOVE_MAX)
-
-
 / {
     trackball_listener {
         compatible = "zmk,input-listener";
@@ -27,32 +12,7 @@
 
         scroll {
             layers = <SCROLL>;
-            input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 40>, <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
-        };
-    };
-
-    behaviors {
-        // keys to a fake mouse input device
-        mm: mouse_move {
-            compatible = "zmk,behavior-input-two-axis";
-            #binding-cells = <1>;
-            trigger-period-ms = <12>;
-            x-input-code = <INPUT_REL_X>;
-            y-input-code = <INPUT_REL_Y>;
-            time-to-max-speed-ms = <30>;
-            acceleration-exponent = <1>;
-        };
-    };
-
-    // mapping the fake keys to mouse device tack to the layers
-    mmv_input_listener {
-        compatible = "zmk,input-listener";
-        device = <&mm>;
-        input-processors = <&zip_xy_scaler 1 1>, <&zip_temp_layer MOUSE 1000>;
-
-        scroll {
-            layers = <MOUSE>;
-            input-processors = <&zip_xy_scaler 1 70>, <&zip_xy_to_scroll_mapper>;//, <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
+            input-processors = <&zip_xy_scaler 1 40>, <&zip_xy_to_scroll_mapper>, <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
         };
     };
 
@@ -61,19 +21,19 @@
 
         mouse_layer {
             bindings = <
-                &trans     &trans     &trans     &trans     &trans         &trans     &trans     &mkp MCLK  &mo SCROLL &mm MM_U
-                &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &trans     &mkp RCLK  &mm MM_D
+                &trans     &trans     &trans     &trans     &trans         &trans     &trans     &mkp MCLK  &mo SCROLL &trans
+                &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &trans     &mkp RCLK  &trans
                 &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans
                                                  &trans     &trans         &trans
             >;
         };
         scroll_layer {
             bindings = <
-                &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &mkp RCLK  &mm MM_U
-                &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &mkp MCLK  &trans     &mm MM_D
+                &trans     &trans     &trans     &trans     &trans         &trans     &trans     &mkp MCLK  &trans     &trans
+                &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &trans     &mkp RCLK  &trans
                 &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans
                                                  &trans     &trans         &trans
             >;
         };
     };
-};      
+};
