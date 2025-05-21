@@ -12,7 +12,7 @@
 
         scroll {
             layers = <SCROLL>;
-            input-processors = <&zip_xy_scaler 1 40>, <&zip_xy_to_scroll_mapper>, <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
+            input-processors = <&zip_xy_scaler 1 25>, <&zip_xy_to_scroll_mapper>, <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
         };
     };
 
@@ -24,15 +24,15 @@
                 &trans     &trans     &trans     &trans     &trans         &trans     &trans     &mkp MCLK  &mo SCROLL &trans
                 &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &trans     &mkp RCLK  &trans
                 &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans
-                                                 &trans     &trans         &trans
+                                            &lt NUMS BSPC  &eth EDIT SPACE &lt NAVI ENTER
             >;
         };
         scroll_layer {
             bindings = <
-                &trans     &trans     &trans     &trans     &trans         &trans     &trans     &mkp MCLK  &trans     &trans
+                &trans     &trans     &trans     &trans     &trans         &trans     &trans     &mkp MCLK  &mo SCROLL &trans
                 &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &trans     &mkp RCLK  &trans
                 &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans
-                                                 &trans     &trans         &trans
+                                            &lt NUMS BSPC  &eth EDIT SPACE &lt NAVI ENTER
             >;
         };
     };
