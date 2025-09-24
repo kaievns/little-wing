@@ -11,7 +11,7 @@
     cs-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>, <&gpio0 24 GPIO_ACTIVE_LOW>;
 
     nice_view: ls0xx@0 {
-        spi-max-frequency = <700000>;
+        spi-max-frequency = <800000>;
     };
 
     trackball: trackball@1 {
@@ -19,8 +19,8 @@
         compatible = "pixart,pmw3610";
         reg = <1>;
         irq-gpios = <&gpio0 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        spi-max-frequency = <700000>;
-        cpi = <800>;
+        spi-max-frequency = <800000>;
+        cpi = <600>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;

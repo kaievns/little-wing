@@ -4,11 +4,19 @@
 #include <behaviors.dtsi>
 
 / {
+    // custom temp layer to exclude all the trans keys so that mod taps and shit would work
+    temp_layer: temp_layer {
+        compatible = "zmk,input-processor-temp-layer";
+        #input-processor-cells = <2>;
+        require-prior-idle-ms = <800>;
+        excluded-positions = <7 16 18>;
+    };
+
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
-        input-processors = <&zip_temp_layer MOUSE 1000>;
+        input-processors = <&temp_layer MOUSE 1200>;
 
         scroll {
             layers = <SCROLL>;
@@ -21,18 +29,18 @@
 
         mouse_layer {
             bindings = <
-                &trans     &trans     &trans     &trans     &trans         &trans     &trans     &mkp MCLK  &mo SCROLL &trans
-                &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &trans     &mkp RCLK  &trans
+                &trans     &trans     &trans     &trans     &trans         &trans     &trans     &mkp MCLK  &trans     &trans
+                &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &trans     &mkp RCLK  &tog MOUSE
                 &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans
-                                            &lt NUMS BSPC  &eth EDIT SPACE &lt NAVI ENTER
+                                                 &trans     &trans         &trans
             >;
         };
         scroll_layer {
             bindings = <
-                &trans     &trans     &trans     &trans     &trans         &trans     &trans     &mkp MCLK  &mo SCROLL &trans
+                &trans     &trans     &trans     &trans     &trans         &trans     &trans     &mkp MCLK  &trans     &trans
                 &trans     &trans     &trans     &trans     &trans         &trans     &mkp LCLK  &trans     &mkp RCLK  &trans
                 &trans     &trans     &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans
-                                            &lt NUMS BSPC  &eth EDIT SPACE &lt NAVI ENTER
+                                                 &trans     &trans         &trans
             >;
         };
     };
