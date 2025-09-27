@@ -9917,7 +9917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wuerth:Wuerth_WR-WTB_64800711622_1x07_P1.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 223.52 143.51 0)
 			(effects
 				(font
@@ -10868,7 +10868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_S2B-ZR-SM4A-TF_1x02-1MP_P1.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 193.04 62.23 0)
 			(effects
 				(font
@@ -11972,7 +11972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wuerth:Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 224.79 127 0)
 			(effects
 				(font
@@ -12665,7 +12665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wuerth:Wuerth_WR-WTB_64800411622_1x04_P1.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 223.52 162.56 0)
 			(effects
 				(font
@@ -12830,7 +12830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wuerth:Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 223.52 187.96 0)
 			(effects
 				(font
