@@ -8571,7 +8571,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite_Bead_Small"
+		(property "Value" "2.7k"
 			(at 261.62 189.3316 90)
 			(effects
 				(font
@@ -8637,17 +8637,18 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006119938d")
 		(property "Reference" "FB1"
-			(at 261.62 175.5902 90)
+			(at 261.6581 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Ferrite_Bead_Small"
-			(at 261.62 177.9016 90)
+		(property "Value" "2.7k"
+			(at 261.6581 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
