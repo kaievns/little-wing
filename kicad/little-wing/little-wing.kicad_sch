@@ -17,7 +17,7 @@
 		(uuid "8426c9b7-d062-43a6-9e4b-fe5c1216995a")
 	)
 	(sheet
-		(at 453.39 24.13)
+		(at 134.62 49.53)
 		(size 30.48 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33,7 +33,7 @@
 		)
 		(uuid "84b2719f-40fb-4252-a86f-0c883069f449")
 		(property "Sheetname" "old-backup"
-			(at 453.39 23.4184 0)
+			(at 134.62 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +42,7 @@
 			)
 		)
 		(property "Sheetfile" "old-backup.kicad_sch"
-			(at 453.39 50.1146 0)
+			(at 134.62 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,7 +59,91 @@
 		)
 	)
 	(sheet
-		(at 445.77 191.77)
+		(at 127 118.11)
+		(size 30.48 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad95ea7c-7575-44c2-8b98-616af50ac5d2")
+		(property "Sheetname" "Optical Sensor"
+			(at 127 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 127 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 116.84)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b44f10e9-a4fa-4047-99c1-7cdd99fdfcc6")
+		(property "Sheetname" "Keys Matrix"
+			(at 193.04 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches.kicad_sch"
+			(at 193.04 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 53.34)
 		(size 33.02 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -75,7 +159,7 @@
 		)
 		(uuid "eaaf4618-ba3d-41b4-8a99-4f719e243661")
 		(property "Sheetname" "Main Module"
-			(at 445.77 191.0584 0)
+			(at 213.36 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +168,7 @@
 			)
 		)
 		(property "Sheetfile" "mobo.kicad_sch"
-			(at 445.77 220.2946 0)
+			(at 213.36 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

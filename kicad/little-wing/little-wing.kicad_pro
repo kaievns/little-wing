@@ -653,6 +653,14 @@
     [
       "8531253e-8b2b-4a53-961d-c170abb3979e",
       "IO"
+    ],
+    [
+      "ad95ea7c-7575-44c2-8b98-616af50ac5d2",
+      "Optical Sensor"
+    ],
+    [
+      "b44f10e9-a4fa-4047-99c1-7cdd99fdfcc6",
+      "Keys Matrix"
     ]
   ],
   "text_variables": {
