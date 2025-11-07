@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mobo.kicad_pro",
+    "filename": "little-wing.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -592,10 +592,10 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "intersheets_ref_own_page": false,
+      "intersheets_ref_own_page": true,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -613,7 +613,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -629,7 +629,41 @@
     [
       "3a835e6f-a660-4b38-a102-87841cdd95ed",
       "Root"
+    ],
+    [
+      "f2d58044-2c44-4a66-a240-c29dbbe815df",
+      "Power Management"
+    ],
+    [
+      "83268756-1118-4677-bf6b-9155ff0e32ac",
+      "MCU Assembly"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "ADDRESS1": "",
+    "ADDRESS2": "",
+    "ADDRESS3": "",
+    "ADDRESS4": "",
+    "APPLICATION_BUILDNUMBER": "",
+    "APPROVEDBY": "",
+    "AUTHOR": "",
+    "CHECKEDBY": "",
+    "CURRENTDATE": "",
+    "CURRENTTIME": "",
+    "DESCRIPTION": "Reference Layout Config. 4: VDD supply, LDO only, No USB",
+    "DEVICE": "nRF52820-QDAA",
+    "DOCUMENTFULLPATHANDNAME": "",
+    "DOCUMENTNAME": "",
+    "DOCUMENTNUMBER": "",
+    "DOCUMENTSIZE": "A4",
+    "DRAWNBY": "RUBR",
+    "ENGINEER": "",
+    "IMAGEPATH": "",
+    "MODIFIEDDATE": "",
+    "ORGANIZATION": "Nordic Semiconductor",
+    "PROJECTNAME": "=ProjectName",
+    "PROJECTNUMBER": "",
+    "SHEETTOTAL": "1",
+    "TIME": ""
+  }
 }
