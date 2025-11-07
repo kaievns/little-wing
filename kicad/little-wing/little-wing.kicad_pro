@@ -631,12 +631,28 @@
       "Root"
     ],
     [
-      "f2d58044-2c44-4a66-a240-c29dbbe815df",
-      "Power Management"
+      "ebcf195d-f1fd-431a-a78e-86a1a85cb647",
+      "MCU"
     ],
     [
-      "83268756-1118-4677-bf6b-9155ff0e32ac",
-      "MCU Assembly"
+      "4bfeadaf-0d2e-45fd-a340-a53ab79162c6",
+      "PSU"
+    ],
+    [
+      "84b2719f-40fb-4252-a86f-0c883069f449",
+      "old-backup"
+    ],
+    [
+      "eaaf4618-ba3d-41b4-8a99-4f719e243661",
+      "Main Module"
+    ],
+    [
+      "e623e0c1-8deb-4e9d-9854-a483f7b4d3ec",
+      "LCD"
+    ],
+    [
+      "8531253e-8b2b-4a53-961d-c170abb3979e",
+      "IO"
     ]
   ],
   "text_variables": {

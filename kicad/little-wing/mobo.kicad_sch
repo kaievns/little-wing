@@ -1,0 +1,176 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "77a804d1-fc7a-4701-af12-50025219f025")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 104.14 52.07)
+		(size 33.02 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bfeadaf-0d2e-45fd-a340-a53ab79162c6")
+		(property "Sheetname" "PSU"
+			(at 104.14 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 104.14 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 92.71)
+		(size 31.75 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8531253e-8b2b-4a53-961d-c170abb3979e")
+		(property "Sheetname" "IO"
+			(at 184.15 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 184.15 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 44.45)
+		(size 22.86 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e623e0c1-8deb-4e9d-9854-a483f7b4d3ec")
+		(property "Sheetname" "LCD"
+			(at 199.39 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lcd.kicad_sch"
+			(at 199.39 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 100.33)
+		(size 33.02 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebcf195d-f1fd-431a-a78e-86a1a85cb647")
+		(property "Sheetname" "MCU"
+			(at 109.22 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 109.22 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661"
+					(page "2")
+				)
+			)
+		)
+	)
+)
