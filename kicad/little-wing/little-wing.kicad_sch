@@ -17,48 +17,6 @@
 		(uuid "8426c9b7-d062-43a6-9e4b-fe5c1216995a")
 	)
 	(sheet
-		(at 134.62 49.53)
-		(size 30.48 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "84b2719f-40fb-4252-a86f-0c883069f449")
-		(property "Sheetname" "old-backup"
-			(at 134.62 48.8184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "old-backup.kicad_sch"
-			(at 134.62 75.5146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 127 118.11)
 		(size 30.48 26.67)
 		(exclude_from_sim no)
