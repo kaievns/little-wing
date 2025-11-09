@@ -5302,6 +5302,14 @@
 		(color 0 0 0 0)
 		(uuid "f9898221-6985-4998-8c02-81cb646d2567")
 	)
+	(no_connect
+		(at 190.5 85.09)
+		(uuid "ac088817-b71f-4a6c-9250-016bc28ca592")
+	)
+	(no_connect
+		(at 190.5 87.63)
+		(uuid "b51685f8-47f3-4d49-b7ea-85a8468ba1e5")
+	)
 	(wire
 		(pts
 			(xy 109.22 72.39) (xy 111.76 72.39)
@@ -5361,16 +5369,6 @@
 			(type default)
 		)
 		(uuid "11ed7c5e-05cb-4ddb-a8fe-67711ed35ae4")
-	)
-	(wire
-		(pts
-			(xy 190.5 87.63) (xy 195.58 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12e35b84-95b8-43c9-816c-2c00bfe258e2")
 	)
 	(wire
 		(pts
@@ -6484,16 +6482,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 85.09) (xy 195.58 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb1d3fe2-62d2-4e82-a891-87a84487ed54")
-	)
-	(wire
-		(pts
 			(xy 190.5 105.41) (xy 195.58 105.41)
 		)
 		(stroke
@@ -6651,16 +6639,6 @@
 			(justify left bottom)
 		)
 		(uuid "29114577-563b-4263-a1cb-8bf2c41b4cb0")
-	)
-	(label "P0.10/NFC2"
-		(at 190.5 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a6a1ff4-0a86-4ee3-98c0-0c931c5f6cfc")
 	)
 	(label "DEC4_6"
 		(at 190.5 77.47 0)
@@ -6831,16 +6809,6 @@
 			(justify left bottom)
 		)
 		(uuid "7283cb6c-3280-44db-bb90-5b551c5bd58b")
-	)
-	(label "P0.09/NFC1"
-		(at 190.5 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78f277aa-ae3d-4cb0-b43c-b41da9f8fdb7")
 	)
 	(label "P0.02/AIN0"
 		(at 149.86 54.61 90)
