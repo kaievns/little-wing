@@ -869,173 +869,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "AltiumLib:root_3_mirrored_D{colon}LED_AltiumLib.DbLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED, SMD, Green"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*LED_0603_G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_3_mirrored_D{colon}LED_AltiumLib.DbLib_1_0"
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy -2.794 -4.318) (xy -2.794 -3.81) (xy -2.286 -4.318) (xy -2.794 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy -2.032 -5.08) (xy -2.032 -4.572) (xy -1.524 -5.08) (xy -2.032 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 -5.08) (xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "AltiumLib:root_3_mirrored_RES_AltiumLib.DbLib"
 			(pin_numbers
 				(hide yes)
@@ -2255,147 +2088,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "npm1100_caax_config1-altium-import:GND_POWER_GROUND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "npm1100_caax_config1-altium-import:VBAT_BAR"
 			(power)
 			(exclude_from_sim no)
@@ -2701,128 +2393,6 @@
 						)
 					)
 					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3242,190 +2812,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "root_3_mirrored_D{colon}LED_AltiumLib.DbLib_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED, SMD, Red"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*LED_0603_R*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_3_mirrored_D{colon}LED_AltiumLib.DbLib_1_1_0"
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy -2.794 -4.318) (xy -2.794 -3.81) (xy -2.286 -4.318) (xy -2.794 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy -2.032 -5.08) (xy -2.032 -4.572) (xy -1.524 -5.08) (xy -2.032 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 -5.08) (xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(text "Optional"
-		(exclude_from_sim no)
-		(at 201.93 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9de3460c-b06e-40b6-a123-ea0565fba512")
+	(junction
+		(at 167.64 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e19e47a-f31a-4890-9eec-13d36e300215")
 	)
 	(junction
 		(at 182.88 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31f87232-c1d0-4958-a06a-6fa612165549")
+	)
+	(junction
+		(at 50.8 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3987b050-35a0-4830-9dd0-540773919ffa")
 	)
 	(junction
 		(at 167.64 115.57)
@@ -3440,16 +2844,16 @@
 		(uuid "542a6cb5-4895-4e71-be83-05907c501512")
 	)
 	(junction
+		(at 50.8 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fe49e6c-a6fd-488c-9466-a032315ba851")
+	)
+	(junction
 		(at 165.1 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8101fd9e-fd5f-4b44-9a8f-18819610b4f5")
-	)
-	(junction
-		(at 86.36 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "839f8b3f-768e-4891-8ba2-b5fb270c8943")
 	)
 	(junction
 		(at 165.1 82.55)
@@ -3462,12 +2866,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a278c7d7-dbb7-43d3-b65e-4c80754f2171")
-	)
-	(junction
-		(at 167.64 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a36c1b98-3243-4721-950f-ef1b57d3a045")
 	)
 	(junction
 		(at 167.64 123.19)
@@ -3506,10 +2904,16 @@
 		(uuid "dd23ccf6-ee43-4d8c-9fd6-80a3af6b9141")
 	)
 	(junction
-		(at 91.44 72.39)
+		(at 88.9 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4316684-1088-4be1-803b-7d6fb703b5dd")
+	)
+	(junction
+		(at 86.36 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f45fe138-e0f4-42f5-8dbf-c8ad87cb47e5")
 	)
 	(junction
 		(at 104.14 125.73)
@@ -3517,15 +2921,17 @@
 		(color 0 0 0 0)
 		(uuid "fa186ddd-49ab-4ed4-9183-ad57d754f1d0")
 	)
-	(junction
-		(at 205.74 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcc7bed4-c1eb-4aa5-9503-2178dfd97f28")
-	)
 	(no_connect
 		(at 50.8 58.42)
 		(uuid "0ef158c5-7297-440f-ac2e-7e3f5ecb2b2b")
+	)
+	(no_connect
+		(at 165.1 120.65)
+		(uuid "342c252f-e369-4820-b56f-9f4792143e0d")
+	)
+	(no_connect
+		(at 165.1 105.41)
+		(uuid "3f37ea7e-50ec-4583-adf2-c9345be33969")
 	)
 	(no_connect
 		(at 50.8 55.88)
@@ -3535,16 +2941,9 @@
 		(at 27.94 66.04)
 		(uuid "56bc7aa3-4c2b-4386-8949-1de5f9d98125")
 	)
-	(polyline
-		(pts
-			(xy 222.25 93.98) (xy 193.04 93.98)
-		)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 51 63 72 1)
-		)
-		(uuid "07622c65-2d2b-4332-8f18-6d91d313e2c1")
+	(no_connect
+		(at 165.1 118.11)
+		(uuid "898e762a-49d8-446a-9d5e-da7a7cf99818")
 	)
 	(wire
 		(pts
@@ -3588,13 +2987,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 72.39) (xy 91.44 73.66)
+			(xy 88.9 72.39) (xy 88.9 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "160c9b37-3903-4432-9a34-fee0df77fe97")
+	)
+	(wire
+		(pts
+			(xy 59.69 27.94) (xy 50.8 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cec51e9-b9be-4ee4-b5b6-f236b10e8485")
 	)
 	(wire
 		(pts
@@ -3638,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 92.71) (xy 257.81 99.06)
+			(xy 46.99 95.25) (xy 46.99 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3688,16 +3097,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 77.47) (xy 101.6 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62fadaf6-b09f-441d-9cfd-b9b501217594")
-	)
-	(wire
-		(pts
 			(xy 60.96 34.29) (xy 60.96 33.02)
 		)
 		(stroke
@@ -3708,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 72.39) (xy 91.44 72.39)
+			(xy 101.6 72.39) (xy 88.9 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3725,16 +3124,6 @@
 			(type default)
 		)
 		(uuid "7346e2f9-c501-4120-9b19-48d6b68fc203")
-	)
-	(wire
-		(pts
-			(xy 165.1 118.11) (xy 199.39 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8104fd7e-1bfc-45cb-8158-6edd0b2b2ae9")
 	)
 	(wire
 		(pts
@@ -3765,17 +3154,6 @@
 			(type default)
 		)
 		(uuid "834d00ab-0dfe-458a-b843-3c861ee27667")
-	)
-	(polyline
-		(pts
-			(xy 193.04 109.22) (xy 222.25 109.22)
-		)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 51 63 72 1)
-		)
-		(uuid "86d15fa2-7c3d-44fd-b12b-bf8333a762fa")
 	)
 	(wire
 		(pts
@@ -3819,16 +3197,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 120.65) (xy 212.09 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bd929eb-c94c-4bf8-ae31-1d57f5e842a1")
-	)
-	(wire
-		(pts
 			(xy 50.8 35.56) (xy 55.88 35.56)
 		)
 		(stroke
@@ -3856,36 +3224,6 @@
 			(type default)
 		)
 		(uuid "a6775e28-cd13-4353-9cc1-91072b932d67")
-	)
-	(wire
-		(pts
-			(xy 205.74 99.06) (xy 205.74 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7830bb3-34a0-4637-9e94-e75ce56d8422")
-	)
-	(wire
-		(pts
-			(xy 165.1 120.65) (xy 212.09 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7c3e0ad-6582-42ee-bc36-6645156cc2f0")
-	)
-	(wire
-		(pts
-			(xy 199.39 118.11) (xy 199.39 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9c0b46f-7121-4017-88ba-445d2713c037")
 	)
 	(wire
 		(pts
@@ -3949,37 +3287,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 99.06) (xy 212.09 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3a7ec92-210a-4585-aa53-6115ac23fdda")
-	)
-	(polyline
-		(pts
-			(xy 222.25 109.22) (xy 222.25 93.98)
-		)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 51 63 72 1)
-		)
-		(uuid "c4f3deb9-dc31-4bdc-b61e-5f01dd3afbba")
-	)
-	(wire
-		(pts
-			(xy 101.6 77.47) (xy 101.6 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a86c50-4f86-4821-a057-00fe84c49be1")
-	)
-	(wire
-		(pts
 			(xy 101.6 74.93) (xy 101.6 72.39)
 		)
 		(stroke
@@ -3990,28 +3297,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 74.93) (xy 182.88 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ddc1a9-ed93-4cc4-a858-23954d892001")
-	)
-	(polyline
-		(pts
-			(xy 193.04 93.98) (xy 193.04 109.22)
-		)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 51 63 72 1)
-		)
-		(uuid "dd278507-63c1-45d0-a644-bf14c565dddb")
-	)
-	(wire
-		(pts
-			(xy 257.81 109.22) (xy 257.81 113.03)
+			(xy 46.99 111.76) (xy 46.99 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4021,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 115.57) (xy 257.81 123.19)
+			(xy 46.99 118.11) (xy 46.99 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4051,16 +3337,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 99.06) (xy 205.74 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4ea7e6a-c858-4ca9-8409-546186c76934")
-	)
-	(wire
-		(pts
 			(xy 167.64 113.03) (xy 165.1 113.03)
 		)
 		(stroke
@@ -4079,80 +3355,61 @@
 		)
 		(uuid "fe01c0b6-ad5e-48b0-b5b2-a36caddb61ac")
 	)
-	(label "CHG"
-		(at 170.18 120.65 0)
+	(hierarchical_label "D+"
+		(shape input)
+		(at 129.54 33.02 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "93e280f7-6dcb-4d03-b663-88ab30c7ba40")
+		(uuid "424eee04-a0f1-451e-8e55-b463bf659b23")
 	)
-	(label "ERR"
-		(at 170.18 118.11 0)
+	(hierarchical_label "VSYS"
+		(shape input)
+		(at 123.19 33.02 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "c2c93a4c-4ec7-41cf-8320-43c2cbb4eab4")
+		(uuid "5c4a5cf0-0ea7-445d-9455-72c2d8978af6")
 	)
-	(global_label "USB-D-"
-		(shape bidirectional)
-		(at 50.8 43.18 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "D-"
+		(shape input)
+		(at 135.89 33.02 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "13887b0f-6a78-44aa-8ea3-2339df4c7cae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.4379 43.1006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "6eacb886-d1ef-492c-82fe-0c6ea06a4c67")
 	)
-	(global_label "USB-D+"
-		(shape bidirectional)
-		(at 50.8 45.72 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 115.57 33.02 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "7b1531cb-588d-49de-94b2-c6107fdac001")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.4379 45.6406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "78594e7f-894a-4b9d-9b4f-b425c6ae5303")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 50.8 27.94 0)
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 135.89 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ceed1d7-07c5-4d5c-8b3a-2ee422feff6e")
-		(property "Reference" "#PWR01"
-			(at 50.8 31.75 0)
+		(uuid "048ce449-fa7c-4692-84d3-87b073118975")
+		(property "Reference" "#PWR019"
+			(at 135.89 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,8 +3417,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 50.8 22.86 0)
+		(property "Value" "D-"
+			(at 135.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,25 +3426,52 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 27.94 0)
+			(at 135.89 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 27.94 0)
+			(at 135.89 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 50.8 27.94 0)
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8e7c90a5-6933-40a3-b9dd-efb3b0b545bd")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 59.69 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05009436-b224-494b-8cd3-3c13b3f67077")
+		(property "Reference" "#PWR01"
+			(at 59.69 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,8 +3479,40 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ebea761c-b2c3-4d72-8f8a-eb1c7c5aa9cf")
+		(property "Value" "VBUS"
+			(at 59.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b3cc9111-0ed2-456e-ab27-76f5ee3fe42a")
 		)
 		(instances
 			(project "little-wing"
@@ -4208,8 +3524,70 @@
 		)
 	)
 	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 129.54 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f02e4aa-e8d6-4803-b747-a026416af8ac")
+		(property "Reference" "#PWR020"
+			(at 129.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "D+"
+			(at 129.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "649f3cae-da5e-49a3-9572-4ae68458949f")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 257.81 104.14 90)
+		(at 46.99 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4218,7 +3596,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f26c6af-dc11-41ba-8502-3be2b4fe3367")
 		(property "Reference" "SW1"
-			(at 259.08 102.8699 90)
+			(at 48.26 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +3605,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 259.08 105.4099 90)
+			(at 48.26 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +3614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 104.14 0)
+			(at 46.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +3623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 104.14 0)
+			(at 46.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +3632,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 257.81 104.14 0)
+			(at 46.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,16 +3656,16 @@
 		)
 	)
 	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:GND_POWER_GROUND")
-		(at 182.88 85.09 0)
+		(lib_id "power:GND")
+		(at 101.6 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f29d31c-4f44-4744-999c-1d5a2ae876af")
-		(property "Reference" "#PWR052"
-			(at 182.88 85.09 0)
+		(uuid "100c10ec-b004-4b16-b209-8f954a638cc9")
+		(property "Reference" "#PWR012"
+			(at 101.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,61 +3674,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 91.44 0)
+			(at 99.568 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "3fb54d61-1884-44e6-a8ab-65b32dabcc0f")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:GND_POWER_GROUND")
-		(at 167.64 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16c5518a-449a-4209-9f36-8c3eb39612ed")
-		(property "Reference" "#PWR050"
-			(at 167.64 125.73 0)
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,8 +3692,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 167.64 132.08 0)
+		(property "Datasheet" ""
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,37 +3701,22 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 167.64 125.73 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "13138793-5860-4ec9-8b47-9521bbbb9b9f")
+		(pin "1"
+			(uuid "c603504c-da9c-4cc9-a1fb-3fae6beef81c")
 		)
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "#PWR050")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4511,6 +3830,73 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28851f25-77c0-4f85-8f4f-e79896195e02")
+		(property "Reference" "#PWR015"
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.848 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c5c73b3-04fd-4a1c-abb6-d551b5a4a898")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4714,16 +4100,16 @@
 		)
 	)
 	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:GND_POWER_GROUND")
-		(at 101.6 81.28 0)
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 50.8 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2c1995bd-5ba8-42fd-a082-aa4ec3901198")
-		(property "Reference" "#PWR048"
-			(at 101.6 81.28 0)
+		(uuid "2d8b26d7-4213-47fe-9763-68fa36dd705f")
+		(property "Reference" "#PWR07"
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,17 +4117,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 101.6 87.63 0)
+		(property "Value" "D+"
+			(at 54.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 81.28 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +4134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 81.28 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4142,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 81.28 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4765,12 +4150,12 @@
 			)
 		)
 		(pin ""
-			(uuid "fd80c382-289a-4cb4-99bb-87a5186701fc")
+			(uuid "640ece89-7295-49dd-ac64-c838fc3fae96")
 		)
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "#PWR048")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4778,7 +4163,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 91.44 72.39 180)
+		(at 88.9 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4786,7 +4171,7 @@
 		(dnp no)
 		(uuid "3380222f-bc4d-4a3d-9235-e6ae2bdb99f7")
 		(property "Reference" "#PWR044"
-			(at 91.44 72.39 0)
+			(at 88.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4180,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 91.44 68.58 0)
+			(at 88.9 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 72.39 0)
+			(at 88.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 72.39 0)
+			(at 88.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4204,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 72.39 0)
+			(at 88.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +4225,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 262.89 113.03 0)
+		(at 52.07 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4848,7 +4233,7 @@
 		(dnp no)
 		(uuid "3cd08fcc-aa59-443c-88d2-e3aa1f068413")
 		(property "Reference" "J2"
-			(at 267.208 112.522 0)
+			(at 56.388 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +4242,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 265.43 114.808 0)
+			(at 54.61 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +4251,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
-			(at 262.89 113.03 0)
+			(at 52.07 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +4260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 113.03 0)
+			(at 52.07 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +4269,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 262.89 113.03 0)
+			(at 52.07 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +4294,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 123.19 0)
+		(at 46.99 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4917,7 +4302,7 @@
 		(dnp no)
 		(uuid "48117bc8-a93e-480c-8e4d-ba7bc58fbe95")
 		(property "Reference" "#PWR010"
-			(at 257.81 129.54 0)
+			(at 46.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,16 +4311,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.778 127.254 0)
+			(at 44.958 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 123.19 0)
+			(at 46.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +4330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 123.19 0)
+			(at 46.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +4339,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 123.19 0)
+			(at 46.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,6 +4512,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5168,9 +4555,71 @@
 		)
 	)
 	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 115.57 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a45f2fc-d302-4827-a309-f05e61fc74ac")
+		(property "Reference" "#PWR016"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b6b1b733-5e65-4ca1-a776-2383cebb2bb5")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "root_1_CAP_AltiumLib.DbLib_2")
 		(lib_id "AltiumLib:root_1_CAP_AltiumLib.DbLib")
-		(at 91.44 81.28 0)
+		(at 88.9 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5178,7 +4627,7 @@
 		(dnp no)
 		(uuid "6effd9cb-840e-4e28-87df-6ddaa361f516")
 		(property "Reference" "C21"
-			(at 93.472 78.74 0)
+			(at 90.932 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +4636,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 93.472 81.28 0)
+			(at 90.932 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +4645,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X06L"
-			(at 91.44 81.28 0)
+			(at 88.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +4654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 81.28 0)
+			(at 88.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +4663,7 @@
 			)
 		)
 		(property "Description" "Capacitor, X5R, ±20%, 25V"
-			(at 91.44 81.28 0)
+			(at 88.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +4672,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0603"
-			(at 89.408 73.152 0)
+			(at 86.868 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +4682,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "2.2µF"
-			(at 89.408 73.152 0)
+			(at 86.868 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +4692,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Capacitors"
-			(at 90.17 77.47 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +4702,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 90.17 77.47 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +4712,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 90.17 77.47 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +4722,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 90.17 77.47 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,6 +4741,135 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76eac02c-7139-44cb-a3c5-c8d9189c5cfd")
+		(property "Reference" "#PWR014"
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.608 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27b5211d-0a2c-4936-9a69-6915f9ec1553")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 50.8 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b71925e-d16b-417e-96f5-a90d1ed7331e")
+		(property "Reference" "#PWR06"
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "D-"
+			(at 54.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c3d16926-db95-40c2-bcba-ee955cf657da")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5377,16 +4955,78 @@
 		)
 	)
 	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:GND_POWER_GROUND")
-		(at 91.44 81.28 0)
+		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
+		(at 123.19 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8214e056-5eaa-4ba0-a7d5-a030f2513747")
-		(property "Reference" "#PWR045"
-			(at 91.44 81.28 0)
+		(uuid "7ff98518-3832-4d01-b5c7-cb113ce0b5d1")
+		(property "Reference" "#PWR018"
+			(at 123.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOUT"
+			(at 123.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5655c207-3aee-43b9-b41a-b3714089f85b")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84dc7fe9-c0f7-464b-a43f-b0fc51bb51f3")
+		(property "Reference" "#PWR013"
+			(at 86.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +5035,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 87.63 0)
+			(at 84.328 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,37 +5053,31 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 91.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 91.44 81.28 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 91.44 81.28 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "f7540bdc-0f52-45de-9c20-03d6f1a2f740")
+		(pin "1"
+			(uuid "f941004d-d7cd-49eb-bead-c4246ba0c321")
 		)
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "#PWR045")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5502,6 +5146,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "919f5ed5-e543-4b43-85c6-da5825f18f7c")
+		(property "Reference" "#PWR08"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e872a734-6a2a-44db-8de9-c052261600ac")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
 		(at 182.88 74.93 180)
 		(unit 1)
@@ -5564,71 +5276,8 @@
 		)
 	)
 	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:GND_POWER_GROUND")
-		(at 86.36 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d9b364b-c129-4a43-8a04-83be8ad062f6")
-		(property "Reference" "#PWR043"
-			(at 86.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "8edce577-e88b-4dd6-8df2-2401763ce6d6")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBAT_BAR")
-		(at 257.81 92.71 180)
+		(at 46.99 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5636,7 +5285,7 @@
 		(dnp no)
 		(uuid "9f1c099d-040d-4fa1-96f3-bb0b160320f9")
 		(property "Reference" "#PWR04"
-			(at 257.81 92.71 0)
+			(at 46.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +5294,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 257.81 88.9 0)
+			(at 46.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +5302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 92.71 0)
+			(at 46.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 92.71 0)
+			(at 46.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +5318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 92.71 0)
+			(at 46.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,136 +5332,6 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "root_3_mirrored_D{colon}LED_AltiumLib.DbLib_1")
-		(lib_id "AltiumLib:root_3_mirrored_D{colon}LED_AltiumLib.DbLib")
-		(at 199.39 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a94655d6-d87d-4f5b-84f8-292a906430ce")
-		(property "Reference" "LD1"
-			(at 200.914 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "${ALTIUM_VALUE}"
-			(at 200.914 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "LED_0603_R"
-			(at 199.39 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, SMD, Red"
-			(at 199.39 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "0603"
-			(at 196.342 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "L0603R"
-			(at 196.342 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Optoelectronics"
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" ""
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a94beb9a-a622-4055-b8ea-0fb2c1bc4050")
-		)
-		(pin "1"
-			(uuid "9ad37bb1-70b9-43f4-ae8b-860319cf83d7")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "LD1")
 					(unit 1)
 				)
 			)
@@ -6077,16 +5596,16 @@
 		)
 	)
 	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:GND_POWER_GROUND")
-		(at 101.6 106.68 0)
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 104.14 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b7fb83c7-9762-40e3-8c22-347fbe833a40")
-		(property "Reference" "#PWR049"
-			(at 101.6 106.68 0)
+		(uuid "b1483ea1-f656-449a-a851-bc87f03d03e5")
+		(property "Reference" "#PWR05"
+			(at 104.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,17 +5613,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 101.6 113.03 0)
+		(property "Value" "D+"
+			(at 100.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 106.68 0)
+			(at 104.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +5630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 106.68 0)
+			(at 104.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,7 +5638,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 106.68 0)
+			(at 104.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,204 +5646,12 @@
 			)
 		)
 		(pin ""
-			(uuid "833645f5-0806-4960-bd3b-b28d0995da6e")
+			(uuid "89a77dcd-336c-4a51-9481-b1a6f1100b4a")
 		)
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AltiumLib:root_3_mirrored_D{colon}LED_AltiumLib.DbLib")
-		(at 212.09 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7ad0cc2-a97f-44a4-ae0f-256914a91672")
-		(property "Reference" "LD2"
-			(at 213.614 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "${ALTIUM_VALUE}"
-			(at 213.614 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "LED_0603_G"
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, SMD, Green"
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "0603"
-			(at 209.042 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "L0603G"
-			(at 209.042 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Optoelectronics"
-			(at 210.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" ""
-			(at 210.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 210.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 210.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95fec24a-2012-44a5-beb0-3cb9edaa9bef")
-		)
-		(pin "1"
-			(uuid "a8fd9a44-87a8-42e3-9c8f-85e2ace8d0d1")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "LD2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:GND_POWER_GROUND")
-		(at 91.44 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8a85a69-e3a4-4d00-9bac-42d09aa191d7")
-		(property "Reference" "#PWR047"
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "b86e60b8-c8c7-49be-be42-9c1579b17939")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "#PWR047")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6463,6 +5789,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 91.44 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da972f76-86c8-41b8-8162-ad47b20d51ef")
+		(property "Reference" "#PWR09"
+			(at 91.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 89.408 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96681a8d-ddb7-4287-9fcf-154facc6a042")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 35.56 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6487,6 +5880,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6523,6 +5917,68 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 104.14 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef844326-53c5-4c02-b49d-abe94849eefe")
+		(property "Reference" "#PWR03"
+			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "D-"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a3458379-e790-4f2d-9099-80fd018a5f88")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

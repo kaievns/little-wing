@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 104.14 52.07)
-		(size 33.02 33.02)
+		(at 69.85 41.91)
+		(size 34.29 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "4bfeadaf-0d2e-45fd-a340-a53ab79162c6")
 		(property "Sheetname" "PSU"
-			(at 104.14 51.3584 0)
+			(at 69.85 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,52 @@
 			)
 		)
 		(property "Sheetfile" "psu.kicad_sch"
-			(at 104.14 85.6746 0)
+			(at 69.85 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "D+" input
+			(at 104.14 55.88 0)
+			(uuid "5a627cd3-a467-43de-aabf-a989fc7eb91c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" input
+			(at 104.14 59.69 0)
+			(uuid "f6372580-a703-41f4-bbfe-58d3fdd61530")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 104.14 48.26 0)
+			(uuid "43dae853-d581-4f98-9323-00f877c7cb1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSYS" input
+			(at 104.14 52.07 0)
+			(uuid "4c85eea1-df98-43fd-b5d1-4cb327e653ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -132,7 +172,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 100.33)
+		(at 143.51 44.45)
 		(size 33.02 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +188,7 @@
 		)
 		(uuid "ebcf195d-f1fd-431a-a78e-86a1a85cb647")
 		(property "Sheetname" "MCU"
-			(at 109.22 99.6184 0)
+			(at 143.51 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +197,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 109.22 131.3946 0)
+			(at 143.51 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
