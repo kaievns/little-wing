@@ -869,6 +869,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "AltiumLib:root_3_mirrored_D{colon}LED_AltiumLib.DbLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED, SMD, Green"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LED_0603_G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_mirrored_D{colon}LED_AltiumLib.DbLib_1_0"
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy -2.794 -4.318) (xy -2.794 -3.81) (xy -2.286 -4.318) (xy -2.794 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 119 200 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -5.08) (xy -2.032 -4.572) (xy -1.524 -5.08) (xy -2.032 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 119 200 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 119 200 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -5.08) (xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 119 200 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 119 200 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "AltiumLib:root_3_mirrored_RES_AltiumLib.DbLib"
 			(pin_numbers
 				(hide yes)
@@ -2812,6 +2979,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "root_3_mirrored_D{colon}LED_AltiumLib.DbLib_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED, SMD, Red"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LED_0603_R*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_mirrored_D{colon}LED_AltiumLib.DbLib_1_1_0"
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy -2.794 -4.318) (xy -2.794 -3.81) (xy -2.286 -4.318) (xy -2.794 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 119 200 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -5.08) (xy -2.032 -4.572) (xy -1.524 -5.08) (xy -2.032 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 119 200 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 119 200 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -5.08) (xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 119 200 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 119 200 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 167.64 125.73)
@@ -2921,13 +3255,15 @@
 		(color 0 0 0 0)
 		(uuid "fa186ddd-49ab-4ed4-9183-ad57d754f1d0")
 	)
+	(junction
+		(at 205.74 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa480b3f-4ed2-4f52-a49f-ad19d2edfa6e")
+	)
 	(no_connect
 		(at 50.8 58.42)
 		(uuid "0ef158c5-7297-440f-ac2e-7e3f5ecb2b2b")
-	)
-	(no_connect
-		(at 165.1 120.65)
-		(uuid "342c252f-e369-4820-b56f-9f4792143e0d")
 	)
 	(no_connect
 		(at 165.1 105.41)
@@ -2940,10 +3276,6 @@
 	(no_connect
 		(at 27.94 66.04)
 		(uuid "56bc7aa3-4c2b-4386-8949-1de5f9d98125")
-	)
-	(no_connect
-		(at 165.1 118.11)
-		(uuid "898e762a-49d8-446a-9d5e-da7a7cf99818")
 	)
 	(wire
 		(pts
@@ -3027,6 +3359,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 99.06) (xy 212.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2558453f-758b-4cdd-9233-81c13de5e3ee")
+	)
+	(wire
+		(pts
+			(xy 199.39 99.06) (xy 205.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d653d7a-4f63-4b6d-b532-b2376f2288b1")
+	)
+	(wire
+		(pts
 			(xy 182.88 74.93) (xy 182.88 77.47)
 		)
 		(stroke
@@ -3094,6 +3446,16 @@
 			(type default)
 		)
 		(uuid "5555d680-e102-4430-aa9d-812460072552")
+	)
+	(wire
+		(pts
+			(xy 205.74 99.06) (xy 205.74 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f43ca2-be60-44b1-b5aa-38dba1c50dec")
 	)
 	(wire
 		(pts
@@ -3257,6 +3619,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 118.11) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37854c7-bdb8-4e03-aa79-6587e014b387")
+	)
+	(wire
+		(pts
 			(xy 165.1 72.39) (xy 165.1 74.93)
 		)
 		(stroke
@@ -3264,6 +3636,16 @@
 			(type default)
 		)
 		(uuid "ba1ddbba-bde9-41a3-a02b-69d25be05da9")
+	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 199.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba81c2cb-051e-47df-b5b4-e937017d75f0")
 	)
 	(wire
 		(pts
@@ -3317,6 +3699,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 74.93) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81cfdb7-ebb7-43af-a2dd-7391625e9d05")
+	)
+	(wire
+		(pts
 			(xy 91.44 125.73) (xy 104.14 125.73)
 		)
 		(stroke
@@ -3337,6 +3729,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 120.65) (xy 212.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2cfe508-308b-49d6-a4b2-d8e81dcab008")
+	)
+	(wire
+		(pts
+			(xy 212.09 120.65) (xy 212.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1febdc-2626-452b-af0c-faa8f38d0598")
+	)
+	(wire
+		(pts
 			(xy 167.64 113.03) (xy 165.1 113.03)
 		)
 		(stroke
@@ -3354,6 +3766,26 @@
 			(type default)
 		)
 		(uuid "fe01c0b6-ad5e-48b0-b5b2-a36caddb61ac")
+	)
+	(label "ERR"
+		(at 170.18 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bea71ec0-0d66-4880-9aa4-6714335f5f67")
+	)
+	(label "CHG"
+		(at 170.18 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7c37057-1832-45ae-94ff-466804849b05")
 	)
 	(hierarchical_label "D+"
 		(shape input)
@@ -5338,6 +5770,136 @@
 		)
 	)
 	(symbol
+		(lib_name "root_3_mirrored_D{colon}LED_AltiumLib.DbLib_1")
+		(lib_id "AltiumLib:root_3_mirrored_D{colon}LED_AltiumLib.DbLib")
+		(at 199.39 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a94655d6-d87d-4f5b-84f8-292a906430ce")
+		(property "Reference" "LD1"
+			(at 200.914 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 200.914 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LED_0603_R"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, SMD, Red"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT DOC" "0603"
+			(at 196.342 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "L0603R"
+			(at 196.342 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT CLASS" "Optoelectronics"
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a94beb9a-a622-4055-b8ea-0fb2c1bc4050")
+		)
+		(pin "1"
+			(uuid "9ad37bb1-70b9-43f4-ae8b-860319cf83d7")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "LD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AltiumLib:root_1_CAP_AltiumLib.DbLib")
 		(at 182.88 85.09 0)
 		(unit 1)
@@ -5652,6 +6214,135 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AltiumLib:root_3_mirrored_D{colon}LED_AltiumLib.DbLib")
+		(at 212.09 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7ad0cc2-a97f-44a4-ae0f-256914a91672")
+		(property "Reference" "LD2"
+			(at 213.614 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 213.614 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LED_0603_G"
+			(at 212.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, SMD, Green"
+			(at 212.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT DOC" "0603"
+			(at 209.042 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "L0603G"
+			(at 209.042 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT CLASS" "Optoelectronics"
+			(at 210.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 210.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 210.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 210.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95fec24a-2012-44a5-beb0-3cb9edaa9bef")
+		)
+		(pin "1"
+			(uuid "a8fd9a44-87a8-42e3-9c8f-85e2ace8d0d1")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "LD2")
 					(unit 1)
 				)
 			)
