@@ -1430,7 +1430,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 49.53 33.02 270)
+		(at 53.34 33.02 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2327,7 +2327,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 49.53 33.02 180)
+		(at 53.34 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2335,7 +2335,7 @@
 		(dnp no)
 		(uuid "23b92ae2-2af0-403e-8395-4e2a8650876a")
 		(property "Reference" "#PWR069"
-			(at 49.53 33.02 0)
+			(at 53.34 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2344,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 49.53 29.21 0)
+			(at 53.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 33.02 0)
+			(at 53.34 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 33.02 0)
+			(at 53.34 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 33.02 0)
+			(at 53.34 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3172,7 @@
 			)
 		)
 		(property "Value" "CS"
-			(at 60.96 24.638 90)
+			(at 60.96 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)

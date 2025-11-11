@@ -5317,8 +5317,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ec7e9bc-3078-4083-875b-beb8d35e6472")
-		(property "Reference" "R1"
-			(at 54.102 30.48 90)
+		(property "Reference" "R21"
+			(at 53.594 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5380,7 @@
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "R1")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6685,8 +6685,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb14afad-81af-4cbb-b54f-3339a6094e84")
-		(property "Reference" "R2"
-			(at 57.404 38.1 90)
+		(property "Reference" "R22"
+			(at 56.388 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6748,7 @@
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
-					(reference "R2")
+					(reference "R22")
 					(unit 1)
 				)
 			)
