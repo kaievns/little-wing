@@ -14484,7 +14484,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BT-XTAL_2016"
+		(property "Footprint" "Crystal:Crystal_SMD_1210-4Pin_1.2x1.0mm"
 			(at 198.12 57.15 0)
 			(effects
 				(font
