@@ -5636,12 +5636,6 @@
 		(uuid "e2420548-494e-4bec-8bdd-de1bb760fb3c")
 	)
 	(junction
-		(at 261.62 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e358aeb1-74be-43f8-9a22-0b9e5628cf96")
-	)
-	(junction
 		(at 227.33 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5819,16 +5813,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 138.43) (xy 261.62 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d04c8a3-464d-483a-9ff5-320eb76c5ede")
-	)
-	(wire
-		(pts
 			(xy 55.88 52.07) (xy 58.42 52.07)
 		)
 		(stroke
@@ -5926,16 +5910,6 @@
 			(type default)
 		)
 		(uuid "530c473a-5af4-4a1b-a7b9-670586005b94")
-	)
-	(wire
-		(pts
-			(xy 261.62 139.7) (xy 261.62 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "578575e8-e8ae-429f-9600-0099196e5a56")
 	)
 	(wire
 		(pts
@@ -6418,17 +6392,6 @@
 		)
 		(uuid "01171044-61b9-4451-8086-61e5c2302eef")
 	)
-	(hierarchical_label "D-"
-		(shape input)
-		(at 49.53 26.67 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "02456059-0b0b-46b1-b4ca-f3c031e8f5e4")
-	)
 	(hierarchical_label "Col 1"
 		(shape input)
 		(at 90.17 172.72 270)
@@ -6473,7 +6436,29 @@
 		)
 		(uuid "21c0c29e-b363-42e6-a867-a0149d457dd7")
 	)
+	(hierarchical_label "D+"
+		(shape input)
+		(at 22.86 26.67 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25298449-17b7-4820-aae8-667968a491a6")
+	)
 	(hierarchical_label "VBUS"
+		(shape input)
+		(at 35.56 26.67 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a147774-96ce-4d49-af5d-a81184a01347")
+	)
+	(hierarchical_label "D-"
 		(shape input)
 		(at 29.21 26.67 270)
 		(effects
@@ -6482,7 +6467,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2a147774-96ce-4d49-af5d-a81184a01347")
+		(uuid "3bcd4710-cae3-48ab-b626-260e221c1aab")
 	)
 	(hierarchical_label "LCD CS"
 		(shape input)
@@ -6497,7 +6482,7 @@
 	)
 	(hierarchical_label "VSYS"
 		(shape input)
-		(at 36.83 26.67 270)
+		(at 41.91 26.67 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,16 +6502,16 @@
 		)
 		(uuid "6e6e1599-0e73-45dc-9782-8882a4b6769d")
 	)
-	(hierarchical_label "D+"
+	(hierarchical_label "VSENSE"
 		(shape input)
-		(at 43.18 26.67 270)
+		(at 49.53 26.67 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "75c2bc66-ad87-4c86-ba20-f81233c044f3")
+		(uuid "7984e73e-5c0b-4a4f-9671-d3ac343f6246")
 	)
 	(hierarchical_label "RGB DATA"
 		(shape input)
@@ -7616,7 +7601,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 29.21 26.67 180)
+		(at 35.56 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7624,7 +7609,7 @@
 		(dnp no)
 		(uuid "16fa4e44-1d80-40b6-90e0-7a24929ac9b9")
 		(property "Reference" "#PWR026"
-			(at 29.21 26.67 0)
+			(at 35.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,7 +7618,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 29.21 22.86 0)
+			(at 35.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +7626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 26.67 0)
+			(at 35.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +7634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 26.67 0)
+			(at 35.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +7642,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 26.67 0)
+			(at 35.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8649,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 43.18 26.67 180)
+		(at 22.86 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8672,7 +8657,7 @@
 		(dnp no)
 		(uuid "3ec75fe0-2fc2-44d3-b859-eb088bf9190f")
 		(property "Reference" "#PWR041"
-			(at 43.18 26.67 0)
+			(at 22.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +8666,7 @@
 			)
 		)
 		(property "Value" "D+"
-			(at 43.18 22.86 0)
+			(at 22.86 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 26.67 0)
+			(at 22.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8697,7 +8682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 26.67 0)
+			(at 22.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 26.67 0)
+			(at 22.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9087,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "L0603B"
+		(property "Value" "L0603 (Blue)"
 			(at 250.444 141.986 0)
 			(effects
 				(font
@@ -9111,7 +9096,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_0603_R"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 248.92 134.62 0)
 			(effects
 				(font
@@ -9332,68 +9317,6 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
 					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 261.62 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54594fdb-6e8a-4745-8a1e-e4fb136fa4ef")
-		(property "Reference" "#PWR085"
-			(at 261.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSENS"
-			(at 268.986 139.954 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "f8971284-5f33-4829-b65a-00f05d8c363f")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
-					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -10165,7 +10088,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 49.53 26.67 180)
+		(at 29.21 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10173,7 +10096,7 @@
 		(dnp no)
 		(uuid "69af24d0-351e-4405-a987-78aedc0cf171")
 		(property "Reference" "#PWR042"
-			(at 49.53 26.67 0)
+			(at 29.21 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,7 +10105,7 @@
 			)
 		)
 		(property "Value" "D-"
-			(at 49.53 22.86 0)
+			(at 29.21 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +10113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 26.67 0)
+			(at 29.21 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +10121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 26.67 0)
+			(at 29.21 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 26.67 0)
+			(at 29.21 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10314,7 +10237,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC0603X03L_C"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 248.92 142.24 0)
 			(effects
 				(font
@@ -10963,68 +10886,6 @@
 		)
 	)
 	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 261.62 130.81 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85c97492-e538-47ef-96ed-3343581efb99")
-		(property "Reference" "#PWR084"
-			(at 261.62 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 261.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "e476333d-9817-484d-928c-be83ecd26ac8")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Nordic Passive DB:root_2_CAP_Nordic Passive DB.DbLib")
 		(at 66.04 52.07 0)
 		(unit 1)
@@ -11423,73 +11284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b3360ba-25d6-429a-a6ec-d3a7ea765c4c")
-		(property "Reference" "#PWR081"
-			(at 261.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.588 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00b81419-1cb8-4359-a949-d8d5cc56b5e0")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
 		(at 93.98 172.72 180)
 		(unit 1)
@@ -11546,264 +11340,6 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
 					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AltiumLib:root_3_mirrored_RES_AltiumLib.DbLib")
-		(at 261.62 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a712904a-9cdb-48c5-abd3-e31dd8b161e2")
-		(property "Reference" "R_DIV1"
-			(at 262.636 134.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1M"
-			(at 262.636 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "RESC0603X03L_C"
-			(at 261.62 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, ±1%, 0.05W"
-			(at 261.62 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "0201"
-			(at 260.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "10k"
-			(at 260.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Resistors"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" ""
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6fb70173-d7c5-44f1-af1f-bcd298a50049")
-		)
-		(pin "1"
-			(uuid "43feca39-46e4-460c-be72-60f7bfdb16b4")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
-					(reference "R_DIV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AltiumLib:root_3_mirrored_RES_AltiumLib.DbLib")
-		(at 261.62 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a81d28a6-edb0-42cb-9990-a710c013f6a4")
-		(property "Reference" "R_DIV2"
-			(at 262.636 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "470k"
-			(at 262.636 148.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "RESC0603X03L_C"
-			(at 261.62 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, ±1%, 0.05W"
-			(at 261.62 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "0201"
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "10k"
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Resistors"
-			(at 260.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" ""
-			(at 260.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 260.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 260.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b55ec45-c560-4f43-b395-566d87d40b08")
-		)
-		(pin "1"
-			(uuid "932ec669-d037-4cf5-baac-53d9353dee78")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
-					(reference "R_DIV2")
 					(unit 1)
 				)
 			)
@@ -12215,7 +11751,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 36.83 26.67 180)
+		(at 41.91 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12223,7 +11759,7 @@
 		(dnp no)
 		(uuid "bac85e37-cc81-47fe-b4c4-2e27c8eb714c")
 		(property "Reference" "#PWR034"
-			(at 36.83 26.67 0)
+			(at 41.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12232,7 +11768,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 36.83 22.86 0)
+			(at 41.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12240,7 +11776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 26.67 0)
+			(at 41.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +11784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 26.67 0)
+			(at 41.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12256,7 +11792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 26.67 0)
+			(at 41.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13697,7 +13233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSENS"
+		(property "Value" "VSENSE"
 			(at 134.874 48.514 90)
 			(effects
 				(font
@@ -14792,6 +14328,68 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
+		(at 49.53 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee20ddbf-7e73-49e7-8613-7958b99c68ef")
+		(property "Reference" "#PWR062"
+			(at 49.53 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSENSE"
+			(at 49.53 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "3b2fcd92-a133-4a8f-9c3c-d8d83a09673f")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
