@@ -10296,7 +10296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f71e626-43e0-4138-866e-440d7262345b")
-		(property "Reference" "R_BLE"
+		(property "Reference" "R_BLE1"
 			(at 249.936 145.542 0)
 			(effects
 				(font
@@ -10410,7 +10410,7 @@
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
-					(reference "R_BLE")
+					(reference "R_BLE1")
 					(unit 1)
 				)
 			)
