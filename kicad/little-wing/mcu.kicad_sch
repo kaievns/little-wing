@@ -5654,12 +5654,24 @@
 		(uuid "fdc56a1b-3522-4078-a9ab-de94e7b73b65")
 	)
 	(no_connect
+		(at 154.94 55.88)
+		(uuid "46e94e1d-c8df-4f08-a511-28083f864100")
+	)
+	(no_connect
+		(at 160.02 55.88)
+		(uuid "5f970a86-3be6-4e5c-8035-cf500f4a8822")
+	)
+	(no_connect
 		(at 185.42 86.36)
 		(uuid "6f2b2440-24b2-4610-a1ed-fc60e7cd9ca4")
 	)
 	(no_connect
 		(at 185.42 88.9)
 		(uuid "79cf0bdb-c898-4b7b-96d5-529233d2d4d0")
+	)
+	(no_connect
+		(at 147.32 55.88)
+		(uuid "9db95ea8-bf00-47ba-aafa-73000d2a2654")
 	)
 	(wire
 		(pts

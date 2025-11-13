@@ -2104,6 +2104,17 @@
 		)
 		(uuid "444d05b7-d19d-4e3c-a4f1-3b2ed7148fa7")
 	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 179.07 119.38 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b5cf926-7cc0-4faf-8c0e-91dde1deac49")
+	)
 	(hierarchical_label "Col 5"
 		(shape input)
 		(at 179.07 74.93 180)
@@ -2246,17 +2257,6 @@
 			(justify right)
 		)
 		(uuid "f21d7c6e-cbdb-4ec5-9145-259b36be68b4")
-	)
-	(hierarchical_label "VDD"
-		(shape input)
-		(at 179.07 104.14 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f76940b4-02eb-4ba5-ac02-2a8069b98df5")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3229,7 +3229,7 @@
 	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
-		(at 179.07 119.38 0)
+		(at 179.07 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3237,7 +3237,7 @@
 		(dnp no)
 		(uuid "a3b54329-23ec-4c9e-96b7-ca71b5cd0142")
 		(property "Reference" "#PWR039"
-			(at 179.07 125.73 0)
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.197 123.7742 0)
+			(at 178.943 99.7458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 119.38 0)
+			(at 179.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 119.38 0)
+			(at 179.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3273,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 119.38 0)
+			(at 179.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
