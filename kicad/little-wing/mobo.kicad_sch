@@ -6,12 +6,6 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 106.68 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29e646ef-0c39-450d-9663-eadabc487231")
-	)
-	(junction
 		(at 194.31 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -145,16 +139,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 57.15) (xy 106.68 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4037c74a-f625-4f96-b2e9-85cb7f464bd9")
-	)
-	(wire
-		(pts
 			(xy 104.14 52.07) (xy 114.3 52.07)
 		)
 		(stroke
@@ -165,7 +149,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 54.61) (xy 106.68 54.61)
+			(xy 104.14 54.61) (xy 114.3 54.61)
 		)
 		(stroke
 			(width 0)
@@ -252,16 +236,6 @@
 			(type default)
 		)
 		(uuid "9a1327c3-14e9-4ed0-bfcb-32fe3844a2b2")
-	)
-	(wire
-		(pts
-			(xy 106.68 54.61) (xy 114.3 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bd3e8fa-3a30-498f-b1c1-aa719190822a")
 	)
 	(wire
 		(pts

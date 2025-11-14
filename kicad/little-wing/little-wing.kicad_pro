@@ -498,23 +498,15 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "Net-(D18-DIN)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Col"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDIO"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RF"
+        "pattern": "VBAT"
       },
       {
         "netclass": "Default",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VSYS"
       }
     ]
   },
