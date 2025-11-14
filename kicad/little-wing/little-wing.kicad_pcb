@@ -17105,14 +17105,12 @@
 			(at -0.6404 0.3742 90)
 			(size 0.65 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 1 "GND")
 			(uuid "f4744646-c39e-4c0f-b2fd-ddf902459d70")
 		)
 		(pad "2" smd rect
 			(at 0.6096 -0.0508 90)
 			(size 0.7 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 1 "GND")
 			(uuid "60451d9a-3bee-4030-85df-a76f8748f875")
 		)
 		(zone

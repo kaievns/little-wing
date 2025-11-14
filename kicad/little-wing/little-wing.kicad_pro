@@ -511,6 +511,10 @@
       {
         "netclass": "Default",
         "pattern": "RF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VBUS"
       }
     ]
   },

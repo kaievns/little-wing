@@ -3011,6 +3011,12 @@
 		(uuid "4029f5e7-8cb2-4904-b1c2-f444314eaa04")
 	)
 	(junction
+		(at 88.9 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42439118-0e39-42e8-b742-f90f9bcd4610")
+	)
+	(junction
 		(at 165.1 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3047,12 +3053,6 @@
 		(uuid "a865a67e-1ee6-4669-bef1-4296c5a5f75f")
 	)
 	(junction
-		(at 101.6 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7efbaa5-85ca-4ad5-8eaa-e42bbf50fcf4")
-	)
-	(junction
 		(at 91.44 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3077,10 +3077,10 @@
 		(uuid "dd23ccf6-ee43-4d8c-9fd6-80a3af6b9141")
 	)
 	(junction
-		(at 88.9 72.39)
+		(at 104.14 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4316684-1088-4be1-803b-7d6fb703b5dd")
+		(uuid "de82adb0-710c-4177-8dea-afaf0ffb4695")
 	)
 	(junction
 		(at 86.36 125.73)
@@ -3152,16 +3152,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 72.39) (xy 88.9 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "160c9b37-3903-4432-9a34-fee0df77fe97")
-	)
-	(wire
-		(pts
 			(xy 59.69 27.94) (xy 50.8 27.94)
 		)
 		(stroke
@@ -3189,6 +3179,16 @@
 			(type default)
 		)
 		(uuid "206f0330-4df2-4349-863d-4183fddc08f4")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2327b954-0c44-4160-8523-381eb5b4b05e")
 	)
 	(wire
 		(pts
@@ -3252,16 +3252,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 72.39) (xy 104.14 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d515f69-441e-4509-bd76-b3420c51c8da")
-	)
-	(wire
-		(pts
 			(xy 91.44 95.25) (xy 104.14 95.25)
 		)
 		(stroke
@@ -3269,16 +3259,6 @@
 			(type default)
 		)
 		(uuid "4d8a7f7a-23a0-4a95-9f75-45ae2139185a")
-	)
-	(wire
-		(pts
-			(xy 104.14 74.93) (xy 101.6 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5555d680-e102-4430-aa9d-812460072552")
 	)
 	(wire
 		(pts
@@ -3302,16 +3282,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 72.39) (xy 88.9 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724481f8-a81a-4fa6-a4a9-7f11cd89f060")
-	)
-	(wire
-		(pts
 			(xy 86.36 125.73) (xy 91.44 125.73)
 		)
 		(stroke
@@ -3319,6 +3289,16 @@
 			(type default)
 		)
 		(uuid "7346e2f9-c501-4120-9b19-48d6b68fc203")
+	)
+	(wire
+		(pts
+			(xy 104.14 72.39) (xy 104.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7710b097-d3da-4665-8a43-ee6828a2c575")
 	)
 	(wire
 		(pts
@@ -3482,13 +3462,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 74.93) (xy 101.6 72.39)
+			(xy 88.9 72.39) (xy 104.14 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6408c93-49c1-407b-91dd-4c878a331a7b")
+		(uuid "c34bd64a-346b-4800-80f7-e327b0940ce7")
 	)
 	(wire
 		(pts
@@ -3859,7 +3839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Switch_MSK12C02"
 			(at 46.99 106.68 0)
 			(effects
 				(font
@@ -4175,7 +4155,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BGA25C40P5X5_200X200X50"
+		(property "Footprint" "nRF Devices$:BGA25C40P5X5_200X200X50"
 			(at 111.76 69.85 0)
 			(effects
 				(font
@@ -4415,6 +4395,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3380222f-bc4d-4a3d-9235-e6ae2bdb99f7")
 		(property "Reference" "#PWR044"
 			(at 88.9 72.39 0)
@@ -4426,7 +4407,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 88.9 68.58 0)
+			(at 88.9 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +4995,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Capacitors$:CAPC1608X06L"
 			(at 88.9 81.28 0)
 			(effects
 				(font
@@ -6121,7 +6102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Capacitors$:CAPC1608X06L"
 			(at 182.88 85.09 0)
 			(effects
 				(font
@@ -6571,7 +6552,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC0603X03L_C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 91.44 106.68 0)
 			(effects
 				(font

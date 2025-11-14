@@ -3079,7 +3079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal"
+		(property "Footprint" "Hirose FH34SRJ-10S-0.5SH:CONN10x1_FH34SRJ-10S-0.5SH50_HIR"
 			(at 166.37 73.66 0)
 			(effects
 				(font
