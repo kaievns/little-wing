@@ -5669,10 +5669,6 @@
 		(at 185.42 88.9)
 		(uuid "79cf0bdb-c898-4b7b-96d5-529233d2d4d0")
 	)
-	(no_connect
-		(at 147.32 55.88)
-		(uuid "9db95ea8-bf00-47ba-aafa-73000d2a2654")
-	)
 	(wire
 		(pts
 			(xy 217.17 48.26) (xy 213.36 48.26)
@@ -7124,6 +7120,68 @@
 		)
 	)
 	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 185.42 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0685d452-a102-4a93-85d5-7c8925e288e8")
+		(property "Reference" "#PWR0109"
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LCD CLK"
+			(at 193.802 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "cee4da17-d2be-4885-9e5a-00760cb6f822")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 67.31 0)
 		(unit 1)
@@ -7920,6 +7978,68 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 106.68 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26b007e7-145b-4e9f-8524-570278b8fa6b")
+		(property "Reference" "#PWR066"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Sensor SDIO"
+			(at 97.536 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "6a51da4a-9d9c-4302-b449-602733aa84d8")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
 		(at 128.27 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8099,6 +8219,68 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 106.68 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d5c5afd-8b2f-44fd-b41c-0a2bf2320f2f")
+		(property "Reference" "#PWR067"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Sensor CLK"
+			(at 98.298 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1049a842-975a-479b-a663-8ff713f479e9")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9335,6 +9517,68 @@
 		)
 	)
 	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 142.24 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "585153c5-e582-4dba-b416-8158153ddb6e")
+		(property "Reference" "#PWR0119"
+			(at 142.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RGB DATA"
+			(at 142.24 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "7bff71b4-7f9c-4235-8cc3-bc67a08860d8")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Nordic Passive DB:root_0_IND_Nordic Passive DB.DbLib")
 		(at 88.9 111.76 0)
 		(unit 1)
@@ -9638,6 +9882,68 @@
 		)
 	)
 	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 137.16 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60e20765-0ae1-4941-b8aa-672ad2d637d3")
+		(property "Reference" "#PWR0120"
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RGB ON"
+			(at 137.16 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d35224b0-c1ce-4bb7-89b7-d7ed3ca86820")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "root_3_CAP_Nordic Passive DB.DbLib_3")
 		(lib_id "Nordic Passive DB:root_3_CAP_Nordic Passive DB.DbLib")
 		(at 104.14 116.84 0)
@@ -9863,6 +10169,68 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 106.68 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "654ca7b5-d707-4859-99b1-2569a9f648c5")
+		(property "Reference" "#PWR065"
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Sensor CS"
+			(at 98.298 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "9c422a08-b8f1-483d-9be1-93adcbb94cff")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -11465,6 +11833,68 @@
 		)
 	)
 	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 185.42 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9b0a0a7-ee0a-43f8-9c65-097cea06e0f1")
+		(property "Reference" "#PWR0118"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LCD CS"
+			(at 193.802 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "48d79a04-4ed2-45a7-acab-f9012c6d2197")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 93.98 58.42 0)
 		(unit 1)
@@ -12639,6 +13069,68 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 185.42 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc142907-8298-48a4-8286-9e75e4b60dfb")
+		(property "Reference" "#PWR0117"
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LCD DATA"
+			(at 193.802 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "cc6b9527-472d-42b9-96a7-8c4927974b55")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
 		(at 76.2 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13167,7 +13659,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 134.62 55.88 180)
+		(at 147.32 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13175,7 +13667,7 @@
 		(dnp no)
 		(uuid "d357a297-61a5-4e8b-b968-9ffda5f944d4")
 		(property "Reference" "#PWR086"
-			(at 134.62 55.88 0)
+			(at 147.32 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13184,7 +13676,7 @@
 			)
 		)
 		(property "Value" "VSENSE"
-			(at 134.874 48.514 90)
+			(at 147.574 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13192,7 +13684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 55.88 0)
+			(at 147.32 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13200,7 +13692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 55.88 0)
+			(at 147.32 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13208,7 +13700,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 55.88 0)
+			(at 147.32 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14278,6 +14770,68 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 106.68 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edf9fe0e-854e-414e-bd60-fd848b934fbc")
+		(property "Reference" "#PWR070"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Sensor IRQ"
+			(at 98.298 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "cc91aac1-46d2-4cf4-a9fb-8f2116ab3a10")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
