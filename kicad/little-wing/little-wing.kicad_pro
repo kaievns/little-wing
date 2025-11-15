@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.8,
-          "width": 1.2
+          "height": 0.47,
+          "width": 0.52
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -473,7 +473,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -495,7 +495,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.125
+        "track_width": 0.125,
+        "via_diameter": 0.25,
+        "via_drill": 0.1
       }
     ],
     "meta": {
@@ -559,6 +561,18 @@
       {
         "netclass": "Data",
         "pattern": "Net-(U1-P0.00/XL1)"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "EXTMODE"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "EXTCOMIN"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "RST"
       }
     ]
   },
