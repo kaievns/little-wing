@@ -473,7 +473,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -488,6 +488,14 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.125,
+        "name": "Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125
       }
     ],
     "meta": {
@@ -501,12 +509,56 @@
         "pattern": "VBAT"
       },
       {
-        "netclass": "Default",
-        "pattern": "VBUS"
+        "netclass": "Data",
+        "pattern": "LCD CLK"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "LCD DATA"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "LCD CS"
       },
       {
         "netclass": "Default",
-        "pattern": "VSYS"
+        "pattern": "VDD"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "BLED"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Sensor CS"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Sensor SDIO"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Sensor CLK"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Sensor IRQ"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "RGB ON"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "RGB DATA"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "VSENSE"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Net-(U1-P0.00/XL1)"
       }
     ]
   },
