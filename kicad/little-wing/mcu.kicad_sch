@@ -120,6 +120,199 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_0"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TCK" output line)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TMS" bidirectional line)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TDO" input line)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Antenna"
 			(pin_numbers
 				(hide yes)
@@ -5653,6 +5846,10 @@
 		(color 0 0 0 0)
 		(uuid "fdc56a1b-3522-4078-a9ab-de94e7b73b65")
 	)
+	(no_connect
+		(at 264.16 116.84)
+		(uuid "5afed114-b246-448d-9a66-9718cc6eed9f")
+	)
 	(wire
 		(pts
 			(xy 217.17 48.26) (xy 213.36 48.26)
@@ -7955,6 +8152,68 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrf52840_ckaa_var4-altium-import:VDD_nRF_BAR")
+		(at 185.42 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22c4d811-8b8f-458c-9fc0-b05dd58db577")
+		(property "Reference" "#PWR0139"
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SWCLK"
+			(at 192.024 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "988b5160-fc65-4b5a-ac99-be7bb0906470")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -11498,6 +11757,68 @@
 		)
 	)
 	(symbol
+		(lib_id "nrf52840_ckaa_var4-altium-import:VDD_nRF_BAR")
+		(at 185.42 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "833cd976-ad59-469c-80ff-8b8c6b236d46")
+		(property "Reference" "#PWR0138"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 191.77 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1e648729-1be7-4258-9e5e-85d7d4799f10")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
 		(at 68.58 172.72 180)
 		(unit 1)
@@ -12313,6 +12634,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 254 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af4aee23-0f71-4fbf-bf2a-b96c55281631")
+		(property "Reference" "#PWR0133"
+			(at 254 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.968 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61d3f5df-28b7-4222-a026-129ef8ef5751")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
 		(at 149.86 55.88 180)
 		(unit 1)
@@ -12498,6 +12886,149 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrf52840_ckaa_var4-altium-import:VDD_nRF_BAR")
+		(at 264.16 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4c3a853-bba6-4f2f-9eb5-8e590b7ce3c7")
+		(property "Reference" "#PWR0134"
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RST"
+			(at 269.494 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "ad2d565e-b585-4add-aeb9-5bc0bb5fcfba")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
+		(at 256.54 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b80d6fea-1c8a-4704-b949-6b2a88cfe409")
+		(property "Reference" "J8"
+			(at 249.936 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(at 277.622 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 256.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+			(at 256.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(at 256.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4d702fa7-b5d7-4e3e-adf3-5d2744a17628")
+		)
+		(pin "2"
+			(uuid "45ce301f-cb1b-4db5-8ac0-5af91225184f")
+		)
+		(pin "4"
+			(uuid "a629f2e0-e743-47a9-bb01-b9efd32bcf1a")
+		)
+		(pin "3"
+			(uuid "807bc84c-9dfd-4928-977b-0afb025818af")
+		)
+		(pin "5"
+			(uuid "27026b02-6450-44b1-9eef-2434a9962c10")
+		)
+		(pin "1"
+			(uuid "b92098b0-7cd5-463e-810d-202cb046fea0")
+		)
+		(instances
+			(project ""
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -14790,6 +15321,68 @@
 		)
 	)
 	(symbol
+		(lib_id "nrf52840_ckaa_var4-altium-import:VDD_nRF_BAR")
+		(at 254 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd5cd30f-d23f-46fd-af5f-52938e1124ad")
+		(property "Reference" "#PWR0135"
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5fb9f829-54e8-4954-9229-9e66b60ae705")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Nordic Passive DB:root_3_CAP_Nordic Passive DB.DbLib")
 		(at 93.98 50.8 0)
 		(unit 1)
@@ -15734,6 +16327,130 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrf52840_ckaa_var4-altium-import:VDD_nRF_BAR")
+		(at 264.16 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef4c39be-efd3-4e7b-bd9e-8c2f212d6ea6")
+		(property "Reference" "#PWR0137"
+			(at 264.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 270.51 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "dbafd30f-cd47-4f8c-9119-b67845b07228")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrf52840_ckaa_var4-altium-import:VDD_nRF_BAR")
+		(at 264.16 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2940761-5043-4ff8-921e-d22627e7048a")
+		(property "Reference" "#PWR0136"
+			(at 264.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SWCLK"
+			(at 270.764 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "90e12596-5596-4bcd-8f5c-3bec4518c454")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/ebcf195d-f1fd-431a-a78e-86a1a85cb647"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)

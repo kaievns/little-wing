@@ -617,6 +617,14 @@
       {
         "netclass": "Data",
         "pattern": "Col 4"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "SWDIO"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "SWCLK"
       }
     ]
   },
