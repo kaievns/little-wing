@@ -3576,7 +3576,7 @@
 	)
 	(hierarchical_label "D+"
 		(shape input)
-		(at 129.54 33.02 270)
+		(at 142.24 33.02 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3598,7 +3598,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape input)
-		(at 135.89 33.02 270)
+		(at 148.59 33.02 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3618,9 +3618,20 @@
 		)
 		(uuid "78594e7f-894a-4b9d-9b4f-b425c6ae5303")
 	)
+	(hierarchical_label "VBAT"
+		(shape input)
+		(at 129.54 33.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1edfcf9-c5d2-465f-8bbe-1f92915b8aa0")
+	)
 	(hierarchical_label "VSENSE"
 		(shape input)
-		(at 143.51 33.02 270)
+		(at 135.89 33.02 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3631,7 +3642,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 135.89 33.02 180)
+		(at 148.59 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3639,7 +3650,7 @@
 		(dnp no)
 		(uuid "048ce449-fa7c-4692-84d3-87b073118975")
 		(property "Reference" "#PWR019"
-			(at 135.89 33.02 0)
+			(at 148.59 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3659,7 @@
 			)
 		)
 		(property "Value" "D-"
-			(at 135.89 29.21 0)
+			(at 148.59 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 33.02 0)
+			(at 148.59 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 33.02 0)
+			(at 148.59 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +3683,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 33.02 0)
+			(at 148.59 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +3766,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 129.54 33.02 180)
+		(at 142.24 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3763,7 +3774,7 @@
 		(dnp no)
 		(uuid "0f02e4aa-e8d6-4803-b747-a026416af8ac")
 		(property "Reference" "#PWR020"
-			(at 129.54 33.02 0)
+			(at 142.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3783,7 @@
 			)
 		)
 		(property "Value" "D+"
-			(at 129.54 29.21 0)
+			(at 142.24 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 33.02 0)
+			(at 142.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 33.02 0)
+			(at 142.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 33.02 0)
+			(at 142.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4536,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 143.51 33.02 180)
+		(at 135.89 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4533,7 +4544,7 @@
 		(dnp no)
 		(uuid "41c03bc7-35ea-4568-8a8c-d6398ed976b7")
 		(property "Reference" "#PWR063"
-			(at 143.51 33.02 0)
+			(at 135.89 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +4553,7 @@
 			)
 		)
 		(property "Value" "VSENSE"
-			(at 143.51 29.21 0)
+			(at 135.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +4561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 33.02 0)
+			(at 135.89 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 33.02 0)
+			(at 135.89 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 33.02 0)
+			(at 135.89 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,6 +4915,68 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
+		(at 129.54 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f744ee4-94f7-4932-8ed4-65dc73d68ab0")
+		(property "Reference" "#PWR0132"
+			(at 129.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 129.286 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bf210f72-0277-4b83-bba3-26cc7353947f")
+		)
+		(instances
+			(project "little-wing"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)

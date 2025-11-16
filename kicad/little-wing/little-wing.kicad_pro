@@ -485,8 +485,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
@@ -573,6 +573,50 @@
       {
         "netclass": "Data",
         "pattern": "RST"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 0"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 1"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 2"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 3"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 4"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 0"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 1"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 2"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 3"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 5"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 4"
       }
     ]
   },

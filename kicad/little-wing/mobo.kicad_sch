@@ -11,22 +11,6 @@
 		(color 0 0 0 0)
 		(uuid "56b003bb-8b3d-43a2-bec5-47bf5238c8d6")
 	)
-	(junction
-		(at 106.68 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed113ea2-209a-4ac3-9b42-77b72e27855b")
-	)
-	(wire
-		(pts
-			(xy 104.14 57.15) (xy 106.68 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02f59c18-4206-40b8-bcbc-47531597e890")
-	)
 	(wire
 		(pts
 			(xy 182.88 54.61) (xy 199.39 54.61)
@@ -89,16 +73,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 106.68) (xy 111.76 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3176a73a-53cc-4290-9df6-caad9159b634")
-	)
-	(wire
-		(pts
 			(xy 163.83 73.66) (xy 163.83 93.98)
 		)
 		(stroke
@@ -129,16 +103,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 57.15) (xy 106.68 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a91f1bc-bcf5-4247-aa2f-aaafe83fe77a")
-	)
-	(wire
-		(pts
 			(xy 104.14 52.07) (xy 114.3 52.07)
 		)
 		(stroke
@@ -159,7 +123,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 57.15) (xy 114.3 57.15)
+			(xy 95.25 66.04) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612a4a6e-7293-4c54-a461-0aa379e79bf0")
+	)
+	(wire
+		(pts
+			(xy 104.14 57.15) (xy 114.3 57.15)
 		)
 		(stroke
 			(width 0)
@@ -286,6 +260,16 @@
 			(type default)
 		)
 		(uuid "c788443b-c39d-417c-a4f5-4decae093ffa")
+	)
+	(wire
+		(pts
+			(xy 95.25 106.68) (xy 111.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80cb6f2-cc60-4178-89a4-93e34c733c94")
 	)
 	(wire
 		(pts
@@ -418,6 +402,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VBAT" input
+			(at 95.25 66.04 270)
+			(uuid "06089227-1dcc-41a1-b18f-63e360c9ebb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -632,7 +626,7 @@
 				(justify right)
 			)
 		)
-		(pin "VSYS" input
+		(pin "VBAT" input
 			(at 111.76 106.68 180)
 			(uuid "a5566966-dd17-431b-b418-36fe27ada9f6")
 			(effects

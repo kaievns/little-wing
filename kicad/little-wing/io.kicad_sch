@@ -1864,7 +1864,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Underglow power"
+	(text "Underglow power switch"
 		(exclude_from_sim no)
 		(at 58.166 30.988 0)
 		(effects
@@ -2082,7 +2082,7 @@
 		)
 		(uuid "25e84e7e-3144-4541-8242-e560b0b9d668")
 	)
-	(hierarchical_label "VSYS"
+	(hierarchical_label "VBAT"
 		(shape input)
 		(at 83.82 36.83 90)
 		(effects
