@@ -2981,142 +2981,142 @@
 		)
 	)
 	(junction
-		(at 104.14 72.39)
+		(at 132.08 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "008a48d1-8543-4861-af63-1cfa4413ee1d")
 	)
 	(junction
-		(at 167.64 125.73)
+		(at 195.58 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e19e47a-f31a-4890-9eec-13d36e300215")
 	)
 	(junction
-		(at 50.8 45.72)
+		(at 78.74 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3987b050-35a0-4830-9dd0-540773919ffa")
 	)
 	(junction
-		(at 167.64 115.57)
+		(at 195.58 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b6103cd-0954-4add-b99b-bdae1da84136")
 	)
 	(junction
-		(at 24.13 114.3)
+		(at 52.07 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4029f5e7-8cb2-4904-b1c2-f444314eaa04")
 	)
 	(junction
-		(at 50.8 43.18)
+		(at 78.74 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fe49e6c-a6fd-488c-9466-a032315ba851")
 	)
 	(junction
-		(at 165.1 85.09)
+		(at 193.04 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8101fd9e-fd5f-4b44-9a8f-18819610b4f5")
 	)
 	(junction
-		(at 165.1 82.55)
+		(at 193.04 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8996bba9-5f58-4823-8df2-dc2aa599da7a")
 	)
 	(junction
-		(at 104.14 95.25)
+		(at 132.08 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a278c7d7-dbb7-43d3-b65e-4c80754f2171")
 	)
 	(junction
-		(at 167.64 123.19)
+		(at 195.58 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a865a67e-1ee6-4669-bef1-4296c5a5f75f")
 	)
 	(junction
-		(at 88.9 72.39)
+		(at 116.84 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b216d31d-567d-4eb0-acd5-0fd2503e9f2f")
 	)
 	(junction
-		(at 91.44 95.25)
+		(at 119.38 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfaa29b5-52e7-45b5-a351-935617859e48")
 	)
 	(junction
-		(at 91.44 125.73)
+		(at 119.38 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6227a50-a4f9-4ce2-b733-e84e5c202934")
 	)
 	(junction
-		(at 165.1 74.93)
+		(at 193.04 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c673f344-e967-442e-a9f7-078c337f93c1")
 	)
 	(junction
-		(at 60.96 34.29)
+		(at 88.9 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd230706-ae18-4a26-9bad-42141c62ec4e")
 	)
 	(junction
-		(at 104.14 123.19)
+		(at 132.08 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd23ccf6-ee43-4d8c-9fd6-80a3af6b9141")
 	)
 	(junction
-		(at 182.88 74.93)
+		(at 210.82 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee444855-d0ad-46eb-8cc8-893ba094f719")
 	)
 	(junction
-		(at 86.36 125.73)
+		(at 114.3 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f45fe138-e0f4-42f5-8dbf-c8ad87cb47e5")
 	)
 	(junction
-		(at 104.14 125.73)
+		(at 132.08 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa186ddd-49ab-4ed4-9183-ad57d754f1d0")
 	)
 	(no_connect
-		(at 50.8 58.42)
+		(at 78.74 67.31)
 		(uuid "0ef158c5-7297-440f-ac2e-7e3f5ecb2b2b")
 	)
 	(no_connect
-		(at 165.1 105.41)
+		(at 193.04 114.3)
 		(uuid "3f37ea7e-50ec-4583-adf2-c9345be33969")
 	)
 	(no_connect
-		(at 50.8 55.88)
+		(at 78.74 64.77)
 		(uuid "4cc0dd6b-917e-4b24-a7da-ca63cc61a6ee")
 	)
 	(no_connect
-		(at 27.94 66.04)
+		(at 55.88 74.93)
 		(uuid "56bc7aa3-4c2b-4386-8949-1de5f9d98125")
 	)
 	(no_connect
-		(at 165.1 118.11)
+		(at 193.04 127)
 		(uuid "95c16663-1a16-4279-836b-1b2c47eed30e")
 	)
 	(wire
 		(pts
-			(xy 104.14 123.19) (xy 104.14 120.65)
+			(xy 132.08 132.08) (xy 132.08 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3126,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 113.03) (xy 86.36 125.73)
+			(xy 114.3 121.92) (xy 114.3 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 123.19) (xy 165.1 123.19)
+			(xy 195.58 132.08) (xy 193.04 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3146,7 +3146,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 50.8 43.18)
+			(xy 78.74 49.53) (xy 78.74 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3156,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 27.94) (xy 50.8 27.94)
+			(xy 87.63 36.83) (xy 78.74 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 45.72) (xy 50.8 48.26)
+			(xy 78.74 54.61) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +3176,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 101.6 105.41)
+			(xy 129.54 115.57) (xy 129.54 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 113.03) (xy 24.13 114.3)
+			(xy 52.07 121.92) (xy 52.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3196,7 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 74.93) (xy 182.88 77.47)
+			(xy 210.82 83.82) (xy 210.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3206,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 123.19) (xy 91.44 125.73)
+			(xy 119.38 132.08) (xy 119.38 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 95.25) (xy 46.99 101.6)
+			(xy 74.93 104.14) (xy 74.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3226,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 114.3) (xy 24.13 116.84)
+			(xy 52.07 123.19) (xy 52.07 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 95.25) (xy 104.14 92.71)
+			(xy 132.08 104.14) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3246,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 95.25) (xy 104.14 95.25)
+			(xy 119.38 104.14) (xy 132.08 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3256,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 72.39) (xy 104.14 72.39)
+			(xy 116.84 81.28) (xy 132.08 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3266,7 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 72.39) (xy 88.9 73.66)
+			(xy 116.84 81.28) (xy 116.84 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3276,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 34.29) (xy 60.96 33.02)
+			(xy 88.9 43.18) (xy 88.9 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3286,7 +3286,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 125.73) (xy 91.44 125.73)
+			(xy 114.3 134.62) (xy 119.38 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3296,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 74.93) (xy 182.88 74.93)
+			(xy 193.04 83.82) (xy 210.82 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 72.39) (xy 104.14 74.93)
+			(xy 132.08 81.28) (xy 132.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3316,7 +3316,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 91.44 95.25)
+			(xy 119.38 107.95) (xy 119.38 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3326,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 115.57) (xy 167.64 123.19)
+			(xy 195.58 124.46) (xy 195.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3336,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 85.09) (xy 165.1 82.55)
+			(xy 193.04 93.98) (xy 193.04 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3346,7 +3346,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 125.73) (xy 167.64 123.19)
+			(xy 195.58 134.62) (xy 195.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3356,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 113.03) (xy 86.36 113.03)
+			(xy 132.08 121.92) (xy 114.3 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 104.14 97.79)
+			(xy 129.54 106.68) (xy 132.08 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3376,7 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 55.88 35.56)
+			(xy 78.74 44.45) (xy 83.82 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3386,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 125.73) (xy 165.1 125.73)
+			(xy 195.58 134.62) (xy 193.04 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 115.57) (xy 104.14 115.57)
+			(xy 119.38 124.46) (xy 132.08 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3406,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 33.02) (xy 55.88 33.02)
+			(xy 78.74 41.91) (xy 83.82 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3416,7 +3416,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 35.56) (xy 60.96 34.29)
+			(xy 88.9 44.45) (xy 88.9 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3426,7 +3426,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 97.79) (xy 165.1 85.09)
+			(xy 193.04 106.68) (xy 193.04 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3436,7 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 74.93) (xy 205.74 74.93)
+			(xy 210.82 83.82) (xy 233.68 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3446,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 72.39) (xy 165.1 74.93)
+			(xy 193.04 81.28) (xy 193.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3456,7 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 115.57) (xy 167.64 115.57)
+			(xy 193.04 124.46) (xy 195.58 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3466,7 +3466,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 115.57) (xy 167.64 113.03)
+			(xy 195.58 124.46) (xy 195.58 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3476,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 74.93) (xy 205.74 99.06)
+			(xy 233.68 83.82) (xy 233.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3486,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 111.76) (xy 46.99 115.57)
+			(xy 74.93 120.65) (xy 74.93 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3496,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 118.11) (xy 46.99 125.73)
+			(xy 74.93 127) (xy 74.93 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3506,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 125.73) (xy 104.14 125.73)
+			(xy 119.38 134.62) (xy 132.08 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3516,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 125.73) (xy 104.14 123.19)
+			(xy 132.08 134.62) (xy 132.08 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3526,7 +3526,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 120.65) (xy 205.74 120.65)
+			(xy 193.04 129.54) (xy 233.68 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 120.65) (xy 205.74 106.68)
+			(xy 233.68 129.54) (xy 233.68 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3546,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 113.03) (xy 165.1 113.03)
+			(xy 195.58 121.92) (xy 193.04 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3556,7 +3556,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 165.1 77.47)
+			(xy 193.04 91.44) (xy 193.04 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3565,7 +3565,7 @@
 		(uuid "fe01c0b6-ad5e-48b0-b5b2-a36caddb61ac")
 	)
 	(label "CHG"
-		(at 170.18 120.65 0)
+		(at 198.12 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3576,7 +3576,7 @@
 	)
 	(hierarchical_label "D+"
 		(shape input)
-		(at 142.24 33.02 270)
+		(at 170.18 41.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3587,7 +3587,7 @@
 	)
 	(hierarchical_label "VSYS"
 		(shape input)
-		(at 123.19 33.02 270)
+		(at 151.13 41.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3598,7 +3598,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape input)
-		(at 148.59 33.02 270)
+		(at 176.53 41.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3609,7 +3609,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 115.57 33.02 270)
+		(at 143.51 41.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3620,7 +3620,7 @@
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
-		(at 129.54 33.02 270)
+		(at 157.48 41.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3631,7 +3631,7 @@
 	)
 	(hierarchical_label "VSENSE"
 		(shape input)
-		(at 135.89 33.02 270)
+		(at 163.83 41.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3642,7 +3642,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 148.59 33.02 180)
+		(at 176.53 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3650,7 +3650,7 @@
 		(dnp no)
 		(uuid "048ce449-fa7c-4692-84d3-87b073118975")
 		(property "Reference" "#PWR019"
-			(at 148.59 33.02 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3659,7 @@
 			)
 		)
 		(property "Value" "D-"
-			(at 148.59 29.21 0)
+			(at 176.53 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,7 +3667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 33.02 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 33.02 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +3683,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 33.02 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3695,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -3704,7 +3704,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 59.69 27.94 180)
+		(at 87.63 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3712,7 +3712,7 @@
 		(dnp no)
 		(uuid "05009436-b224-494b-8cd3-3c13b3f67077")
 		(property "Reference" "#PWR01"
-			(at 59.69 27.94 0)
+			(at 87.63 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3721,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 59.69 24.13 0)
+			(at 87.63 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 27.94 0)
+			(at 87.63 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,7 +3737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 27.94 0)
+			(at 87.63 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3745,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 27.94 0)
+			(at 87.63 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3757,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -3766,7 +3766,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 142.24 33.02 180)
+		(at 170.18 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3774,7 +3774,7 @@
 		(dnp no)
 		(uuid "0f02e4aa-e8d6-4803-b747-a026416af8ac")
 		(property "Reference" "#PWR020"
-			(at 142.24 33.02 0)
+			(at 170.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3783,7 @@
 			)
 		)
 		(property "Value" "D+"
-			(at 142.24 29.21 0)
+			(at 170.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +3791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 33.02 0)
+			(at 170.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 33.02 0)
+			(at 170.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 33.02 0)
+			(at 170.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3819,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -3828,7 +3828,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 46.99 106.68 90)
+		(at 74.93 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3837,7 +3837,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f26c6af-dc11-41ba-8502-3be2b4fe3367")
 		(property "Reference" "SW1"
-			(at 48.26 105.4099 90)
+			(at 76.2 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3846,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 48.26 107.9499 90)
+			(at 76.2 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +3855,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Switch_MSK12C02"
-			(at 46.99 106.68 0)
+			(at 74.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +3864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 106.68 0)
+			(at 74.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3873,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 46.99 106.68 0)
+			(at 74.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3889,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -3898,7 +3898,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 106.68 0)
+		(at 129.54 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3906,7 +3906,7 @@
 		(dnp no)
 		(uuid "100c10ec-b004-4b16-b209-8f954a638cc9")
 		(property "Reference" "#PWR012"
-			(at 101.6 113.03 0)
+			(at 129.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3915,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.568 110.744 0)
+			(at 127.508 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 106.68 0)
+			(at 129.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 106.68 0)
+			(at 129.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3943,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 106.68 0)
+			(at 129.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,7 +3956,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -3965,7 +3965,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0")
-		(at 35.56 43.18 0)
+		(at 63.5 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3974,7 +3974,7 @@
 		(fields_autoplaced yes)
 		(uuid "2859d965-fe4d-40c8-ad68-5bf3221fba96")
 		(property "Reference" "J1"
-			(at 35.56 20.32 0)
+			(at 63.5 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3982,7 @@
 			)
 		)
 		(property "Value" "HRO_TYPE-C-31-M-14"
-			(at 35.56 22.86 0)
+			(at 63.5 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +3990,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 39.37 43.18 0)
+			(at 67.31 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +3999,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 39.37 43.18 0)
+			(at 67.31 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 43.18 0)
+			(at 63.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4069,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "J1")
 					(unit 1)
 				)
@@ -4078,7 +4078,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 85.09 0)
+		(at 210.82 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4086,7 +4086,7 @@
 		(dnp no)
 		(uuid "28851f25-77c0-4f85-8f4f-e79896195e02")
 		(property "Reference" "#PWR015"
-			(at 182.88 91.44 0)
+			(at 210.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.848 89.154 0)
+			(at 208.788 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 85.09 0)
+			(at 210.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +4114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 85.09 0)
+			(at 210.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 85.09 0)
+			(at 210.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +4136,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -4145,7 +4145,7 @@
 	)
 	(symbol
 		(lib_id "AltiumLib:root_0_nPM1100_CAAx_AltiumLib.DbLib")
-		(at 111.76 69.85 0)
+		(at 139.7 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4153,7 +4153,7 @@
 		(dnp no)
 		(uuid "2a60ea13-f828-4601-9903-bd775a4650fb")
 		(property "Reference" "U2"
-			(at 111.76 69.85 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4162,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 111.76 130.81 0)
+			(at 139.7 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4171,7 @@
 			)
 		)
 		(property "Footprint" "nRF Devices$:BGA25C40P5X5_200X200X50"
-			(at 111.76 69.85 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 69.85 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4189,7 @@
 			)
 		)
 		(property "Description" "Li-ion/Li-poly USB battery charger with a high efficiency buck regulator"
-			(at 111.76 69.85 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4198,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "WLCSP-25"
-			(at 103.632 63.5 0)
+			(at 131.572 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4208,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "nPM1100-CAAx"
-			(at 103.632 63.5 0)
+			(at 131.572 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4218,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 111.76 133.35 0)
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4227,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "nRF_Devices"
-			(at 103.632 66.04 0)
+			(at 131.572 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +4237,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 103.632 66.04 0)
+			(at 131.572 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4247,7 @@
 			)
 		)
 		(property "PAD COUNT" "25"
-			(at 103.632 66.04 0)
+			(at 131.572 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4333,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "U2")
 					(unit 1)
 				)
@@ -4342,7 +4342,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 50.8 45.72 90)
+		(at 78.74 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4350,7 +4350,7 @@
 		(dnp no)
 		(uuid "2d8b26d7-4213-47fe-9763-68fa36dd705f")
 		(property "Reference" "#PWR07"
-			(at 50.8 45.72 0)
+			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4359,7 @@
 			)
 		)
 		(property "Value" "D+"
-			(at 54.61 45.72 0)
+			(at 82.55 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 45.72 0)
+			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 45.72 0)
+			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 45.72 0)
+			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4395,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -4404,7 +4404,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 88.9 72.39 180)
+		(at 116.84 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4413,7 +4413,7 @@
 		(fields_autoplaced yes)
 		(uuid "3380222f-bc4d-4a3d-9235-e6ae2bdb99f7")
 		(property "Reference" "#PWR044"
-			(at 88.9 72.39 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4422,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 88.9 67.31 0)
+			(at 116.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 72.39 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 72.39 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 72.39 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +4458,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -4467,7 +4467,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 52.07 115.57 0)
+		(at 80.01 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4475,7 +4475,7 @@
 		(dnp no)
 		(uuid "3cd08fcc-aa59-443c-88d2-e3aa1f068413")
 		(property "Reference" "J2"
-			(at 56.388 115.062 0)
+			(at 84.328 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4484,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 54.61 117.348 0)
+			(at 82.55 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4493,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
-			(at 52.07 115.57 0)
+			(at 80.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 115.57 0)
+			(at 80.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4511,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 52.07 115.57 0)
+			(at 80.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4527,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "J2")
 					(unit 1)
 				)
@@ -4536,7 +4536,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 135.89 33.02 180)
+		(at 163.83 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4544,7 +4544,7 @@
 		(dnp no)
 		(uuid "41c03bc7-35ea-4568-8a8c-d6398ed976b7")
 		(property "Reference" "#PWR063"
-			(at 135.89 33.02 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4553,7 @@
 			)
 		)
 		(property "Value" "VSENSE"
-			(at 135.89 29.21 0)
+			(at 163.83 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 33.02 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,7 +4569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 33.02 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 33.02 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4589,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR063")
 					(unit 1)
 				)
@@ -4598,7 +4598,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 125.73 0)
+		(at 74.93 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4606,7 +4606,7 @@
 		(dnp no)
 		(uuid "48117bc8-a93e-480c-8e4d-ba7bc58fbe95")
 		(property "Reference" "#PWR010"
-			(at 46.99 132.08 0)
+			(at 74.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.958 129.794 0)
+			(at 72.898 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 125.73 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 125.73 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4643,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 125.73 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4656,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -4665,7 +4665,7 @@
 	)
 	(symbol
 		(lib_id "AltiumLib:root_1_RES_AltiumLib.DbLib")
-		(at 91.44 123.19 0)
+		(at 119.38 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4673,7 +4673,7 @@
 		(dnp no)
 		(uuid "53b4164b-0300-4f35-a3c0-3b30b535c16d")
 		(property "Reference" "R_ICHG1"
-			(at 92.456 118.872 0)
+			(at 120.396 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4682,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 92.456 121.412 0)
+			(at 120.396 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4691,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 91.44 123.19 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 123.19 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4709,7 @@
 			)
 		)
 		(property "Description" "Resistor, ±1%, 0.05W"
-			(at 91.44 123.19 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4718,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0201"
-			(at 90.424 115.062 0)
+			(at 118.364 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +4728,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "4k7"
-			(at 90.424 115.062 0)
+			(at 118.364 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4738,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Resistors"
-			(at 90.17 119.38 0)
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4748,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 90.17 119.38 0)
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4758,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 90.17 119.38 0)
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +4768,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 90.17 119.38 0)
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4785,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "R_ICHG1")
 					(unit 1)
 				)
@@ -4794,7 +4794,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 24.13 114.3 90)
+		(at 52.07 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4802,7 +4802,7 @@
 		(dnp no)
 		(uuid "54594fdb-6e8a-4745-8a1e-e4fb136fa4ef")
 		(property "Reference" "#PWR085"
-			(at 24.13 114.3 0)
+			(at 52.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4811,7 @@
 			)
 		)
 		(property "Value" "VSENSE"
-			(at 31.496 114.554 90)
+			(at 59.436 123.444 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 114.3 0)
+			(at 52.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,7 +4827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 114.3 0)
+			(at 52.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4835,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 114.3 0)
+			(at 52.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +4847,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR085")
 					(unit 1)
 				)
@@ -4856,7 +4856,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 34.29 90)
+		(at 88.9 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4864,7 +4864,7 @@
 		(dnp no)
 		(uuid "5b5b33d7-4c5e-48e2-9b7e-9f74d7fa27ec")
 		(property "Reference" "#PWR02"
-			(at 66.04 34.29 0)
+			(at 93.98 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +4873,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.8716 34.1884 0)
+			(at 92.8116 43.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +4882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 34.29 0)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +4891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 34.29 0)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +4900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 34.29 0)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4913,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -4922,7 +4922,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 129.54 33.02 180)
+		(at 157.48 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4930,7 +4930,7 @@
 		(dnp no)
 		(uuid "5f744ee4-94f7-4932-8ed4-65dc73d68ab0")
 		(property "Reference" "#PWR0132"
-			(at 129.54 33.02 0)
+			(at 157.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +4939,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 129.286 29.21 0)
+			(at 157.226 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 33.02 0)
+			(at 157.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +4955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 33.02 0)
+			(at 157.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +4963,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 33.02 0)
+			(at 157.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +4975,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR0132")
 					(unit 1)
 				)
@@ -4984,7 +4984,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 115.57 33.02 180)
+		(at 143.51 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4992,7 +4992,7 @@
 		(dnp no)
 		(uuid "6a45f2fc-d302-4827-a309-f05e61fc74ac")
 		(property "Reference" "#PWR016"
-			(at 115.57 33.02 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5001,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 115.57 29.21 0)
+			(at 143.51 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 33.02 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 33.02 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +5025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 33.02 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5037,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -5047,7 +5047,7 @@
 	(symbol
 		(lib_name "root_1_CAP_AltiumLib.DbLib_2")
 		(lib_id "AltiumLib:root_1_CAP_AltiumLib.DbLib")
-		(at 88.9 81.28 0)
+		(at 116.84 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5055,7 +5055,7 @@
 		(dnp no)
 		(uuid "6effd9cb-840e-4e28-87df-6ddaa361f516")
 		(property "Reference" "C24"
-			(at 90.932 78.74 0)
+			(at 118.872 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5064,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 90.932 81.28 0)
+			(at 118.872 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5073,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors$:CAPC1608X06L"
-			(at 88.9 81.28 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 81.28 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5091,7 @@
 			)
 		)
 		(property "Description" "Capacitor, X5R, ±20%, 25V"
-			(at 88.9 81.28 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0603"
-			(at 86.868 73.152 0)
+			(at 114.808 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +5110,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "2.2µF"
-			(at 86.868 73.152 0)
+			(at 114.808 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5120,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Capacitors"
-			(at 87.63 77.47 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5130,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 87.63 77.47 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5140,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 87.63 77.47 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +5150,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 87.63 77.47 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5167,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "C24")
 					(unit 1)
 				)
@@ -5176,7 +5176,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 125.73 0)
+		(at 195.58 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5184,7 +5184,7 @@
 		(dnp no)
 		(uuid "76eac02c-7139-44cb-a3c5-c8d9189c5cfd")
 		(property "Reference" "#PWR014"
-			(at 167.64 132.08 0)
+			(at 195.58 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.608 129.794 0)
+			(at 193.548 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 125.73 0)
+			(at 195.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 125.73 0)
+			(at 195.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 125.73 0)
+			(at 195.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5234,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -5243,7 +5243,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 50.8 43.18 90)
+		(at 78.74 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5251,7 +5251,7 @@
 		(dnp no)
 		(uuid "7b71925e-d16b-417e-96f5-a90d1ed7331e")
 		(property "Reference" "#PWR06"
-			(at 50.8 43.18 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5260,7 @@
 			)
 		)
 		(property "Value" "D-"
-			(at 54.61 43.18 0)
+			(at 82.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 43.18 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 43.18 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 43.18 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5296,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -5305,7 +5305,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 58.42 33.02 270)
+		(at 86.36 41.91 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5314,7 +5314,7 @@
 		(dnp no)
 		(uuid "7ec7e9bc-3078-4083-875b-beb8d35e6472")
 		(property "Reference" "R21"
-			(at 53.594 30.48 90)
+			(at 81.534 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +5323,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 57.658 30.48 90)
+			(at 85.598 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5332,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 58.42 33.02 0)
+			(at 86.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 33.02 0)
+			(at 86.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5350,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 33.02 0)
+			(at 86.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5359,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 58.42 33.02 0)
+			(at 86.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5375,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "R21")
 					(unit 1)
 				)
@@ -5384,7 +5384,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 123.19 33.02 180)
+		(at 151.13 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5393,7 +5393,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ff98518-3832-4d01-b5c7-cb113ce0b5d1")
 		(property "Reference" "#PWR018"
-			(at 123.19 33.02 0)
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5402,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 123.19 29.21 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 33.02 0)
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 33.02 0)
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 33.02 0)
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +5438,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -5447,7 +5447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 125.73 0)
+		(at 114.3 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5455,7 +5455,7 @@
 		(dnp no)
 		(uuid "84dc7fe9-c0f7-464b-a43f-b0fc51bb51f3")
 		(property "Reference" "#PWR013"
-			(at 86.36 132.08 0)
+			(at 114.3 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +5464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.328 129.794 0)
+			(at 112.268 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 125.73 0)
+			(at 114.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 125.73 0)
+			(at 114.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5492,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 125.73 0)
+			(at 114.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5505,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -5514,7 +5514,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBAT_BAR")
-		(at 91.44 95.25 180)
+		(at 119.38 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5522,7 +5522,7 @@
 		(dnp no)
 		(uuid "85ba5bee-c28b-4a6b-a4c0-49e609502df3")
 		(property "Reference" "#PWR046"
-			(at 91.44 95.25 0)
+			(at 119.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5531,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 91.44 91.44 0)
+			(at 119.38 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5539,7 +5539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 95.25 0)
+			(at 119.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +5547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 95.25 0)
+			(at 119.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5555,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 95.25 0)
+			(at 119.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5567,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -5576,7 +5576,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 24.13 105.41 180)
+		(at 52.07 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5584,7 +5584,7 @@
 		(dnp no)
 		(uuid "85c97492-e538-47ef-96ed-3343581efb99")
 		(property "Reference" "#PWR084"
-			(at 24.13 105.41 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5593,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 24.13 101.6 0)
+			(at 52.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +5601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 105.41 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 105.41 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5617,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 105.41 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +5629,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR084")
 					(unit 1)
 				)
@@ -5638,7 +5638,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 81.28 0)
+		(at 116.84 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5647,7 +5647,7 @@
 		(fields_autoplaced yes)
 		(uuid "919f5ed5-e543-4b43-85c6-da5825f18f7c")
 		(property "Reference" "#PWR08"
-			(at 88.9 87.63 0)
+			(at 116.84 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,7 +5656,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 82.5499 0)
+			(at 119.38 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 81.28 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 81.28 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 81.28 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +5697,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -5706,7 +5706,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 124.46 0)
+		(at 52.07 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5714,7 +5714,7 @@
 		(dnp no)
 		(uuid "9b3360ba-25d6-429a-a6ec-d3a7ea765c4c")
 		(property "Reference" "#PWR081"
-			(at 24.13 130.81 0)
+			(at 52.07 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.098 128.524 0)
+			(at 50.038 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +5733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 124.46 0)
+			(at 52.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +5742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 124.46 0)
+			(at 52.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,7 +5751,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 124.46 0)
+			(at 52.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +5764,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR081")
 					(unit 1)
 				)
@@ -5773,7 +5773,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 182.88 74.93 180)
+		(at 210.82 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5781,7 +5781,7 @@
 		(dnp no)
 		(uuid "9c1af487-3d3d-44c9-b189-3fad2643a953")
 		(property "Reference" "#PWR051"
-			(at 182.88 74.93 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5790,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 182.88 71.12 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 74.93 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 74.93 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 74.93 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +5826,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -5835,7 +5835,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBAT_BAR")
-		(at 46.99 95.25 180)
+		(at 74.93 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5843,7 +5843,7 @@
 		(dnp no)
 		(uuid "9f1c099d-040d-4fa1-96f3-bb0b160320f9")
 		(property "Reference" "#PWR04"
-			(at 46.99 95.25 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +5852,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 46.99 91.44 0)
+			(at 74.93 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 95.25 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +5868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 95.25 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +5876,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 95.25 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5888,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -5897,7 +5897,7 @@
 	)
 	(symbol
 		(lib_id "AltiumLib:root_3_mirrored_RES_AltiumLib.DbLib")
-		(at 24.13 105.41 0)
+		(at 52.07 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5905,7 +5905,7 @@
 		(dnp no)
 		(uuid "a712904a-9cdb-48c5-abd3-e31dd8b161e2")
 		(property "Reference" "R_DIV1"
-			(at 25.146 108.712 0)
+			(at 53.086 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,7 +5914,7 @@
 			)
 		)
 		(property "Value" "2M"
-			(at 26.416 111.252 0)
+			(at 54.356 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +5923,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 24.13 105.41 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +5932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 105.41 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +5941,7 @@
 			)
 		)
 		(property "Description" "Resistor, ±1%, 0.05W"
-			(at 24.13 105.41 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +5950,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0201"
-			(at 22.86 99.06 0)
+			(at 50.8 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +5960,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10k"
-			(at 22.86 99.06 0)
+			(at 50.8 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5970,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Resistors"
-			(at 22.86 101.6 0)
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +5980,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 22.86 101.6 0)
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +5990,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 22.86 101.6 0)
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,7 +6000,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 22.86 101.6 0)
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,7 +6017,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "R_DIV1")
 					(unit 1)
 				)
@@ -6026,7 +6026,7 @@
 	)
 	(symbol
 		(lib_id "AltiumLib:root_3_mirrored_RES_AltiumLib.DbLib")
-		(at 24.13 116.84 0)
+		(at 52.07 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6034,7 +6034,7 @@
 		(dnp no)
 		(uuid "a81d28a6-edb0-42cb-9990-a710c013f6a4")
 		(property "Reference" "R_DIV2"
-			(at 25.146 120.142 0)
+			(at 53.086 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6043,7 @@
 			)
 		)
 		(property "Value" "806k"
-			(at 26.416 122.682 0)
+			(at 54.356 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +6052,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 24.13 116.84 0)
+			(at 52.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 116.84 0)
+			(at 52.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6070,7 @@
 			)
 		)
 		(property "Description" "Resistor, ±1%, 0.05W"
-			(at 24.13 116.84 0)
+			(at 52.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6079,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0201"
-			(at 22.86 110.49 0)
+			(at 50.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6089,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10k"
-			(at 22.86 110.49 0)
+			(at 50.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6099,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Resistors"
-			(at 22.86 113.03 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6109,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 22.86 113.03 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +6119,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 22.86 113.03 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +6129,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 22.86 113.03 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +6146,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "R_DIV2")
 					(unit 1)
 				)
@@ -6155,7 +6155,7 @@
 	)
 	(symbol
 		(lib_id "AltiumLib:root_1_CAP_AltiumLib.DbLib")
-		(at 182.88 85.09 0)
+		(at 210.82 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6163,7 +6163,7 @@
 		(dnp no)
 		(uuid "ae783630-025a-4961-9c6b-fad446248499")
 		(property "Reference" "C23"
-			(at 184.912 82.55 0)
+			(at 212.852 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +6172,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 184.912 85.09 0)
+			(at 212.852 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6181,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors$:CAPC1608X06L"
-			(at 182.88 85.09 0)
+			(at 210.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 85.09 0)
+			(at 210.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6199,7 @@
 			)
 		)
 		(property "Description" "Capacitor, X5R, ±20%, 6.3V"
-			(at 182.88 85.09 0)
+			(at 210.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6208,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0603"
-			(at 181.61 78.74 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6218,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "22µF"
-			(at 181.61 78.74 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6228,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Capacitors"
-			(at 181.61 81.28 0)
+			(at 209.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6238,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 181.61 81.28 0)
+			(at 209.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6248,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 181.61 81.28 0)
+			(at 209.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +6258,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 181.61 81.28 0)
+			(at 209.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6275,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "C23")
 					(unit 1)
 				)
@@ -6284,7 +6284,7 @@
 	)
 	(symbol
 		(lib_id "AltiumLib:root_3_mirrored_RES_AltiumLib.DbLib")
-		(at 101.6 97.79 0)
+		(at 129.54 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6292,7 +6292,7 @@
 		(dnp no)
 		(uuid "aeae671f-0b53-4a2e-8014-d226367ba2f0")
 		(property "Reference" "R3"
-			(at 102.616 101.092 0)
+			(at 130.556 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6301,7 +6301,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 102.616 103.632 0)
+			(at 130.556 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6310,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 101.6 97.79 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +6319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 97.79 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +6328,7 @@
 			)
 		)
 		(property "Description" "Resistor, ±1%, 0.05W"
-			(at 101.6 97.79 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6337,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0201"
-			(at 100.33 91.44 0)
+			(at 128.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +6347,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10k"
-			(at 100.33 91.44 0)
+			(at 128.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6357,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Resistors"
-			(at 100.33 93.98 0)
+			(at 128.27 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,7 +6367,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 100.33 93.98 0)
+			(at 128.27 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6377,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 100.33 93.98 0)
+			(at 128.27 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +6387,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 100.33 93.98 0)
+			(at 128.27 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6404,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "R3")
 					(unit 1)
 				)
@@ -6413,7 +6413,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 104.14 80.01 270)
+		(at 132.08 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6421,7 +6421,7 @@
 		(dnp no)
 		(uuid "b1483ea1-f656-449a-a851-bc87f03d03e5")
 		(property "Reference" "#PWR05"
-			(at 104.14 80.01 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6430,7 @@
 			)
 		)
 		(property "Value" "D+"
-			(at 100.33 80.01 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +6438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 80.01 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 80.01 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6454,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 80.01 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,7 +6466,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -6475,7 +6475,7 @@
 	)
 	(symbol
 		(lib_id "AltiumLib:root_3_mirrored_D{colon}LED_AltiumLib.DbLib")
-		(at 205.74 99.06 0)
+		(at 233.68 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6483,7 +6483,7 @@
 		(dnp no)
 		(uuid "c7ad0cc2-a97f-44a4-ae0f-256914a91672")
 		(property "Reference" "LD2"
-			(at 207.264 103.886 0)
+			(at 235.204 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6492,7 @@
 			)
 		)
 		(property "Value" "L0603G (Amber)"
-			(at 207.264 106.426 0)
+			(at 235.204 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +6501,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 205.74 99.06 0)
+			(at 233.68 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,7 +6510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 99.06 0)
+			(at 233.68 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,7 +6519,7 @@
 			)
 		)
 		(property "Description" "LED, SMD, Green"
-			(at 205.74 99.06 0)
+			(at 233.68 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6528,7 +6528,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0603"
-			(at 202.692 98.552 0)
+			(at 230.632 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +6538,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "L0603G"
-			(at 202.692 98.552 0)
+			(at 230.632 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6548,7 +6548,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Optoelectronics"
-			(at 204.47 95.25 0)
+			(at 232.41 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +6558,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 204.47 95.25 0)
+			(at 232.41 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +6568,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 204.47 95.25 0)
+			(at 232.41 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6578,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 204.47 95.25 0)
+			(at 232.41 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +6595,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "LD2")
 					(unit 1)
 				)
@@ -6605,7 +6605,7 @@
 	(symbol
 		(lib_name "root_1_CAP_AltiumLib.DbLib_1")
 		(lib_id "AltiumLib:root_1_CAP_AltiumLib.DbLib")
-		(at 91.44 106.68 0)
+		(at 119.38 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6613,7 +6613,7 @@
 		(dnp no)
 		(uuid "ca1b0c91-e658-458f-a621-f458a51fcb84")
 		(property "Reference" "C22"
-			(at 93.472 104.14 0)
+			(at 121.412 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +6622,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 93.472 106.68 0)
+			(at 121.412 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +6631,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 91.44 106.68 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,7 +6640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 106.68 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +6649,7 @@
 			)
 		)
 		(property "Description" "Capacitor, X5R, ±20%, 10V"
-			(at 91.44 106.68 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,7 +6658,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0201"
-			(at 89.408 98.552 0)
+			(at 117.348 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,7 +6668,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1.0µF"
-			(at 89.408 98.552 0)
+			(at 117.348 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6678,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Capacitors"
-			(at 90.17 102.87 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6688,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 90.17 102.87 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6698,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 90.17 102.87 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +6708,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 90.17 102.87 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6725,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "C22")
 					(unit 1)
 				)
@@ -6734,7 +6734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 106.68 0)
+		(at 119.38 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6742,7 +6742,7 @@
 		(dnp no)
 		(uuid "da972f76-86c8-41b8-8162-ad47b20d51ef")
 		(property "Reference" "#PWR09"
-			(at 91.44 113.03 0)
+			(at 119.38 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6751,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 89.408 110.744 0)
+			(at 117.348 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +6761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 106.68 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +6770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 106.68 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +6779,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 106.68 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +6792,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -6801,7 +6801,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 66.04 0)
+		(at 63.5 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6810,7 +6810,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6fd12aa-7c27-4c9f-ad95-bfc685a15619")
 		(property "Reference" "#PWR011"
-			(at 35.56 72.39 0)
+			(at 63.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +6819,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 67.3099 0)
+			(at 66.04 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +6829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 66.04 0)
+			(at 63.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 66.04 0)
+			(at 63.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +6847,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 66.04 0)
+			(at 63.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +6860,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -6869,7 +6869,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 104.14 77.47 270)
+		(at 132.08 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6877,7 +6877,7 @@
 		(dnp no)
 		(uuid "ef844326-53c5-4c02-b49d-abe94849eefe")
 		(property "Reference" "#PWR03"
-			(at 104.14 77.47 0)
+			(at 132.08 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +6886,7 @@
 			)
 		)
 		(property "Value" "D-"
-			(at 100.33 77.47 0)
+			(at 128.27 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +6894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 77.47 0)
+			(at 132.08 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6902,7 +6902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 77.47 0)
+			(at 132.08 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +6910,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 77.47 0)
+			(at 132.08 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,7 +6922,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -6931,7 +6931,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 58.42 35.56 270)
+		(at 86.36 44.45 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6940,7 +6940,7 @@
 		(dnp no)
 		(uuid "fb14afad-81af-4cbb-b54f-3339a6094e84")
 		(property "Reference" "R22"
-			(at 56.388 38.1 90)
+			(at 84.328 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +6949,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 61.214 38.1 90)
+			(at 89.154 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +6958,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 58.42 35.56 0)
+			(at 86.36 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +6967,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 35.56 0)
+			(at 86.36 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +6976,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 35.56 0)
+			(at 86.36 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6985,7 +6985,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 58.42 35.56 0)
+			(at 86.36 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +7001,7 @@
 		)
 		(instances
 			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/eaaf4618-ba3d-41b4-8a99-4f719e243661/4bfeadaf-0d2e-45fd-a340-a53ab79162c6"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "R22")
 					(unit 1)
 				)
