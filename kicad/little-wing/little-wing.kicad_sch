@@ -23,30 +23,20 @@
 		(uuid "3f400c67-f128-4e20-acc7-8757116df0e4")
 	)
 	(junction
-		(at 147.32 63.5)
+		(at 231.14 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6adf5e6d-4447-4ee9-9944-b9aea9657473")
+		(uuid "5b4135c8-3edd-4578-a2d5-b6502640eb7d")
 	)
 	(wire
 		(pts
-			(xy 158.75 91.44) (xy 146.05 91.44)
+			(xy 163.83 91.44) (xy 146.05 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "02aaa6f3-b250-4432-a802-46ac4c2dc20b")
-	)
-	(wire
-		(pts
-			(xy 140.97 95.25) (xy 140.97 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05b812e4-cf00-4fe9-a920-0e962217e720")
 	)
 	(wire
 		(pts
@@ -70,6 +60,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 78.74) (xy 175.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15df2783-f66f-4c65-821f-9e267268e51e")
+	)
+	(wire
+		(pts
 			(xy 242.57 95.25) (xy 242.57 86.36)
 		)
 		(stroke
@@ -90,7 +90,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 88.9) (xy 156.21 88.9)
+			(xy 143.51 88.9) (xy 161.29 88.9)
 		)
 		(stroke
 			(width 0)
@@ -127,16 +127,6 @@
 			(type default)
 		)
 		(uuid "29a2d8f3-306d-4eb3-b5ab-c4d236576136")
-	)
-	(wire
-		(pts
-			(xy 175.26 78.74) (xy 175.26 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2abe78e7-bd6e-462f-9f3f-6691996d43ca")
 	)
 	(wire
 		(pts
@@ -180,23 +170,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 88.9) (xy 156.21 78.74)
+			(xy 161.29 88.9) (xy 161.29 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "40e5d39d-03aa-4382-b25a-99b1ff1a00bf")
-	)
-	(wire
-		(pts
-			(xy 177.8 78.74) (xy 177.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46c9c68a-d3d8-4fba-855f-9e9482e0eebc")
 	)
 	(wire
 		(pts
@@ -230,6 +210,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 86.36) (xy 140.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dbdbcf7-23c4-4e2b-9b87-8fb7fa1e12fb")
+	)
+	(wire
+		(pts
 			(xy 185.42 78.74) (xy 185.42 95.25)
 		)
 		(stroke
@@ -240,17 +230,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 86.36) (xy 147.32 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60c11b58-65b6-4144-86bc-126efcc02aab")
-	)
-	(wire
-		(pts
-			(xy 147.32 63.5) (xy 151.13 63.5)
+			(xy 143.51 63.5) (xy 151.13 63.5)
 		)
 		(stroke
 			(width 0)
@@ -290,7 +270,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 158.75 91.44)
+			(xy 163.83 78.74) (xy 163.83 91.44)
 		)
 		(stroke
 			(width 0)
@@ -327,6 +307,16 @@
 			(type default)
 		)
 		(uuid "9c03b70e-a954-465b-8001-83310d6326eb")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 177.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da85930-00b8-4066-86a2-1b679ab938f6")
 	)
 	(wire
 		(pts
@@ -380,13 +370,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 86.36) (xy 147.32 86.36)
+			(xy 140.97 86.36) (xy 140.97 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c93c4b91-5755-464d-be25-d2ccf81588f1")
+		(uuid "bd2b43c8-2d42-492e-beb8-2b7c8615431e")
 	)
 	(wire
 		(pts
@@ -400,13 +390,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 63.5) (xy 147.32 63.5)
+			(xy 134.62 78.74) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d62dae8d-04e5-4f41-a4f2-bc01c00f351f")
+		(uuid "dc632ed7-cbf6-4653-b184-dc170d3699d2")
 	)
 	(wire
 		(pts
@@ -593,7 +583,7 @@
 			)
 		)
 		(pin "RGB DATA" input
-			(at 156.21 78.74 270)
+			(at 161.29 78.74 270)
 			(uuid "06b5f1d0-6ef4-4758-a139-ee3eecd7a195")
 			(effects
 				(font
@@ -603,7 +593,7 @@
 			)
 		)
 		(pin "RGB ON" input
-			(at 158.75 78.74 270)
+			(at 163.83 78.74 270)
 			(uuid "e105a7ff-9488-4dc6-9cd5-a9b2d98865cc")
 			(effects
 				(font
@@ -804,9 +794,19 @@
 				(justify right)
 			)
 		)
-		(pin "VSYS" input
+		(pin "VBAT" input
+			(at 134.62 95.25 90)
+			(uuid "6e383b02-e4ea-4240-a76e-59a40d92663e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
 			(at 140.97 95.25 90)
-			(uuid "e66a2a00-68b1-49f7-960f-c6c32064ae4f")
+			(uuid "f9bda6c2-6170-4592-84af-0683b6ee7b2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,6 +904,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VBAT" input
+			(at 134.62 78.74 270)
+			(uuid "a2bb4043-8f1b-46bd-b730-fecde2bd9efb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1141,7 +1151,7 @@
 			)
 		)
 		(pin "Col 1" input
-			(at 177.8 95.25 90)
+			(at 175.26 95.25 90)
 			(uuid "e45d068c-2c5d-469b-a79a-49e4cedbd421")
 			(effects
 				(font
@@ -1211,7 +1221,7 @@
 			)
 		)
 		(pin "Col 2" input
-			(at 175.26 95.25 90)
+			(at 177.8 95.25 90)
 			(uuid "0466aa00-518d-4e6a-8b90-4254f51e2efa")
 			(effects
 				(font
