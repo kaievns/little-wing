@@ -1083,26 +1083,36 @@
 		(uuid "a75447ac-401a-4cf4-b914-b2b3513a2379")
 	)
 	(junction
-		(at 142.24 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c928006-102f-4b99-a27d-7169f011055e")
-	)
-	(junction
 		(at 168.91 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "971da179-68ff-4c3f-abfc-d2524973d9cc")
 	)
+	(junction
+		(at 66.04 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0bbed53-c85a-4ca9-826d-b2dc1133ea83")
+	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 142.24 100.33)
+			(xy 66.04 97.79) (xy 87.63 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "106803b5-b21e-4bd4-bd00-675b23801e65")
+		(uuid "148e05d4-8e85-4d0b-8469-aafaf4da75af")
+	)
+	(wire
+		(pts
+			(xy 66.04 97.79) (xy 66.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19163f02-bebb-4473-9c7e-90f1c8cc1cd6")
 	)
 	(wire
 		(pts
@@ -1126,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 97.79) (xy 142.24 97.79)
+			(xy 133.35 97.79) (xy 168.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1146,13 +1156,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 168.91 97.79)
+			(xy 50.8 97.79) (xy 66.04 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "899ced0f-8f3b-4493-b4ce-90941af5bea9")
+		(uuid "67dcb21a-760e-4e84-abd5-916a5e45fe93")
 	)
 	(wire
 		(pts
@@ -1197,7 +1207,7 @@
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
-		(at 87.63 97.79 180)
+		(at 50.8 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1650,7 +1660,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 107.95 0)
+		(at 66.04 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1659,7 +1669,7 @@
 		(fields_autoplaced yes)
 		(uuid "92011ecf-1847-4b92-a8c4-9f6a2c785c93")
 		(property "Reference" "#PWR0151"
-			(at 142.24 114.3 0)
+			(at 66.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1678,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 109.0294 0)
+			(at 68.58 107.7594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1678,7 +1688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 107.95 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +1697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 107.95 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,7 +1706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 107.95 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +1930,7 @@
 	(symbol
 		(lib_name "root_1_CAP_Nordic Passive DB.DbLib_1")
 		(lib_id "Nordic Passive DB:root_1_CAP_Nordic Passive DB.DbLib")
-		(at 142.24 107.95 0)
+		(at 66.04 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1928,7 +1938,7 @@
 		(dnp no)
 		(uuid "e44cfc85-7255-40f7-a562-bcc257e2d165")
 		(property "Reference" "C4"
-			(at 144.78 105.41 0)
+			(at 68.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +1947,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 144.78 107.95 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +1956,7 @@
 			)
 		)
 		(property "Footprint" "Passive:CAPC1608X06L"
-			(at 142.24 107.95 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +1965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 107.95 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1974,7 @@
 			)
 		)
 		(property "Description" "Capacitor, X7R, ±10%"
-			(at 142.24 107.95 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +1983,7 @@
 			)
 		)
 		(property "PART NUMBER" "C0603-1µ0"
-			(at 140.97 104.14 0)
+			(at 64.77 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +1993,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2013-06-05"
-			(at 140.97 104.14 0)
+			(at 64.77 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +2003,7 @@
 			)
 		)
 		(property "PIN COUNT" "2"
-			(at 140.97 104.14 0)
+			(at 64.77 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2013,7 @@
 			)
 		)
 		(property "PUBLISHER" "Nordic Semiconductor"
-			(at 140.97 104.14 0)
+			(at 64.77 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2023,7 @@
 			)
 		)
 		(property "PUBLISHED" "2009-05-08"
-			(at 140.97 104.14 0)
+			(at 64.77 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2033,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1.0µF"
-			(at 140.97 104.14 0)
+			(at 64.77 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +2043,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0603"
-			(at 144.78 110.49 0)
+			(at 68.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2053,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 140.208 99.822 0)
+			(at 64.008 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2063,7 @@
 			)
 		)
 		(property "MANUFACTURER" "*"
-			(at 140.97 101.6 0)
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2073,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "*"
-			(at 140.97 101.6 0)
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
