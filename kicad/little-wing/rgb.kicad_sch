@@ -339,216 +339,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Logic_LevelTranslator:SN74LV1T125DCK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SN74LV1T125DCK"
-				(at 5.08 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf"
-				(at 0 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Power Supply, Single Buffer Gate with 3-State Output, CMOS Logic Level Shifter Level Shifter, SC70-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "single buffer level shift"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?353*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SN74LV1T125DCK_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SN74LV1T125DCK_1_1"
-				(polyline
-					(pts
-						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 1.016 0) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~{OE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TPS22916 load switch:TPS22916BYFPT"
 			(pin_names
 				(offset 1.016)
@@ -593,16 +383,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
+			(property "Description" "TPS22916 5.5-V, 2-A Ultra-Low Leakage Load Switch 4-DSBGA -40 to 85"
 				(at 0 0 0)
 				(effects
 					(font
@@ -612,7 +393,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "TPS22916 5.5-V, 2-A Ultra-Low Leakage Load Switch 4-DSBGA -40 to 85"
+			(property "MF" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1072,22 +853,6 @@
 		)
 		(uuid "9a409009-6d98-4f47-b0b1-e61f49abb4eb")
 	)
-	(text "Signal level shifter\n\nbecause MCU operates in DC/DC mode\nRGB signal comes at VDD (1.8v) voltage\nwe need to beef it up to VBAT level\nfor LEDs to work properly"
-		(exclude_from_sim no)
-		(at 168.656 84.582 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a75447ac-401a-4cf4-b914-b2b3513a2379")
-	)
-	(junction
-		(at 168.91 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "971da179-68ff-4c3f-abfc-d2524973d9cc")
-	)
 	(junction
 		(at 66.04 97.79)
 		(diameter 0)
@@ -1116,27 +881,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 97.79) (xy 168.91 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21236c5e-9529-4197-922c-286b0c2e1181")
-	)
-	(wire
-		(pts
-			(xy 168.91 97.79) (xy 194.31 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b1170c6-4dba-41d2-aeec-174867ca5c53")
-	)
-	(wire
-		(pts
-			(xy 133.35 97.79) (xy 168.91 97.79)
+			(xy 133.35 97.79) (xy 194.31 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1166,16 +911,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 114.3) (xy 168.91 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9824b967-00fd-4810-8a04-b37fa8f200a4")
-	)
-	(wire
-		(pts
 			(xy 181.61 106.68) (xy 189.23 106.68)
 		)
 		(stroke
@@ -1193,17 +928,6 @@
 			(type default)
 		)
 		(uuid "ebaa9f6a-a09a-4754-85f4-9b1d0653f3b6")
-	)
-	(hierarchical_label "VDD"
-		(shape input)
-		(at 161.29 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4266013f-f1e4-4a2c-ad9b-87be58ace82b")
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
@@ -1229,7 +953,7 @@
 	)
 	(hierarchical_label "RGB_DATA"
 		(shape input)
-		(at 161.29 106.68 180)
+		(at 176.53 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1583,82 +1307,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Logic_LevelTranslator:SN74LV1T125DCK")
-		(at 168.91 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82d7f598-871f-416d-ba56-8970ec04a9a8")
-		(property "Reference" "U4"
-			(at 156.464 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LV1T125DCK"
-			(at 156.464 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 168.91 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf"
-			(at 168.91 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Power Supply, Single Buffer Gate with 3-State Output, CMOS Logic Level Shifter Level Shifter, SC70-5"
-			(at 168.91 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "14762d5a-962e-4d96-afc6-30febfe14f98")
-		)
-		(pin "4"
-			(uuid "19bd91f8-daca-4c39-8888-37e6df9d5b35")
-		)
-		(pin "1"
-			(uuid "85b363c4-d59d-416d-b96a-f6616fada828")
-		)
-		(pin "5"
-			(uuid "3f54c5df-5707-4858-9709-f94f71b137c5")
-		)
-		(pin "3"
-			(uuid "bbaab04a-ba05-4bdd-8153-904655a50334")
-		)
-		(instances
-			(project ""
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/95df33f4-bbca-475a-b4f9-9e753f1a5f8c"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 66.04 106.68 0)
 		(unit 1)
@@ -1789,74 +1437,6 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/95df33f4-bbca-475a-b4f9-9e753f1a5f8c"
 					(reference "#PWR0155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c99329bc-9b33-4b8d-8794-530865437bef")
-		(property "Reference" "#PWR0152"
-			(at 168.91 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 117.9194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4263685-2ab4-4854-b355-82553bb0d01d")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/95df33f4-bbca-475a-b4f9-9e753f1a5f8c"
-					(reference "#PWR0152")
 					(unit 1)
 				)
 			)

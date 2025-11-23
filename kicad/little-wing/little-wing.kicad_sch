@@ -22,12 +22,6 @@
 		(color 0 0 0 0)
 		(uuid "3f400c67-f128-4e20-acc7-8757116df0e4")
 	)
-	(junction
-		(at 231.14 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b4135c8-3edd-4578-a2d5-b6502640eb7d")
-	)
 	(wire
 		(pts
 			(xy 163.83 91.44) (xy 146.05 91.44)
@@ -210,16 +204,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 86.36) (xy 140.97 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dbdbcf7-23c4-4e2b-9b87-8fb7fa1e12fb")
-	)
-	(wire
-		(pts
 			(xy 185.42 78.74) (xy 185.42 95.25)
 		)
 		(stroke
@@ -367,16 +351,6 @@
 			(type default)
 		)
 		(uuid "bcf0918d-fcfc-4f7d-bc31-a3e796bec945")
-	)
-	(wire
-		(pts
-			(xy 140.97 86.36) (xy 140.97 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd2b43c8-2d42-492e-beb8-2b7c8615431e")
 	)
 	(wire
 		(pts
@@ -797,16 +771,6 @@
 		(pin "VBAT" input
 			(at 134.62 95.25 90)
 			(uuid "6e383b02-e4ea-4240-a76e-59a40d92663e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD" input
-			(at 140.97 95.25 90)
-			(uuid "f9bda6c2-6170-4592-84af-0683b6ee7b2a")
 			(effects
 				(font
 					(size 1.27 1.27)

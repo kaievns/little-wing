@@ -14600,7 +14600,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4412203-ef1a-458a-a393-9b352b36de14")
 		(property "Reference" "AE1"
-			(at 252.73 75.5649 0)
+			(at 252.73 76.8349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
